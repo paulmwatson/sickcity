@@ -1,0 +1,382 @@
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:16:36) [GET]
+  Parameters: {"city"=>"Waterford", "country"=>"Ireland"}
+  [4;35;1mPhrase Load (1.5ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/Ireland/Waterford]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:16:37) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 709ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:17:14) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 794ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:17:49) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 766ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 23:18:05) [GET]
+  Parameters: {"country"=>"South Africa"}
+  [4;36;1mCity Load Including Associations (1.5ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'South Africa') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/South%20Africa]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 23:18:07) [GET]
+  [4;35;1mCountry Load (1.6ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 23:18:08) [GET]
+  Parameters: {"country"=>"Ireland"}
+  [4;36;1mCity Load Including Associations (1.7ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Ireland') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/Ireland]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:18:10) [GET]
+  Parameters: {"city"=>"Waterford", "country"=>"Ireland"}
+  [4;35;1mPhrase Load (0.9ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Waterford]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:18:12) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 647ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:18:25) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 722ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:19:09) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 926ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:20:47) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 718ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:21:21) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 636ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:21:28) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 694ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:21:32) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 704ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:21:40) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 947ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:22:20) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1299ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:22:41) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1048ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:23:01) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 930ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:23:39) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 841ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:23:59) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 636ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:24:06) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 920ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:24:32) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1720ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:24:44) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 734ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:24:58) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1409ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:25:10) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 895ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:25:34) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 734ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:25:40) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1209ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:28:54) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 888ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:09) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1289ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/zombie]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:29:14) [GET]
+  Parameters: {"city"=>"Waterford", "country"=>"Ireland"}
+  [4;36;1mPhrase Load (0.9ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Waterford]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:16) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1447ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:20) [GET]
+  Parameters: {"city"=>"Waterford", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 698ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:21) [GET]
+  Parameters: {"city"=>"Waterford", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 922ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu/2009-03-02]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:23) [GET]
+  Parameters: {"city"=>"Waterford", "date"=>"2009-03-01", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 661ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu/2009-03-01]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:29:25) [GET]
+  Parameters: {"city"=>"Waterford", "country"=>"Ireland"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 94ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Waterford]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 23:29:25) [GET]
+  Parameters: {"country"=>"Ireland"}
+  [4;36;1mCity Load Including Associations (1.6ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Ireland') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/Ireland]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:29:27) [GET]
+  Parameters: {"city"=>"Dublin", "country"=>"Ireland"}
+  [4;35;1mPhrase Load (1.4ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Dublin]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:28) [GET]
+  Parameters: {"city"=>"Dublin", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 707ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:33) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1910ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:35) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1841ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:37) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1017ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-03-02]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:39) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-01", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 2099ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-03-01]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:42) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-02-28", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 2297ms (View: 100, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-02-28]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:47) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-02-27", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1134ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/flu/2009-02-27]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:29:57) [GET]
+  Parameters: {"city"=>"Dublin", "country"=>"Ireland"}
+  [4;36;1mPhrase Load (1.0ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Dublin]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:29:59) [GET]
+  Parameters: {"city"=>"Dublin", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1455ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/zombie]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:30:02) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-03", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1725ms (View: 103, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/zombie/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:30:09) [GET]
+  Parameters: {"city"=>"Dublin", "date"=>"2009-03-03", "phrase"=>"zombie", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1149ms (View: 12, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Dublin/zombie/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 23:30:17) [GET]
+  Parameters: {"city"=>"Waterford", "phrase"=>"flu", "country"=>"Ireland"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1345ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/Ireland/Waterford/flu]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 23:30:28) [GET]
+  Parameters: {"city"=>"Waterford", "country"=>"Ireland"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Ireland/Waterford]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 23:30:30) [GET]
+  Parameters: {"country"=>"Ireland"}
+  [4;36;1mCity Load Including Associations (1.4ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Ireland') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/Ireland]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 23:30:31) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
