@@ -78,6 +78,12 @@ h1
   background-image: url(/images/bk2rb.png);
 }
 
+.navbar .forward.button
+{
+  background-image: url(/images/btnr.png);
+  padding-right: 15px;
+}
+
 .navbar .forward img
 {
   vertical-align: top;
@@ -146,4 +152,23 @@ ul.list li a
 ul.list li
 {
   padding: 0;
+}
+
+.info
+{
+  padding: 10px;
+}
+
+.info h2, .info img
+{
+  text-align: center;
+}
+
+.navbar .logo
+{
+  display: block;
+  float: left;
+  height: 35px;
+  margin-top: 4px;
+  margin-left: 3px;
 }

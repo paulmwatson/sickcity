@@ -7765,3 +7765,644 @@ Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 20:45:01) [GET
 Rendering template within layouts/base
 Rendering countries/index
 Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 21:14:36) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1651ms (View: 61, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 21:14:43) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.4ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 21:14:45) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (1.3ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 111ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 21:14:48) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.0ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing CountriesController#index (for 192.168.1.5 at 2009-03-04 21:15:02) [GET]
+  [4;35;1mCountry Load (1.6ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://192.168.1.4/]
+
+
+Processing CitiesController#index (for 192.168.1.5 at 2009-03-04 21:15:17) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.8ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://192.168.1.4/USA]
+
+
+Processing PhrasesController#index (for 192.168.1.5 at 2009-03-04 21:15:33) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://192.168.1.4/USA/New%20York]
+
+
+Processing TweetsController#index (for 192.168.1.5 at 2009-03-04 21:15:47) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 4912ms (View: 158, DB: 0) | 200 OK [http://192.168.1.4/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.5 at 2009-03-04 21:16:01) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 3194ms (View: 155, DB: 0) | 200 OK [http://192.168.1.4/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.5 at 2009-03-04 21:16:45) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 3309ms (View: 189, DB: 0) | 200 OK [http://192.168.1.4/USA/New%20York/flu]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 21:17:42) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.4ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 17ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 21:17:43) [GET]
+  [4;35;1mCountry Load (2.1ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 13ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 21:18:08) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 21:18:29) [GET]
+  Parameters: {"city"=>"New Orleans", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.1ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20Orleans]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 21:18:32) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 101ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 21:18:47) [GET]
+  Parameters: {"city"=>"Los Angeles", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.6ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 13ms (View: 7, DB: 2) | 200 OK [http://127.0.0.1/USA/Los%20Angeles]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 21:18:49) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (2.0ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 19ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 21:19:09) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.4ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 21:19:17) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 2096ms (View: 170, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 21:20:15) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 2343ms (View: 176, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 21:20:21) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 5602ms (View: 220, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-02]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:16:15) [GET]
+  [4;36;1mCountry Load (1.7ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 15ms (View: 7, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:16:23) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:17:17) [GET]
+  [4;36;1mCountry Load (1.8ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:17:25) [GET]
+  [4;35;1mCountry Load (1.2ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:17:29) [GET]
+  Parameters: {"country"=>"about"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'about') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:19:03) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:19:22) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:20:10) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:22:47) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:23:02) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:23:23) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:24:46) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:24:58) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:25:15) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:25:16) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:25:20) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:25:24) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:25:40) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:25:44) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 22:26:14) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 6210ms (View: 212, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-02]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 22:26:23) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.1ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:26:24) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (1.8ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 17ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:26:25) [GET]
+  [4;36;1mCountry Load (1.5ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:26:27) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:26:40) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:26:52) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:26:56) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:27:04) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:27:14) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:27:31) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:27:37) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:27:44) [GET]
+  [4;35;1mCountry Load (1.3ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:28:21) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:28:49) [GET]
+  [4;35;1mCountry Load (1.5ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:07) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:15) [GET]
+  [4;35;1mCountry Load (1.7ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:23) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:23) [GET]
+  [4;35;1mCountry Load (1.2ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:29) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 85ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:30) [GET]
+  [4;35;1mCountry Load (1.6ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:42) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:43) [GET]
+  [4;35;1mCountry Load (1.2ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:29:53) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:30:04) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:30:07) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:30:12) [GET]
+  [4;35;1mCountry Load (1.3ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:30:17) [GET]
+  Parameters: {"country"=>"Australia"}
+  [4;36;1mCity Load Including Associations (1.0ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Australia') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/Australia]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:30:19) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:30:25) [GET]
+  Parameters: {"country"=>"India"}
+  [4;36;1mCity Load Including Associations (0.8ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'India') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 19ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/India]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:30:27) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:32:03) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:32:15) [GET]
+  Parameters: {"country"=>"Pakistan"}
+  [4;35;1mCity Load Including Associations (0.6ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Pakistan') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/Pakistan]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:32:17) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:32:17) [GET]
+  Parameters: {"country"=>"India"}
+  [4;35;1mCity Load Including Associations (0.6ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'India') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 13ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/India]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:32:19) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:32:20) [GET]
+  Parameters: {"country"=>"Australia"}
+  [4;35;1mCity Load Including Associations (1.1ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Australia') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/Australia]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 22:32:21) [GET]
+  Parameters: {"city"=>"Canberra", "country"=>"Australia"}
+  [4;36;1mPhrase Load (0.9ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Australia/Canberra]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 22:32:22) [GET]
+  Parameters: {"city"=>"Canberra", "phrase"=>"cough", "country"=>"Australia"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1065ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/Australia/Canberra/cough]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 22:32:26) [GET]
+  Parameters: {"city"=>"Canberra", "date"=>"2009-03-03", "phrase"=>"cough", "country"=>"Australia"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1168ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/Australia/Canberra/cough/2009-03-03]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 22:32:29) [GET]
+  Parameters: {"city"=>"Canberra", "country"=>"Australia"}
+  [4;35;1mPhrase Load (1.1ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/Australia/Canberra]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:32:30) [GET]
+  Parameters: {"country"=>"Australia"}
+  [4;36;1mCity Load Including Associations (1.0ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Australia') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/Australia]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 22:32:31) [GET]
+  Parameters: {"city"=>"Sydney", "country"=>"Australia"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Australia/Sydney]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 22:32:33) [GET]
+  Parameters: {"city"=>"Sydney", "phrase"=>"cough", "country"=>"Australia"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 2024ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/Australia/Sydney/cough]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-04 22:32:38) [GET]
+  Parameters: {"city"=>"Sydney", "phrase"=>"cough", "country"=>"Australia"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 4360ms (View: 95, DB: 0) | 200 OK [http://127.0.0.1/Australia/Sydney/cough]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-04 22:32:45) [GET]
+  Parameters: {"city"=>"Sydney", "country"=>"Australia"}
+  [4;36;1mPhrase Load (0.9ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Australia/Sydney]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-04 22:32:46) [GET]
+  Parameters: {"country"=>"Australia"}
+  [4;35;1mCity Load Including Associations (1.1ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'Australia') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/Australia]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:32:47) [GET]
+  [4;36;1mCountry Load (1.8ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 12ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-03-04 22:35:38) [GET]
+Rendering template within layouts/base
+Rendering site/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/about/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:35:44) [GET]
+  [4;35;1mCountry Load (1.2ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 22:35:53) [GET]
+  [4;36;1mCountry Load (1.2ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 94ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]

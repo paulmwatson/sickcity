@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connet '/about', :controller => 'site', :action => 'about'
   map.connect '/:country', :controller => 'cities'
   map.connect '/:country/:city', :controller => 'phrases'
   
