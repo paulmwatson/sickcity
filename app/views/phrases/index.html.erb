@@ -1,0 +1,9 @@
+<div class="navbar">
+  <a target="_top" class="back" href="/<%= params[:country] %>">Cities<img src="/images/bkr.png" /></a>
+  <h1><%= params[:city] %>, <%= params[:country] %></h1>
+</div>
+<ul class="list">
+  <% @phrases.each do |phrase|%>
+  <li><a target="_top" href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.w %>"><%= phrase.w %></a></li>
+  <% end %>
+</ul>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-03-04 until:2009-03-04</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-03-04+until%3A2009-03-04"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=40.714550%2C-74.007124%2C10km&amp;rpp=100&amp;since=2009-03-04&amp;until=2009-03-04"/>
+  <title>flu since:2009-03-04 until:2009-03-04 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=40.714550%2C-74.007124%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-03-04&amp;since_id=1279034286&amp;until=2009-03-04"/>
+  <updated>2009-03-04T16:05:59Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1279034286</id>
+    <published>2009-03-04T16:05:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/emilycao/statuses/1279034286"/>
+    <title>getting over this ridic stomach flu. Heading into office for an hr or two to tie stuff up. Ooohhhh finance....</title>
+    <content type="html">getting over this ridic stomach &lt;b&gt;flu&lt;/b&gt;. Heading into office for an hr or two to tie stuff up. Ooohhhh finance....</content>
+    <updated>2009-03-04T16:05:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83759282/IMG_0020_normal.JPG"/>
+    <google:location>New York, NY</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>emilycao (Emily Cao)</name>
+      <uri>http://twitter.com/emilycao</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278793759</id>
+    <published>2009-03-04T15:06:49Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/the_minty/statuses/1278793759"/>
+    <title>@aeshannon omg don't say that! no flu, no flu!</title>
+    <content type="html">&lt;a href="http://twitter.com/aeshannon"&gt;@aeshannon&lt;/a&gt; omg don't say that! no &lt;b&gt;flu&lt;/b&gt;, no &lt;b&gt;flu&lt;/b&gt;!</content>
+    <updated>2009-03-04T15:06:49Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69613877/lighter_minty_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>the_minty (the_minty)</name>
+      <uri>http://twitter.com/the_minty</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278737517</id>
+    <published>2009-03-04T14:52:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/RisksRewards/statuses/1278737517"/>
+    <title>Up tonight: Patty Griffin.  Hope she's in good form. At last year's show she had the flu...and no politics please Patty, just music.</title>
+    <content type="html">Up tonight: Patty Griffin.  Hope she's in good form. At last year's show she had the &lt;b&gt;flu&lt;/b&gt;...and no politics please Patty, just music.</content>
+    <updated>2009-03-04T14:52:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83219142/Rearview_Profile_normal.jpg"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://www.tinytwitter.com/"&gt;TinyTwitter&lt;/a&gt;</twitter:source>
+    <author>
+      <name>RisksRewards (Brian J Rafferty)</name>
+      <uri>http://twitter.com/RisksRewards</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278588604</id>
+    <published>2009-03-04T14:14:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/origin05/statuses/1278588604"/>
+    <title>Flu like virus.. wtf? Quarters for the day.. All I want is a big ass cheeseburger..</title>
+    <content type="html">&lt;b&gt;Flu&lt;/b&gt; like virus.. wtf? Quarters for the day.. All I want is a big ass cheeseburger..</content>
+    <updated>2009-03-04T14:14:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85642646/goodmorning_normal.jpg"/>
+    <google:location>South Jersey</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>origin05 (Jilly)</name>
+      <uri>http://twitter.com/origin05</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278229156</id>
+    <published>2009-03-04T12:14:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/stephiebee/statuses/1278229156"/>
+    <title>Neither one of us has slept... Oh man, poor guy! I can't tell if its food poisoning or the flu. He can't keep anything down, not even water</title>
+    <content type="html">Neither one of us has slept... Oh man, poor guy! I can't tell if its food poisoning or the &lt;b&gt;flu&lt;/b&gt;. He can't keep anything down, not even water</content>
+    <updated>2009-03-04T12:14:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/39049042/i_want_to_be_kissed_normal.jpg"/>
+    <google:location>nyc</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>stephiebee (stephiebee)</name>
+      <uri>http://twitter.com/stephiebee</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1277250107</id>
+    <published>2009-03-04T04:40:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Rotoworld_BK/statuses/1277250107"/>
+    <title>S. Marion                   -SF-TOR: Marion double-doubles in return from flu http://tinyurl.com/cbqxrm</title>
+    <content type="html">S. Marion                   -SF-TOR: Marion double-doubles in return from &lt;b&gt;flu&lt;/b&gt; &lt;a href="http://tinyurl.com/cbqxrm"&gt;http://tinyurl.com/cbqxrm&lt;/a&gt;</content>
+    <updated>2009-03-04T04:40:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80337631/Rotoworld_R_biggerBK_normal.jpg"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Rotoworld_BK (Rotoworld Basketball)</name>
+      <uri>http://twitter.com/Rotoworld_BK</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1277157830</id>
+    <published>2009-03-04T04:11:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/sengels2/statuses/1277157830"/>
+    <title>@RyanStar So what are you up to while the other guys go off to LA?  Going back home? Did you catch that flu or escape it?</title>
+    <content type="html">&lt;a href="http://twitter.com/RyanStar"&gt;@RyanStar&lt;/a&gt; So what are you up to while the other guys go off to LA?  Going back home? Did you catch that &lt;b&gt;flu&lt;/b&gt; or escape it?</content>
+    <updated>2009-03-04T04:11:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/84285857/square_normal.jpg"/>
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1277157830.atom"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>sengels2 (sengels2)</name>
+      <uri>http://twitter.com/sengels2</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1277055458</id>
+    <published>2009-03-04T03:41:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/MichaelBiggins/statuses/1277055458"/>
+    <title>would like to thank all the tiny individual cells in his body for the successful killing of the flu.  Great job guys! Bonuses for all!</title>
+    <content type="html">would like to thank all the tiny individual cells in his body for the successful killing of the &lt;b&gt;flu&lt;/b&gt;.  Great job guys! Bonuses for all!</content>
+    <updated>2009-03-04T03:41:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81294305/blackout_filmcontest_normal.jpg"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>MichaelBiggins (Michael Biggins)</name>
+      <uri>http://twitter.com/MichaelBiggins</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276758417</id>
+    <published>2009-03-04T02:18:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/c_pops/statuses/1276758417"/>
+    <title>@jgabe310 Oh no! I hope you feel better soon. Getting the flu is about as crappy as it gets.</title>
+    <content type="html">&lt;a href="http://twitter.com/jgabe310"&gt;@jgabe310&lt;/a&gt; Oh no! I hope you feel better soon. Getting the &lt;b&gt;flu&lt;/b&gt; is about as crappy as it gets.</content>
+    <updated>2009-03-04T02:18:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74969002/Photo_20_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>c_pops (Charlotte Popper)</name>
+      <uri>http://twitter.com/c_pops</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276650088</id>
+    <published>2009-03-04T01:46:24Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Aerocles/statuses/1276650088"/>
+    <title>@dollbabytina ah yeah, stomach flu sucks, glad ur feeling better</title>
+    <content type="html">&lt;a href="http://twitter.com/dollbabytina"&gt;@dollbabytina&lt;/a&gt; ah yeah, stomach &lt;b&gt;flu&lt;/b&gt; sucks, glad ur feeling better</content>
+    <updated>2009-03-04T01:46:24Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/64532564/Me_normal.JPG"/>
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1276650088.atom"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://itweet.net/"&gt;iTweet&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Aerocles (David)</name>
+      <uri>http://twitter.com/Aerocles</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276531660</id>
+    <published>2009-03-04T01:12:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/artbynatalya/statuses/1276531660"/>
+    <title>@collageartist maybe its just the flu meds? keeping fingers crossed for you...</title>
+    <content type="html">&lt;a href="http://twitter.com/collageartist"&gt;@collageartist&lt;/a&gt; maybe its just the &lt;b&gt;flu&lt;/b&gt; meds? keeping fingers crossed for you...</content>
+    <updated>2009-03-04T01:12:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80295639/cutout_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>artbynatalya (Natalya Aikens)</name>
+      <uri>http://twitter.com/artbynatalya</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276494461</id>
+    <published>2009-03-04T01:02:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bangbangtang/statuses/1276494461"/>
+    <title>My head hurts and nothing is making sense. I wish this was a cold instead of a flu.</title>
+    <content type="html">My head hurts and nothing is making sense. I wish this was a cold instead of a &lt;b&gt;flu&lt;/b&gt;.</content>
+    <updated>2009-03-04T01:02:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79476865/IMG_3497_normal.JPG"/>
+    <google:location>nyc.</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bangbangtang (Jennifer Tang)</name>
+      <uri>http://twitter.com/bangbangtang</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276420505</id>
+    <published>2009-03-04T00:41:55Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Roselyn/statuses/1276420505"/>
+    <title>@missgigip you need a flu shot!!!</title>
+    <content type="html">&lt;a href="http://twitter.com/missgigip"&gt;@missgigip&lt;/a&gt; you need a &lt;b&gt;flu&lt;/b&gt; shot!!!</content>
+    <updated>2009-03-04T00:41:55Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76750454/twtter_normal.JPG"/>
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1276420505.atom"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Roselyn (Roselyn)</name>
+      <uri>http://twitter.com/Roselyn</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276403018</id>
+    <published>2009-03-04T00:37:05Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/elena_ivanina/statuses/1276403018"/>
+    <title>Flu viruses are growing more resistant to Tamiflu: this year, resistance to the most common flu strain has reached almost 100% (from 12%!)</title>
+    <content type="html">&lt;b&gt;Flu&lt;/b&gt; viruses are growing more resistant to Tamiflu: this year, resistance to the most common &lt;b&gt;flu&lt;/b&gt; strain has reached almost 100% (from 12%!)</content>
+    <updated>2009-03-04T00:37:05Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73313910/PC170105_edited_normal.JPG"/>
+    <google:location>Brooklyn</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>elena_ivanina (elena ivanina)</name>
+      <uri>http://twitter.com/elena_ivanina</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276388454</id>
+    <published>2009-03-04T00:32:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/origin05/statuses/1276388454"/>
+    <title>@gravity508 oh guess who got the flu! Text me</title>
+    <content type="html">&lt;a href="http://twitter.com/gravity508"&gt;@gravity508&lt;/a&gt; oh guess who got the &lt;b&gt;flu&lt;/b&gt;! Text me</content>
+    <updated>2009-03-04T00:32:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85642646/goodmorning_normal.jpg"/>
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1276388454.atom"/>
+    <google:location>South Jersey</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>origin05 (Jilly)</name>
+      <uri>http://twitter.com/origin05</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276268776</id>
+    <published>2009-03-04T00:00:05Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/SoundOfUrchin/statuses/1276268776"/>
+    <title>got the f'n flu!  down for the count.  blah.</title>
+    <content type="html">got the f'n &lt;b&gt;flu&lt;/b&gt;!  down for the count.  blah.</content>
+    <updated>2009-03-04T00:00:05Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60540291/tomato_electric_factory_normal.png"/>
+    <google:location>Brooklyn, NY</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>SoundOfUrchin (SoundOfUrchin)</name>
+      <uri>http://twitter.com/SoundOfUrchin</uri>
+    </author>
+  </entry>
+</feed>

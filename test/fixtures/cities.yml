@@ -1,0 +1,108 @@
+sydney:
+  name: Sydney
+  country: australia
+canberra:
+  name: Canberra
+  country: australia
+perth:
+  name: Perth
+  country: australia
+melbourne:
+  name: Melbourne
+  country: australia
+
+paris:
+  name: Paris
+  country: france
+  
+mexicocity:
+  name: Mexico City
+  country: mexico
+
+dublin:
+  name: Dublin
+  country: ireland
+waterford:
+  name: Waterford
+  country: ireland
+limerick:
+  name: Limerick
+  country: ireland
+bandon:
+  name: Bandon
+  country: ireland
+cork:
+  name: Cork
+  country: ireland
+carlow:
+  name: Carlow
+  country: ireland
+dungarvan:
+  name: Dungarvan
+  country: ireland
+newross:
+  name: New Ross
+  country: ireland
+
+chicago:
+  name: Chicago
+  country: usa
+newyork:
+  name: New York
+  country: usa
+losangeles:
+  name: Los Angeles
+  country: usa
+boston:
+  name: Boston
+  country: usa
+boulder:
+  name: Boulder
+  country: usa
+neworleans:
+  name: New Orleans
+  country: usa
+phoenix:
+  name: Phoenix
+  country: usa
+
+london:
+  name: London
+  country: england
+liverpool:
+  name: Liverpool
+  country: england
+manchester:
+  name: Manchester
+  country: england
+swingdon:
+  name: Swingdon
+  country: england
+blackpool:
+  name: Blackpool
+  country: england
+  
+capetown:
+  name: Cape Town
+  country: southafrica
+durban:
+  name: Durban
+  country: southafrica
+bloemfontein:
+  name: Bloemfontein
+  country: southafrica
+pretoria:
+  name: Pretoria
+  country: southafrica
+johannesburg:
+  name: Johannesburg
+  country: southafrica
+eastlondon:
+  name: East London
+  country: southafrica
+portelizabeth:
+  name: Port Elizabeth
+  country: southafrica
+stellenbosch:
+  name: Stellenbosch
+  country: southafrica

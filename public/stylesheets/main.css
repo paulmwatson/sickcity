@@ -1,0 +1,149 @@
+html, body
+{
+  font-family: Helvetica;
+}
+
+h1
+{
+  font-size: 20px;
+  background-repeat: repeat-x;
+  height: 45px;
+  margin: 0;
+  color: #fff;
+  display: block;
+  font-weight: normal;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar
+{
+  background-image: url(/images/tbbg.png);
+  height: 44px;
+  width: 100%;
+}
+
+.navbar.second
+{
+  background-image: url(/images/tbbgb.png);
+}
+
+.navbar .back
+{
+  background-image: url(/images/bkl.png);
+  background-repeat: repeat-x;
+  display: block;
+  float: left;
+  line-height: 45px;
+  height: 45px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 20px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.navbar.second .back
+{
+  background-image: url(/images/bklb.png);
+}
+
+.navbar .back img
+{
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.navbar .forward
+{
+  background-image: url(/images/bk2r.png);
+  background-repeat: repeat-x;
+  background-position: 0 right;
+  float: right;
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding-right: 20px;
+  margin-right: 5px;
+}
+
+.navbar.second .forward
+{
+  background-image: url(/images/bk2rb.png);
+}
+
+.navbar .forward img
+{
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+ul, ul li
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul
+{
+  margin-top: 1px;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+ul li
+{
+  padding: 5px;
+}
+
+ul li a
+{
+  line-height: 20px;
+}
+
+ul li.odd
+{
+  background-color: #eee;
+}
+
+.phrase
+{
+  color: #c00;
+  font-style: italic;
+}
+
+.trend
+{
+  border-bottom: solid 1px #333;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ffc;
+  padding: 5px;
+}
+
+.twitterpower
+{
+  text-align: center;
+}
+
+ul.list li a
+{
+  border-bottom: solid 1px #ccc;
+  color: #333;
+  display: block;
+  text-decoration: none;
+  line-height: 36px;
+  padding: 3px 10px 0 10px;
+}
+
+ul.list li
+{
+  padding: 0;
+}

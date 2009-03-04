@@ -1,0 +1,29 @@
+ireland:
+  name: Ireland
+
+usa:
+  name: USA
+  
+england:
+  name: England
+  
+southafrica:
+  name: South Africa
+  
+pakistan:
+  name: Pakistan
+
+india:
+  name: India
+
+australia:
+  name: Australia
+
+belgium:
+  name: Belgium
+
+france:
+  name: France
+
+mexico:
+  name: Mexico
