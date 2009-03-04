@@ -157,10 +157,6 @@ ul.list li
 .info
 {
   padding: 10px;
-}
-
-.info h2, .info img
-{
   text-align: center;
 }
 
@@ -170,5 +166,5 @@ ul.list li
   float: left;
   height: 35px;
   margin-top: 4px;
-  margin-left: 3px;
+  margin-left: 5px;
 }

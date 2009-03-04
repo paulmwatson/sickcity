@@ -4,21 +4,21 @@ class TweetsController < ApplicationController
     require 'hpricot'
     require 'open-uri'
     
-    # Yahoo! Map service geocode http://developer.yahoo.com/maps/rest/V1/geocode.html
+    @phrase = params[:phrase].gsub(' ', '%20')
+    
     # Twitter API http://apiwiki.twitter.com/Search-API-Documentation?SearchFor=location&sp=3
     # Google Maps http://code.google.com/apis/maps/documentation/introduction.html
     
-    app_id = 'fxHTUTrV34EJvDAsVTomfVNKsl4iJkEhb.6D9F5Q0ni3SGCJcYBQcVG1QrMO_Ed4nEY5'
+    api_key = 'ABQIAAAA9SzHqWj0pnvSzhwOX1yFCxS_XuTEYYZcMaqcK0YnSIgrzzcHnhQOPKzT9_1sbvDY0qImVEmK0Ob36w'
     @country = params[:country].gsub(' ', '%20')
     @city = params[:city].gsub(' ', '%20')
-    @phrase = params[:phrase].gsub(' ', '%20')
-    @location_url = "http://local.yahooapis.com/MapsService/V1/geocode?appid=#{app_id}&country=#{@country}&city=#{@city}"
+    @location_url = "http://maps.google.com/maps/geo?q=#{@city},#{@country}&output=xml&oe=utf8&sensor=false&key=#{api_key}"
     
     @geo_doc = open(@location_url) { |f| Hpricot(f) }
     
-    @lat = @geo_doc.search('//latitude')[0].inner_html
-    @long = @geo_doc.search('//longitude')[0].inner_html
-    @map_url = "http://maps.google.com/maps?q=#{@lat},+#{@long}"
+    @coords = @geo_doc.search('//coordinates')[0].inner_html
+    @lat = @coords.split(',')[1]
+    @long = @coords.split(',')[0]
     
     @search_radius = 10
 
