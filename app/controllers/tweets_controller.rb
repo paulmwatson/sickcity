@@ -25,8 +25,8 @@ class TweetsController < ApplicationController
     day = "%02d" % @sample_date.day
     month = "%02d" % @sample_date.month
     year = @sample_date.year
-    @twitter_geo_search_url = "http://search.twitter.com/search.atom?q=#{@phrase}&geocode=#{@lat}%2C#{@long}%2C#{@search_radius}km&rpp=100&since=#{year}-#{month}-#{day}&until=#{year}-#{month}-#{day}"
-    #@twitter_geo_search_url = 'http://127.0.0.1:3000/temp/temp.atom'
+    #@twitter_geo_search_url = "http://search.twitter.com/search.atom?q=#{@phrase}&geocode=#{@lat}%2C#{@long}%2C#{@search_radius}km&rpp=100&since=#{year}-#{month}-#{day}&until=#{year}-#{month}-#{day}"
+    @twitter_geo_search_url = 'http://127.0.0.1:3000/temp/temp.atom'
     @tweet_doc = open(@twitter_geo_search_url) { |f| Hpricot(f) }
     @tweets = @tweet_doc.search('//entry')
   end

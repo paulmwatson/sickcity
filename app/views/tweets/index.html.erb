@@ -2,6 +2,9 @@
   <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Phrases<img src="/images/bkr.png" /></a>
   <h1>"<%= @phrase %>" in <%= params[:city] %></h1>
 </div>
+<div class="map">
+  <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @lat %>,<%= @long%>"><img src="http://maps.google.com/staticmap?center=<%= @lat%>,<%= @long%>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
+</div>
 <div class="trend"></div>
 <div class="navbar second">
   <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date - 1 %>"><%= (@sample_date - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
@@ -16,15 +19,15 @@
   <li class="<%= cycle('odd','even')%>">
     <% published_date = DateTime.parse(tweet.search('//published').text) %>
     <% username = tweet.search('//name').text %>
-    <a href="<%= tweet.search('//link')[0].attributes['href'] %>"><%= username.slice(0...username.index(' (')) %></a> mentioned <span class="phrase"><%= @phrase %></span> at <%= published_date.strftime("%H:%M") %>
+    <span class="time"><%= published_date.strftime("%H:%M") %></span> <span class="location"><%= tweet.search('//google:location').text.split(',')[0] %></span> <span class="user"><a href="<%= tweet.search('//link')[0].attributes['href'] %>"><%= username.split(' (')[0] %></a></span>
     <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
   </li>
   <% end %>
 </ul>
-<div class="map">
-  <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @lat %>,<%= @long%>"><img src="http://maps.google.com/staticmap?center=<%= @lat%>,<%= @long%>&zoom=11&size=300x200&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
-</div>
 <p class="twitterpower"><a href="http://twitter.com"><img src="/images/powered-by-twitter-sig.gif" /></a><p>
 <script type="text/javascript">
   $('.trend').sparkline([<% hour_trend.each do |hour| %><%= hour %>,<% end %>], {height: '50px', width:'99%'});
 </script>
+
+
+<!--<%= @tweets %>-->

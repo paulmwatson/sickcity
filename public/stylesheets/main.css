@@ -136,6 +136,7 @@ ul li.odd
 
 .twitterpower
 {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -171,13 +172,30 @@ ul.list li
 
 .map
 {
-  background-color: #ccc;
-  padding: 10px;
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 10px;
+  padding-top: 3px;
+  background-color: #ffc;
+  text-align: center;
 }
 
 .map img
 {
-  border: solid 1px #fff;
+  margin: 0;
+}
+
+.location, .time
+{
+  display: block;
+  width: 120px;
+  float: left;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: smaller;
+  margin-top: 2px;
+}
+
+.time
+{
+  width: auto;
+  margin-right: 10px;
+  color: #666;
 }

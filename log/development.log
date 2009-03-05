@@ -548,3 +548,1322 @@ Migrating to CreatePhrases (20090304200403)
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("phrases")[0m
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 15:00:23) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 15:00:25) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (2.0ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 15:00:27) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (0.9ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:00:28) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 3023ms (View: 40, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:00:56) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1332ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:01:05) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+
+
+EOFError (end of file reached):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:133:in `sysread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:133:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:56:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:76:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2029:in `read_status_line'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2018:in `read_new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1059:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:249:in `open_http'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:547:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:243:in `open_http'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:617:in `buffer_open'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:519:in `open'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+    /app/controllers/tweets_controller.rb:30:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (42.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:01:08) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 5552ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:01:37) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1660ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:01:49) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 329ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 15:02:16) [GET]
+  [4;35;1mCountry Load (1.4ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 109ms (View: 103, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 15:02:18) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 17ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 15:02:20) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:02:22) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 273ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:02:55) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 338ms (View: 34, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:03:17) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 382ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:03:26) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 467ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:03:28) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 380ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:03:46) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 270ms (View: 33, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:04:05) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 321ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:04:17) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 435ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing CountriesController#index (for 192.168.1.4 at 2009-03-05 15:04:53) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://192.168.1.3/]
+
+
+Processing CitiesController#index (for 192.168.1.4 at 2009-03-05 15:05:00) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (1.2ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://192.168.1.3/USA]
+
+
+Processing PhrasesController#index (for 192.168.1.4 at 2009-03-05 15:05:06) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.4ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://192.168.1.3/USA/New%20York]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:05:11) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 410ms (View: 37, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:05:29) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 241ms (View: 33, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:06:17) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 363ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:06:20) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 398ms (View: 123, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:08:52) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 252ms (View: 33, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:09:04) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 393ms (View: 38, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:14:28) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 347ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:15:45) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 671ms (View: 34, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:15:54) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 364ms (View: 125, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:17:48) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 283ms (View: 34, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:17:56) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 352ms (View: 36, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:17:59) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 381ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:18:55) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 332ms (View: 37, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:19:04) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 372ms (View: 124, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:19:31) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 618ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 192.168.1.4 at 2009-03-05 15:19:36) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 354ms (View: 38, DB: 0) | 200 OK [http://192.168.1.3/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:20:56) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 346ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:21:39) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 292ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:21:44) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 464ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:07) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 269ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:11) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 284ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:17) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 352ms (View: 128, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:23) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 230ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:29) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 377ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:33) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 256ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:38) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 297ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:46) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 336ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:52) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 268ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:55) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 331ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:56) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 370ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-02]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:22:59) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-01", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 264ms (View: 33, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-01]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:23:01) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 365ms (View: 130, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-02]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:23:02) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 249ms (View: 34, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:23:03) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 363ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:24:42) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 408ms (View: 127, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:25:28) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 342ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:25:30) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 437ms (View: 123, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:25:36) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 854ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:25:40) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 373ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:26:25) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 361ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:26:27) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 294ms (View: 34, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:26:32) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 354ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:26:47) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 428ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:26:57) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 304ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:27:18) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 363ms (View: 40, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:27:20) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 714ms (View: 130, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:27:24) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 313ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:27:44) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 381ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:08) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 772ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:15) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 273ms (View: 42, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:26) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 517ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:28) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 359ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:31) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 313ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:28:58) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 368ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:29:02) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 462ms (View: 128, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:29:04) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 259ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:30:28) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 298ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:30:54) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 352ms (View: 124, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:30:59) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 271ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:31:08) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 296ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:35:42) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 430ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:36:12) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 244ms (View: 41, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:36:23) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 443ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:37:02) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 382ms (View: 128, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:37:08) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 289ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:37:18) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 357ms (View: 40, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:37:30) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 662ms (View: 127, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:37:57) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 423ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:39:50) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 371ms (View: 40, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:39:56) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 796ms (View: 128, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:12) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 286ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:20) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 355ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:26) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 392ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:32) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 284ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:36) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 248ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:48) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 388ms (View: 131, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:40:55) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 612ms (View: 40, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:01) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 308ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:06) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 369ms (View: 135, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:15) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 657ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:30) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 275ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:38) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 798ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:41:47) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 250ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:42:01) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 298ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:42:15) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 378ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:44:10) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 368ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:44:44) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 264ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:45:04) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 354ms (View: 127, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:45:24) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 288ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:45:44) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 394ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:46:03) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 383ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:47:19) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 366ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:47:24) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 405ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:47:32) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 583ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:47:37) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 276ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:48:47) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 350ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:48:51) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 496ms (View: 133, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:48:59) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 283ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:49:09) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 639ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:49:39) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 366ms (View: 130, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:49:56) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 302ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:50:34) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 292ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:50:59) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 374ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:04) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 294ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:08) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 362ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:13) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 571ms (View: 130, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:26) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 247ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:33) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 340ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:46) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 533ms (View: 130, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:51:57) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 281ms (View: 34, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:52:01) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 379ms (View: 38, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:52:08) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 363ms (View: 134, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 15:52:24) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 274ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:15:05) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 264ms (View: 37, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:33:00) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 398ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:34:00) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 390ms (View: 134, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:34:24) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 254ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:34:48) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 4198ms (View: 175, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:35:54) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 278ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:36:23) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 286ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:36:30) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 374ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:36:35) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 362ms (View: 136, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:36:42) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 265ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:36:58) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 273ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:37:53) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 385ms (View: 50, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:38:11) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 385ms (View: 137, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:38:32) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 299ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:39:37) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 336ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:40:09) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 367ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:41:05) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 384ms (View: 143, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:41:13) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 344ms (View: 139, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:41:27) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 250ms (View: 43, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:41:36) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 366ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:41:45) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 529ms (View: 142, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:42:00) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 337ms (View: 138, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:42:26) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 320ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:42:32) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 407ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:42:49) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 358ms (View: 131, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:43:15) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 364ms (View: 139, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:43:17) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-02", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 284ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-02]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:43:19) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-03", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 410ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-03]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:43:41) [GET]
+  Parameters: {"city"=>"New York", "date"=>"2009-03-04", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 353ms (View: 137, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu/2009-03-04]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 16:43:57) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (0.9ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 16:44:03) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.2ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 16:44:03) [GET]
+  [4;35;1mCountry Load (1.1ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 16:44:06) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 17ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 16:44:07) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.3ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 16:44:09) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.3ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 16:44:10) [GET]
+  [4;35;1mCountry Load (2.3ms)[0m   [0mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 13ms (View: 5, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 16:44:35) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.1ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:44:36) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 390ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 16:44:54) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 395ms (View: 137, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
