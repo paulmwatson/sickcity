@@ -380,3 +380,171 @@ Processing CountriesController#index (for 127.0.0.1 at 2009-03-04 23:30:31) [GET
 Rendering template within layouts/base
 Rendering countries/index
 Completed in 12ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCountries (20090304200043)
+Migrating to CreateCities (20090304200047)
+Migrating to CreatePhrases (20090304200403)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("phrases")[0m
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 12:15:53) [GET]
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 12:15:55) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (1.5ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 12:15:56) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (1.1ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 78ms (View: 72, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 12:15:58) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"zombie", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1474ms (View: 26, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/zombie]
+
+
+Processing CountriesController#index (for 127.0.0.1 at 2009-03-05 12:44:46) [GET]
+  [4;36;1mCountry Load (1.6ms)[0m   [0;1mSELECT * FROM "countries" ORDER BY name[0m
+Rendering template within layouts/base
+Rendering countries/index
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://127.0.0.1/]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 12:44:48) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;35;1mCity Load Including Associations (1.6ms)[0m   [0mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 16ms (View: 4, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 12:44:49) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;36;1mPhrase Load (0.9ms)[0m   [0;1mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 12:44:51) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1431ms (View: 28, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 12:45:36) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1828ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 12:46:13) [GET]
+  Parameters: {"city"=>"Phoenix", "phrase"=>"zombie", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 949ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/USA/Phoenix/zombie]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 12:46:18) [GET]
+  Parameters: {"city"=>"Phoenix", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.0ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/USA/Phoenix]
+
+
+Processing CitiesController#index (for 127.0.0.1 at 2009-03-05 12:46:20) [GET]
+  Parameters: {"country"=>"USA"}
+  [4;36;1mCity Load Including Associations (1.7ms)[0m   [0;1mSELECT "cities"."id" AS t0_r0, "cities"."name" AS t0_r1, "cities"."country_id" AS t0_r2, "cities"."created_at" AS t0_r3, "cities"."updated_at" AS t0_r4, "countries"."id" AS t1_r0, "countries"."name" AS t1_r1, "countries"."created_at" AS t1_r2, "countries"."updated_at" AS t1_r3 FROM "cities" LEFT OUTER JOIN "countries" ON "countries".id = "cities".country_id WHERE ("countries"."name" = 'USA') ORDER BY cities.name[0m
+Rendering template within layouts/base
+Rendering cities/index
+Completed in 18ms (View: 6, DB: 2) | 200 OK [http://127.0.0.1/USA]
+
+
+Processing PhrasesController#index (for 127.0.0.1 at 2009-03-05 12:46:22) [GET]
+  Parameters: {"city"=>"New York", "country"=>"USA"}
+  [4;35;1mPhrase Load (1.3ms)[0m   [0mSELECT * FROM "phrases" ORDER BY w[0m
+Rendering template within layouts/base
+Rendering phrases/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/USA/New%20York]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-03-05 12:46:24) [GET]
+  Parameters: {"city"=>"New York", "phrase"=>"flu", "country"=>"USA"}
+Rendering template within layouts/base
+Rendering tweets/index
+Completed in 1493ms (View: 30, DB: 0) | 200 OK [http://127.0.0.1/USA/New%20York/flu]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCountries (20090304200043)
+Migrating to CreateCities (20090304200047)
+Migrating to CreatePhrases (20090304200403)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("phrases")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCountries (20090304200043)
+Migrating to CreateCities (20090304200047)
+Migrating to CreatePhrases (20090304200403)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("phrases")[0m

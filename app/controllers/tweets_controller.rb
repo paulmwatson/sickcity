@@ -8,11 +8,10 @@ class TweetsController < ApplicationController
     
     # Twitter API http://apiwiki.twitter.com/Search-API-Documentation?SearchFor=location&sp=3
     # Google Maps http://code.google.com/apis/maps/documentation/introduction.html
-    
-    api_key = 'ABQIAAAA9SzHqWj0pnvSzhwOX1yFCxS_XuTEYYZcMaqcK0YnSIgrzzcHnhQOPKzT9_1sbvDY0qImVEmK0Ob36w'
+
     @country = params[:country].gsub(' ', '%20')
     @city = params[:city].gsub(' ', '%20')
-    @location_url = "http://maps.google.com/maps/geo?q=#{@city},#{@country}&output=xml&oe=utf8&sensor=false&key=#{api_key}"
+    @location_url = "http://maps.google.com/maps/geo?q=#{@city},#{@country}&output=xml&oe=utf8&sensor=false&key=#{GOOGLE_API_KEY}"
     
     @geo_doc = open(@location_url) { |f| Hpricot(f) }
     

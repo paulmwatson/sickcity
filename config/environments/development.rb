@@ -15,3 +15,5 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+GOOGLE_API_KEY = 'ABQIAAAA9SzHqWj0pnvSzhwOX1yFCxRi_j0U6kJrkFvY4-OX2XYmEAa76BQoL8QspDxJ5P8mp_l47CViQ68m1w'
