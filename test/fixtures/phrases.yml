@@ -1,8 +1,12 @@
 flu:
-  w: flu
+  search: flu
+  title: flu
 headhache:
-  w: headache
+  search: headache
+  title: headache
 cough:
-  w: cough
+  search: cough -*cough*
+  title: cough
 zombie:
-  w: zombie
+  search: zombie
+  title: zombie

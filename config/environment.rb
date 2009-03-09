@@ -55,7 +55,7 @@ Rails::Initializer.run do |config|
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_flubot_session',
+    :session_key => '_sickcity_session',
     :secret      => '0a1fa40d9a91e08bdabaf70eb1636fbde21069a4b996dd5e022f6c9a125439468195639da13f98dd3079c28791d75344fed6edcac7971e02cc784c3bb4bcbbe9'
   }
 

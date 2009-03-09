@@ -1,7 +1,8 @@
 class CreatePhrases < ActiveRecord::Migration
   def self.up
     create_table :phrases do |t|
-      t.column 'w', :string
+      t.column 'title', :string
+      t.column 'search', :string
       t.timestamps
     end
   end

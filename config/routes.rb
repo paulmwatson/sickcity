@@ -6,7 +6,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect '/:country/:city/:phrase', :controller => 'tweets'
   map.connect '/:country/:city/:phrase/:date', :controller => 'tweets'
 
-  map.root :controller => 'countries'
+  map.root :controller => 'cities'
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end

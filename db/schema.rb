@@ -25,7 +25,8 @@ ActiveRecord::Schema.define(:version => 20090304200403) do
   end
 
   create_table "phrases", :force => true do |t|
-    t.string   "w"
+    t.string   "title"
+    t.string   "search"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

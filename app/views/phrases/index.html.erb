@@ -1,9 +1,14 @@
 <div class="navbar">
-  <a target="_top" class="back" href="/<%= params[:country] %>">Cities<img src="/images/bkr.png" /></a>
+  <a target="_top" class="back home" href="/">Cities<img src="/images/bkr.png" /></a>
+  <a target="_top" class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
   <h1><%= params[:city] %>, <%= params[:country] %></h1>
 </div>
+<div class="intro">
+  <p>Choose a disease to track in realtime.</p>
+</div>
+
 <ul class="list">
   <% @phrases.each do |phrase|%>
-  <li><a target="_top" href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.w %>"><%= phrase.w %></a></li>
+  <li><a target="_top" href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.title %>"><%= phrase.title %></a></li>
   <% end %>
 </ul>

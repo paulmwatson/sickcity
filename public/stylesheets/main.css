@@ -9,7 +9,7 @@ h1
   background-repeat: repeat-x;
   height: 45px;
   margin: 0;
-  color: #fff;
+  color: #333;
   display: block;
   font-weight: normal;
   line-height: 45px;
@@ -37,7 +37,7 @@ h1
   float: left;
   line-height: 45px;
   height: 45px;
-  color: #fff;
+  color: #333;
   text-decoration: none;
   cursor: pointer;
   padding-left: 20px;
@@ -65,7 +65,7 @@ h1
   display: block;
   line-height: 45px;
   height: 45px;
-  color: #fff;
+  color: #333;
   text-decoration: none;
   cursor: pointer;
   font-size: 12px;
@@ -88,6 +88,22 @@ h1
 {
   vertical-align: top;
   padding-right: 10px;
+}
+
+.navbar .forward.home
+{
+  padding-right: 6px;
+}
+
+.navbar .forward.home img
+{
+  padding-right: 2px;
+}
+
+.navbar .forward img.buttonimage
+{
+  vertical-align: -33px;
+  padding: 0;
 }
 
 ul, ul li
@@ -161,12 +177,31 @@ ul.list li
   text-align: center;
 }
 
+.intro
+{
+  margin: 0;
+  background-color: #ffc;
+  color: #c00;
+  padding: 10px;
+  border-bottom: solid 2px #999;
+}
+
+.intro p
+{
+  margin: 0;
+  padding: 0;
+}
+
+.intro a
+{
+  color: #c00;
+}
+
 .navbar .logo
 {
   display: block;
   float: left;
-  height: 35px;
-  margin-top: 4px;
+  margin-top: 6px;
   margin-left: 5px;
 }
 

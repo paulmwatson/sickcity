@@ -1,6 +1,7 @@
 <div class="navbar">
-  <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Phrases<img src="/images/bkr.png" /></a>
-  <h1>"<%= @phrase %>" in <%= params[:city] %></h1>
+  <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Diseases<img src="/images/bkr.png" /></a>
+  <a target="_top" class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
+  <h1><%= params[:city] %></h1>
 </div>
 <div class="map">
   <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @lat %>,<%= @long%>"><img src="http://maps.google.com/staticmap?center=<%= @lat%>,<%= @long%>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
@@ -13,6 +14,9 @@
   <% end %>
   <h1><%= @sample_date.strftime('%d %b \'%y') %></h1>
 </div>
+<div class="intro">
+  <p><%= @tweets.length %> mentions of "<%= @phrase %>"</p>
+</div>
 <ul id="tweets">
   <% hour_trend = Array.new(24,0) %>
   <% @tweets.each do |tweet| %>
@@ -21,6 +25,7 @@
     <% username = tweet.search('//name').text %>
     <span class="time"><%= published_date.strftime("%H:%M") %></span> <span class="location"><%= tweet.search('//google:location').text.split(',')[0] %></span> <span class="user"><a href="<%= tweet.search('//link')[0].attributes['href'] %>"><%= username.split(' (')[0] %></a></span>
     <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
+    <!--<%= tweet.search('//content').text %>-->
   </li>
   <% end %>
 </ul>
