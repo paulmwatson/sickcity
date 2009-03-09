@@ -4,9 +4,6 @@ flu:
 headhache:
   search: headache
   title: headache
-cough:
-  search: cough -*cough*
-  title: cough
 zombie:
   search: zombie
   title: zombie
