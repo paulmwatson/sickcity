@@ -4,9 +4,18 @@ flu:
 sorethroat:
   search: sore throat
   title: sore throat
-#headhache:
-#  search: headache
-#  title: headache
+ill:
+  search: ill
+  title: ill
+headcold:
+  search: headcold
+  title: headcold
+chickenpox:
+  search: chicken pox
+  title: chicken pox
+foodpoisoning:
+  search: food poisoning
+  title: food poisoning
 #zombie:
 #  search: zombie
 #  title: zombie

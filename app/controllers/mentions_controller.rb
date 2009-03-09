@@ -58,10 +58,14 @@ class MentionsController < ApplicationController
 
     location = Location.find :first, :conditions => {:name => city}
     if !location
-      geocode_url = "http://maps.google.com/maps/geo?q=#{city.gsub(' ', '%20')},#{country.gsub(' ', '%20')}&output=xml&oe=utf8&sensor=false&key=#{GOOGLE_API_KEY}"
-      geocode_doc = open(geocode_url) { |f| Hpricot(f) }
+      begin
+        geocode_url = "http://maps.google.com/maps/geo?q=#{city.gsub(' ', '%20')},#{country.gsub(' ', '%20')}&output=xml&oe=utf8&sensor=false&key=#{GOOGLE_API_KEY}"
+        geocode_doc = open(geocode_url) { |f| Hpricot(f) }
 
-      coords_ele = geocode_doc.search('//coordinates')[0]
+        coords_ele = geocode_doc.search('//coordinates')[0]
+      rescue
+      end
+      
       if coords_ele
         coords = coords_ele.inner_html
       else

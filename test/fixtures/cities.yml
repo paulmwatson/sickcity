@@ -1,6 +1,6 @@
-#sydney:
-#  name: Sydney
-#  country: australia
+sydney:
+  name: Sydney
+  country: Australia
 #melbourne:
 #  name: Melbourne
 #  country: australia
@@ -9,15 +9,21 @@
 #  name: Paris
 #  country: france
   
-#dublin:
-#  name: Dublin
-#  country: ireland
+dublin:
+  name: Dublin
+  country: Ireland
 
 #chicago:
 #  name: Chicago
 #  country: usa
 newyork:
   name: New York
+  country: USA
+austin:
+  name: Austin
+  country: USA
+sanfrancisco:
+  name: San Francisco
   country: USA
 #losangeles:
 #  name: Los Angeles
