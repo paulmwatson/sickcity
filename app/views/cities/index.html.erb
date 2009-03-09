@@ -7,6 +7,6 @@
 </div>
 <ul class="list">
   <% @cities.each do |city|%>
-  <li><a target="_top" href="/<%= city.country.name %>/<%= city.name %>"><%= city.country.name %>, <%= city.name %></a></li>
+  <li><a target="_top" href="/<%= city.country %>/<%= city.name %>"><%= city.country %>, <%= city.name %></a></li>
   <% end %>
 </ul>

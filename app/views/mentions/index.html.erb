@@ -9,7 +9,7 @@
   </div>
 <% end %>
 <div class="map">
-  <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude%>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude%>,<%= @location.longitude %>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
+  <a target="_blank" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude%>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude%>,<%= @location.longitude %>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 </div>
 <div class="trend"></div>
 <div class="navbar second">

@@ -1,9 +1,12 @@
 flu:
   search: flu
   title: flu
-headhache:
-  search: headache
-  title: headache
-zombie:
-  search: zombie
-  title: zombie
+sorethroat:
+  search: sore throat
+  title: sore throat
+#headhache:
+#  search: headache
+#  title: headache
+#zombie:
+#  search: zombie
+#  title: zombie

@@ -1,41 +1,41 @@
-sydney:
-  name: Sydney
-  country: australia
-melbourne:
-  name: Melbourne
-  country: australia
+#sydney:
+#  name: Sydney
+#  country: australia
+#melbourne:
+#  name: Melbourne
+#  country: australia
 
-paris:
-  name: Paris
-  country: france
+#paris:
+#  name: Paris
+#  country: france
   
-dublin:
-  name: Dublin
-  country: ireland
+#dublin:
+#  name: Dublin
+#  country: ireland
 
-chicago:
-  name: Chicago
-  country: usa
+#chicago:
+#  name: Chicago
+#  country: usa
 newyork:
   name: New York
-  country: usa
-losangeles:
-  name: Los Angeles
-  country: usa
-boston:
-  name: Boston
-  country: usa
+  country: USA
+#losangeles:
+#  name: Los Angeles
+#  country: usa
+#boston:
+#  name: Boston
+#  country: usa
 
 london:
   name: London
-  country: england
-liverpool:
-  name: Liverpool
-  country: england
+  country: England
+#liverpool:
+#  name: Liverpool
+#  country: england
   
-capetown:
-  name: Cape Town
-  country: southafrica
-johannesburg:
-  name: Johannesburg
-  country: southafrica
+#capetown:
+#  name: Cape Town
+#  country: southafrica
+#johannesburg:
+#  name: Johannesburg
+#  country: southafrica
