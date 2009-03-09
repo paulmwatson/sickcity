@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-17 until:2009-02-17</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-17+until%3A2009-02-17"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-17&amp;until=2009-02-17"/>
+  <title>zombie since:2009-02-17 until:2009-02-17 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-17&amp;since_id=1220925830&amp;until=2009-02-17"/>
+  <updated>2009-02-17T21:04:38Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1220348586</id>
+    <published>2009-02-17T21:04:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/evolkween/statuses/1220348586"/>
+    <title>Is a zombie on his way to get coffee</title>
+    <content type="html">Is a &lt;b&gt;zombie&lt;/b&gt; on his way to get coffee</content>
+    <updated>2009-02-17T21:04:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66276670/Photo_19_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/twinkleking"&gt;Twinkle&lt;/a&gt;</twitter:source>
+    <author>
+      <name>evolkween (evolkween)</name>
+      <uri>http://twitter.com/evolkween</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1217978018</id>
+    <published>2009-02-17T05:42:29Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bindychild/statuses/1217978018"/>
+    <title>via @dissolvedpet - Need to find a copy of Zombie Western (it's got puppets!). Trailer here: http://tinyurl.com/c2zlnw - WATCH IT!</title>
+    <content type="html">via &lt;a href="http://twitter.com/dissolvedpet"&gt;@dissolvedpet&lt;/a&gt; - Need to find a copy of &lt;b&gt;Zombie&lt;/b&gt; Western (it's got puppets!). Trailer here: &lt;a href="http://tinyurl.com/c2zlnw"&gt;http://tinyurl.com/c2zlnw&lt;/a&gt; - WATCH IT!</content>
+    <updated>2009-02-17T05:42:29Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69460604/16_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bindychild (Drew Lane)</name>
+      <uri>http://twitter.com/bindychild</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1217539165</id>
+    <published>2009-02-17T02:32:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/elroyonline/statuses/1217539165"/>
+    <title>achieved Left 4 Dead: ZOMBIE GENOCIDEST</title>
+    <content type="html">achieved Left 4 Dead: &lt;b&gt;ZOMBIE&lt;/b&gt; GENOCIDEST</content>
+    <updated>2009-02-17T02:32:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/64851674/ege_sig_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>elroyonline (elroy)</name>
+      <uri>http://twitter.com/elroyonline</uri>
+    </author>
+  </entry>
+</feed>

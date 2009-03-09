@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-25 until:2009-02-25</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-25+until%3A2009-02-25"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-25&amp;until=2009-02-25"/>
+  <title>zombie since:2009-02-25 until:2009-02-25 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-25&amp;since_id=1251507481&amp;until=2009-02-25"/>
+  <updated>2009-02-25T22:00:57Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1251074747</id>
+    <published>2009-02-25T22:00:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/artrox/statuses/1251074747"/>
+    <title>RT @amoyal: RT @TheOnion: so I'm not doing the wrong thing letting my son play all day! On the up it has cured his recurring zombie dreeams!</title>
+    <content type="html">RT &lt;a href="http://twitter.com/amoyal"&gt;@amoyal&lt;/a&gt;: RT &lt;a href="http://twitter.com/TheOnion"&gt;@TheOnion&lt;/a&gt;: so I'm not doing the wrong thing letting my son play all day! On the up it has cured his recurring &lt;b&gt;zombie&lt;/b&gt; dreeams!</content>
+    <updated>2009-02-25T22:00:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77217525/Nic_Laughing_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>artrox (Nicky Tillyer)</name>
+      <uri>http://twitter.com/artrox</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1250701829</id>
+    <published>2009-02-25T20:27:24Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/melburnian/statuses/1250701829"/>
+    <title>Feel like a zombie... Light hurts my eyes... But am still going into work for a bit... See how I go</title>
+    <content type="html">Feel like a &lt;b&gt;zombie&lt;/b&gt;... Light hurts my eyes... But am still going into work for a bit... See how I go</content>
+    <updated>2009-02-25T20:27:24Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68422907/IMG_2297_normal.jpg"/>
+    <google:location>Melbourne, Victoria, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.widsets.com/twitter"&gt;mobile with WidSets&lt;/a&gt;</twitter:source>
+    <author>
+      <name>melburnian (melburnian)</name>
+      <uri>http://twitter.com/melburnian</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1248743063</id>
+    <published>2009-02-25T10:30:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/habibi_green/statuses/1248743063"/>
+    <title>im going to bed. im a zombie.</title>
+    <content type="html">im going to bed. im a &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-02-25T10:30:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81003804/n667846460_1441716_5309_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>habibi_green (Anne Dunlevie)</name>
+      <uri>http://twitter.com/habibi_green</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1248590919</id>
+    <published>2009-02-25T09:07:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/danialahchow/statuses/1248590919"/>
+    <title>"you can't take two zombie banks, put them together, and make a strong bank. it's like having 2 drunks trying to keep each other standing."</title>
+    <content type="html">&amp;quot;you can't take two &lt;b&gt;zombie&lt;/b&gt; banks, put them together, and make a strong bank. it's like having 2 drunks trying to keep each other standing.&amp;quot;</content>
+    <updated>2009-02-25T09:07:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74655399/Me_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>danialahchow (danialahchow)</name>
+      <uri>http://twitter.com/danialahchow</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1248285894</id>
+    <published>2009-02-25T06:22:36Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/coljac/statuses/1248285894"/>
+    <title>@nicsuzor Heh, we should meet in Zombie-land one day. I haven't played since Xmas...</title>
+    <content type="html">&lt;a href="http://twitter.com/nicsuzor"&gt;@nicsuzor&lt;/a&gt; Heh, we should meet in &lt;b&gt;Zombie&lt;/b&gt;-land one day. I haven't played since Xmas...</content>
+    <updated>2009-02-25T06:22:36Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67714887/weevil188_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>coljac (Colin Jacobs)</name>
+      <uri>http://twitter.com/coljac</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1248172230</id>
+    <published>2009-02-25T05:31:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/egenerica/statuses/1248172230"/>
+    <title>has some kind of fast-acting zombie flu</title>
+    <content type="html">has some kind of fast-acting &lt;b&gt;zombie&lt;/b&gt; flu</content>
+    <updated>2009-02-25T05:31:07Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/64557736/dalwood006_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>egenerica (egenerica)</name>
+      <uri>http://twitter.com/egenerica</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1247848897</id>
+    <published>2009-02-25T03:36:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jacbat/statuses/1247848897"/>
+    <title>@WoodsmanHans Maybe you could write a Zombie RPG. Or has someone already thought of that? Damn those who think up ideas first!!</title>
+    <content type="html">&lt;a href="http://twitter.com/WoodsmanHans"&gt;@WoodsmanHans&lt;/a&gt; Maybe you could write a &lt;b&gt;Zombie&lt;/b&gt; RPG. Or has someone already thought of that? Damn those who think up ideas first!!</content>
+    <updated>2009-02-25T03:36:07Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82093705/DSCN0610_normal.JPG"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jacbat (Jacqui Bateman)</name>
+      <uri>http://twitter.com/jacbat</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1247581318</id>
+    <published>2009-02-25T02:29:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/pjf/statuses/1247581318"/>
+    <title>Had a dream about a zombie goose rising from the grave last night. Clearly too much time thinking about fox attacks and playing zombie panic</title>
+    <content type="html">Had a dream about a &lt;b&gt;zombie&lt;/b&gt; goose rising from the grave last night. Clearly too much time thinking about fox attacks and playing &lt;b&gt;zombie&lt;/b&gt; panic</content>
+    <updated>2009-02-25T02:29:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/89810805/hackergotchi_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://identi.ca/"&gt;Identica&lt;/a&gt;</twitter:source>
+    <author>
+      <name>pjf (Paul Fenwick)</name>
+      <uri>http://twitter.com/pjf</uri>
+    </author>
+  </entry>
+</feed>

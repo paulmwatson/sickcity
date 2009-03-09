@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-15 until:2009-02-15</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-15+until%3A2009-02-15"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-15&amp;until=2009-02-15"/>
+  <title>flu since:2009-02-15 until:2009-02-15 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-15&amp;since_id=1213676130&amp;until=2009-02-15"/>
+  <updated>2009-02-15T16:51:43Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1212660665</id>
+    <published>2009-02-15T16:51:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/_enzo/statuses/1212660665"/>
+    <title>RT @manielse: Why the Flu flourishes in the winter - http://tinyurl.com/dfbedz &#171; short answer: absolute humidity: total vapour for air temp.</title>
+    <content type="html">RT &lt;a href="http://twitter.com/manielse"&gt;@manielse&lt;/a&gt;: Why the &lt;b&gt;Flu&lt;/b&gt; flourishes in the winter - &lt;a href="http://tinyurl.com/dfbedz"&gt;http://tinyurl.com/dfbedz&lt;/a&gt; &#171; short answer: absolute humidity: total vapour for air temp.</content>
+    <updated>2009-02-15T16:51:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/63559459/enzo2_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>_enzo (Lorenzo Gabba)</name>
+      <uri>http://twitter.com/_enzo</uri>
+    </author>
+  </entry>
+</feed>

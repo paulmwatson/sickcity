@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-15 until:2009-02-15</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-15+until%3A2009-02-15"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-15&amp;until=2009-02-15"/>
+  <title>zombie since:2009-02-15 until:2009-02-15 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-15&amp;since_id=1213676130&amp;until=2009-02-15"/>
+  <updated>2009-02-15T09:29:00Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1211970651</id>
+    <published>2009-02-15T09:29:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/boastboy/statuses/1211970651"/>
+    <title>Still feeling like a Zombie after Friday's fire, so either a) I'm a Zombie, or b) really unfit, probably the former though.</title>
+    <content type="html">Still feeling like a &lt;b&gt;Zombie&lt;/b&gt; after Friday's fire, so either a) I'm a &lt;b&gt;Zombie&lt;/b&gt;, or b) really unfit, probably the former though.</content>
+    <updated>2009-02-15T09:29:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/87850350/phoenixg_logoc_700_normal.png"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.ping.fm/"&gt;Ping.fm&lt;/a&gt;</twitter:source>
+    <author>
+      <name>boastboy (Marcel Boast)</name>
+      <uri>http://twitter.com/boastboy</uri>
+    </author>
+  </entry>
+</feed>

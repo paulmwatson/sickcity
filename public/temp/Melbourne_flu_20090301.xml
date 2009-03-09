@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-03-01 until:2009-03-01</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-03-01+until%3A2009-03-01"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-03-01&amp;until=2009-03-01"/>
+  <title>flu since:2009-03-01 until:2009-03-01 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-03-01&amp;since_id=1267172479&amp;until=2009-03-01"/>
+  <updated>2009-03-01T21:31:11Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1266700471</id>
+    <published>2009-03-01T21:31:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/frankfil/statuses/1266700471"/>
+    <title>Nearly recovered from the flu. Now to catch up on a full week's work I didn't get done last week :-(</title>
+    <content type="html">Nearly recovered from the &lt;b&gt;flu&lt;/b&gt;. Now to catch up on a full week's work I didn't get done last week :-(</content>
+    <updated>2009-03-01T21:31:11Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81389423/Photo2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>frankfil (Frank Filippone)</name>
+      <uri>http://twitter.com/frankfil</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1264886976</id>
+    <published>2009-03-01T08:17:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/alaskador/statuses/1264886976"/>
+    <title>Feeling like I'm coming down with the flu. Too much stuff over the weekend....</title>
+    <content type="html">Feeling like I'm coming down with the &lt;b&gt;flu&lt;/b&gt;. Too much stuff over the weekend....</content>
+    <updated>2009-03-01T08:17:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79207395/Guitar_hero_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>alaskador (Al Noveloso)</name>
+      <uri>http://twitter.com/alaskador</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1264609460</id>
+    <published>2009-03-01T05:39:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/tejaaa/statuses/1264609460"/>
+    <title>Hate to accept it but Cold and Flu are getting to me and not helping me focus on my tasks</title>
+    <content type="html">Hate to accept it but Cold and &lt;b&gt;Flu&lt;/b&gt; are getting to me and not helping me focus on my tasks</content>
+    <updated>2009-03-01T05:39:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/64129406/90496590_f64ee2cef2_m_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://tweetgrid.com/"&gt;TweetGrid&lt;/a&gt;</twitter:source>
+    <author>
+      <name>tejaaa (Tejas Patel)</name>
+      <uri>http://twitter.com/tejaaa</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1263934157</id>
+    <published>2009-03-01T01:11:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/adamrichard/statuses/1263934157"/>
+    <title>I have a terrible case of what @cafuego refers to as beer flu</title>
+    <content type="html">I have a terrible case of what &lt;a href="http://twitter.com/cafuego"&gt;@cafuego&lt;/a&gt; refers to as beer &lt;b&gt;flu&lt;/b&gt;</content>
+    <updated>2009-03-01T01:11:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76432835/DM_Photo0138_normal.JPG"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</twitter:source>
+    <author>
+      <name>adamrichard (Adam Richard)</name>
+      <uri>http://twitter.com/adamrichard</uri>
+    </author>
+  </entry>
+</feed>

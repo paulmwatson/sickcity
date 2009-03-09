@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-11 until:2009-02-11</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-11+until%3A2009-02-11"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-11&amp;until=2009-02-11"/>
+  <title>headache since:2009-02-11 until:2009-02-11 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-11&amp;since_id=1200905936&amp;until=2009-02-11"/>
+  <updated>2009-02-11T12:50:56Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1198826657</id>
+    <published>2009-02-11T12:50:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/franthestrange/statuses/1198826657"/>
+    <title>I have a headache :(</title>
+    <content type="html">I have a &lt;b&gt;headache&lt;/b&gt; :(</content>
+    <updated>2009-02-11T12:50:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83785868/humming-gizmo_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>franthestrange (franthestrange)</name>
+      <uri>http://twitter.com/franthestrange</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1198614636</id>
+    <published>2009-02-11T10:40:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/atariboy/statuses/1198614636"/>
+    <title>Do you have a headache? Maybe it's a Tumor!!</title>
+    <content type="html">Do you have a &lt;b&gt;headache&lt;/b&gt;? Maybe it's a Tumor!!</content>
+    <updated>2009-02-11T10:40:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71694835/avatar_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>atariboy (Cris Pearson)</name>
+      <uri>http://twitter.com/atariboy</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1198222511</id>
+    <published>2009-02-11T05:50:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/dpsahoo/statuses/1198222511"/>
+    <title>A severe headache!!! Need a coffee, dunhill and an early exit from office today.</title>
+    <content type="html">A severe &lt;b&gt;headache&lt;/b&gt;!!! Need a coffee, dunhill and an early exit from office today.</content>
+    <updated>2009-02-11T05:50:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/51945051/2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>dpsahoo (dpsahoo)</name>
+      <uri>http://twitter.com/dpsahoo</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1197968524</id>
+    <published>2009-02-11T03:51:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Jeremiah_James/statuses/1197968524"/>
+    <title>coffee no.2 not too bad. headache imminent. not from lack of coffee, just too much illustrator white background on 30inch screen</title>
+    <content type="html">coffee no.2 not too bad. &lt;b&gt;headache&lt;/b&gt; imminent. not from lack of coffee, just too much illustrator white background on 30inch screen</content>
+    <updated>2009-02-11T03:51:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/64404321/headphones_100pxjpg_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Jeremiah_James (Jeremiah_James)</name>
+      <uri>http://twitter.com/Jeremiah_James</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1197787316</id>
+    <published>2009-02-11T02:40:45Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/theArsonist/statuses/1197787316"/>
+    <title>has a slight headache out of nowhere. Am eating Italian tonight with some mates. Should be good.</title>
+    <content type="html">has a slight &lt;b&gt;headache&lt;/b&gt; out of nowhere. Am eating Italian tonight with some mates. Should be good.</content>
+    <updated>2009-02-11T02:40:45Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71829334/me2_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>theArsonist (who?)</name>
+      <uri>http://twitter.com/theArsonist</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1197430388</id>
+    <published>2009-02-11T00:23:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kielymedia/statuses/1197430388"/>
+    <title>@adorebeauty Don't worry, you're not alone. I realised yesterday to never get an ID photo taken when you've got a stinking headache...</title>
+    <content type="html">&lt;a href="http://twitter.com/adorebeauty"&gt;@adorebeauty&lt;/a&gt; Don't worry, you're not alone. I realised yesterday to never get an ID photo taken when you've got a stinking &lt;b&gt;headache&lt;/b&gt;...</content>
+    <updated>2009-02-11T00:23:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79178555/kiki_sirens_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kielymedia (Jennifer Kiely)</name>
+      <uri>http://twitter.com/kielymedia</uri>
+    </author>
+  </entry>
+</feed>

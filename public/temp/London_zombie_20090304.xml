@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-03-04 until:2009-03-04</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-03-04+until%3A2009-03-04"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=51.5001524%2C-0.1262362%2C10km&amp;rpp=100&amp;since=2009-03-04&amp;until=2009-03-04"/>
+  <title>zombie since:2009-03-04 until:2009-03-04 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=51.5001524%2C-0.1262362%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-03-04&amp;since_id=1281027705&amp;until=2009-03-04"/>
+  <updated>2009-03-04T22:56:02Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280838756</id>
+    <published>2009-03-04T22:56:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Charlotteis/statuses/1280838756"/>
+    <title>Hi; I'm Milla Jovavich, I ran away from zombie dog, turned around to fight 8. Red Dress ACTIVATE!</title>
+    <content type="html">Hi; I'm Milla Jovavich, I ran away from &lt;b&gt;zombie&lt;/b&gt; dog, turned around to fight 8. Red Dress ACTIVATE!</content>
+    <updated>2009-03-04T22:56:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/84487952/Qs9qlaLo.highfive_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Charlotteis (Charlotte Spencer)</name>
+      <uri>http://twitter.com/Charlotteis</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280818142</id>
+    <published>2009-03-04T22:51:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Charlotteis/statuses/1280818142"/>
+    <title>Hi; I'm Milla Jovavich, All I have is a red dress and I walked off on my own and now I am facing a Zombie Dog. HAI DER ZOMBIE DOG.</title>
+    <content type="html">Hi; I'm Milla Jovavich, All I have is a red dress and I walked off on my own and now I am facing a &lt;b&gt;Zombie&lt;/b&gt; Dog. HAI DER &lt;b&gt;ZOMBIE&lt;/b&gt; DOG.</content>
+    <updated>2009-03-04T22:51:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/84487952/Qs9qlaLo.highfive_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Charlotteis (Charlotte Spencer)</name>
+      <uri>http://twitter.com/Charlotteis</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280817034</id>
+    <published>2009-03-04T22:50:45Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/FizzyDuck/statuses/1280817034"/>
+    <title>Right. That's it. I've have got to try and sleep as I'll be a complete zombie tomorrow (rather than half of one that I am now)</title>
+    <content type="html">Right. That's it. I've have got to try and sleep as I'll be a complete &lt;b&gt;zombie&lt;/b&gt; tomorrow (rather than half of one that I am now)</content>
+    <updated>2009-03-04T22:50:45Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82908993/Duck_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>FizzyDuck (Scarlett Manners)</name>
+      <uri>http://twitter.com/FizzyDuck</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280652367</id>
+    <published>2009-03-04T22:11:14Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Therealdogboy/statuses/1280652367"/>
+    <title>Absolute trash. The zombie virus is passed on by bites, not a frickin cold. First time EVER stopping a film. Avoid day of the dead...</title>
+    <content type="html">Absolute trash. The &lt;b&gt;zombie&lt;/b&gt; virus is passed on by bites, not a frickin cold. First time EVER stopping a film. Avoid day of the dead...</content>
+    <updated>2009-03-04T22:11:14Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76672877/photo_normal.jpg"/>
+    <google:location>London, England</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Therealdogboy (Scott Gibson)</name>
+      <uri>http://twitter.com/Therealdogboy</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280131827</id>
+    <published>2009-03-04T20:14:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ShaneWatcha/statuses/1280131827"/>
+    <title>zombie soundsystem returns to matter with a line up 2 die 4 (- ;
+BOOKA SHADE (live), Paul Woolford, Stiimming (live), Luke Solomon &amp; me (-:</title>
+    <content type="html">&lt;b&gt;zombie&lt;/b&gt; soundsystem returns to matter with a line up 2 die 4 (- ;
+BOOKA SHADE (live), Paul Woolford, Stiimming (live), Luke Solomon &amp;amp; me (-:</content>
+    <updated>2009-03-04T20:14:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79038007/n513627962_1069841_7595_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ShaneWatcha (ShaneWatcha)</name>
+      <uri>http://twitter.com/ShaneWatcha</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280083663</id>
+    <published>2009-03-04T20:04:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/woffles/statuses/1280083663"/>
+    <title>@Ashetails zombie ninjas?</title>
+    <content type="html">&lt;a href="http://twitter.com/Ashetails"&gt;@Ashetails&lt;/a&gt; &lt;b&gt;zombie&lt;/b&gt; ninjas?</content>
+    <updated>2009-03-04T20:04:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76248116/cookie_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</twitter:source>
+    <author>
+      <name>woffles (Cheyenne)</name>
+      <uri>http://twitter.com/woffles</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280070165</id>
+    <published>2009-03-04T20:01:09Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/trishpiglet/statuses/1280070165"/>
+    <title>On way home. Am zombie.</title>
+    <content type="html">On way home. Am &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-03-04T20:01:09Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72404671/210516_normal.jpg"/>
+    <google:location>London, Tooting</google:location>
+    <twitter:source>&lt;a href="http://www.substanceofcode.com/software/mobile-twitter-client-twim/"&gt;Twim&lt;/a&gt;</twitter:source>
+    <author>
+      <name>trishpiglet (Trish Oak)</name>
+      <uri>http://twitter.com/trishpiglet</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1279107032</id>
+    <published>2009-03-04T16:22:29Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/telecomtv/statuses/1279107032"/>
+    <title>I walked with a zombie: Nortel reports Q4 results: Nortel, the bankrupt Canadian-headquartered telecoms equipmen.. http://tinyurl.com/d74ng3</title>
+    <content type="html">I walked with a &lt;b&gt;zombie&lt;/b&gt;: Nortel reports Q4 results: Nortel, the bankrupt Canadian-headquartered telecoms equipmen.. &lt;a href="http://tinyurl.com/d74ng3"&gt;http://tinyurl.com/d74ng3&lt;/a&gt;</content>
+    <updated>2009-03-04T16:22:29Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/56307220/podcast_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>telecomtv (TelecomTV.com)</name>
+      <uri>http://twitter.com/telecomtv</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278974283</id>
+    <published>2009-03-04T15:52:20Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lestmak/statuses/1278974283"/>
+    <title>is completely zombie-like at the moment. Almost like having taken a long flight. But all is well as can be and hopefully back to normal tmrw</title>
+    <content type="html">is completely &lt;b&gt;zombie&lt;/b&gt;-like at the moment. Almost like having taken a long flight. But all is well as can be and hopefully back to normal tmrw</content>
+    <updated>2009-03-04T15:52:20Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85874907/n506419648_7441_2_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lestmak (Lester Mak)</name>
+      <uri>http://twitter.com/lestmak</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278824527</id>
+    <published>2009-03-04T15:14:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ricard67/statuses/1278824527"/>
+    <title>I tweet something about a fish and then get something about a zombie. This is not as unusual as you might think.</title>
+    <content type="html">I tweet something about a fish and then get something about a &lt;b&gt;zombie&lt;/b&gt;. This is not as unusual as you might think.</content>
+    <updated>2009-03-04T15:14:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77647601/adegga_normal.png"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ricard67 (ricard67)</name>
+      <uri>http://twitter.com/ricard67</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278674586</id>
+    <published>2009-03-04T14:36:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ieatmusic/statuses/1278674586"/>
+    <title>Okay, maybe not White Zombie. Jane's Addiction?</title>
+    <content type="html">Okay, maybe not White &lt;b&gt;Zombie&lt;/b&gt;. Jane's Addiction?</content>
+    <updated>2009-03-04T14:36:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65546274/AndyMalt_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ieatmusic (Andy CMU)</name>
+      <uri>http://twitter.com/ieatmusic</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278648718</id>
+    <published>2009-03-04T14:30:16Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ieatmusic/statuses/1278648718"/>
+    <title>Five FNM albums successfully listened to (Moseley-era was excluded). Now: WHITE ZOMBIE!</title>
+    <content type="html">Five FNM albums successfully listened to (Moseley-era was excluded). Now: WHITE &lt;b&gt;ZOMBIE&lt;/b&gt;!</content>
+    <updated>2009-03-04T14:30:16Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65546274/AndyMalt_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ieatmusic (Andy CMU)</name>
+      <uri>http://twitter.com/ieatmusic</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278542069</id>
+    <published>2009-03-04T14:01:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/catdonnelly/statuses/1278542069"/>
+    <title>It's only a matter of time before there are "zombie ministers" in NI, according to SDLP's Mark Durkin: http://bit.ly/vcnv0</title>
+    <content type="html">It's only a matter of time before there are &amp;quot;&lt;b&gt;zombie&lt;/b&gt; ministers&amp;quot; in NI, according to SDLP's Mark Durkin: &lt;a href="http://bit.ly/vcnv0"&gt;http://bit.ly/vcnv0&lt;/a&gt;</content>
+    <updated>2009-03-04T14:01:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73732901/no_really...he_doesn_t_look_happy__normal.JPG"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>catdonnelly (Catherine Donnelly)</name>
+      <uri>http://twitter.com/catdonnelly</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278322423</id>
+    <published>2009-03-04T12:51:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/culturalelite/statuses/1278322423"/>
+    <title>RT @danoliver Zombie tearing his own face off! http://tinyurl.com/bg7j2b</title>
+    <content type="html">RT &lt;a href="http://twitter.com/danoliver"&gt;@danoliver&lt;/a&gt; &lt;b&gt;Zombie&lt;/b&gt; tearing his own face off! &lt;a href="http://tinyurl.com/bg7j2b"&gt;http://tinyurl.com/bg7j2b&lt;/a&gt;</content>
+    <updated>2009-03-04T12:51:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68804094/sa-cool_normal.gif"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>culturalelite (Tom Hartshorn)</name>
+      <uri>http://twitter.com/culturalelite</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278267400</id>
+    <published>2009-03-04T12:30:21Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/LondonMixster/statuses/1278267400"/>
+    <title>Zombie financials - Paul Krugman. For Bernanke and Geithner, there are no bad assets. Only misunderstood assets! http://tinyurl.com/dkrdn2</title>
+    <content type="html">&lt;b&gt;Zombie&lt;/b&gt; financials - Paul Krugman. For Bernanke and Geithner, there are no bad assets. Only misunderstood assets! &lt;a href="http://tinyurl.com/dkrdn2"&gt;http://tinyurl.com/dkrdn2&lt;/a&gt;</content>
+    <updated>2009-03-04T12:30:21Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77970178/tnOfficeMug_normal.jpg"/>
+    <google:location>London (UK)</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>LondonMixster (michael doyle)</name>
+      <uri>http://twitter.com/LondonMixster</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1278202521</id>
+    <published>2009-03-04T12:03:36Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/sennydreadful/statuses/1278202521"/>
+    <title>@BlissBadger OMFG! It lives!! And what is it supposed to beeee? Evil Smurf? Zombie Smurf? Genetic Mutant Smurf?</title>
+    <content type="html">&lt;a href="http://twitter.com/BlissBadger"&gt;@BlissBadger&lt;/a&gt; OMFG! It lives!! And what is it supposed to beeee? Evil Smurf? &lt;b&gt;Zombie&lt;/b&gt; Smurf? Genetic Mutant Smurf?</content>
+    <updated>2009-03-04T12:03:36Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73092948/livebarbarian_normal.JPG"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>sennydreadful (Jennifer Williams)</name>
+      <uri>http://twitter.com/sennydreadful</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1277880720</id>
+    <published>2009-03-04T09:20:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/_KABE_/statuses/1277880720"/>
+    <title>actually, a zombie would be more fitting. need toothpicks for my eyes currently.</title>
+    <content type="html">actually, a &lt;b&gt;zombie&lt;/b&gt; would be more fitting. need toothpicks for my eyes currently.</content>
+    <updated>2009-03-04T09:20:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/84824531/aaa23_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>_KABE_ (_KABE_)</name>
+      <uri>http://twitter.com/_KABE_</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1277705518</id>
+    <published>2009-03-04T07:49:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/davidturners/statuses/1277705518"/>
+    <title>QOTD Youre working on a game where you have to kill a load of Zombie Dinosaurs. You've been asked to come up with the tag line. what is it?</title>
+    <content type="html">QOTD Youre working on a game where you have to kill a load of &lt;b&gt;Zombie&lt;/b&gt; Dinosaurs. You've been asked to come up with the tag line. what is it?</content>
+    <updated>2009-03-04T07:49:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67752489/n705775386_3665804_6741_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>davidturners (David Turners)</name>
+      <uri>http://twitter.com/davidturners</uri>
+    </author>
+  </entry>
+</feed>

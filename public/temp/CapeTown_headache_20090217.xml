@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-17 until:2009-02-17</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-17+until%3A2009-02-17"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-17&amp;until=2009-02-17"/>
+  <title>headache since:2009-02-17 until:2009-02-17 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-17&amp;since_id=1220925830&amp;until=2009-02-17"/>
+  <updated>2009-02-17T20:17:04Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1220193296</id>
+    <published>2009-02-17T20:17:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Unodewaal/statuses/1220193296"/>
+    <title>coova is giving me a headache</title>
+    <content type="html">coova is giving me a &lt;b&gt;headache&lt;/b&gt;</content>
+    <updated>2009-02-17T20:17:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/16982212/mugshot.thumbnail_normal.jpg"/>
+    <google:location>Cape_Town</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Unodewaal (Uno de Waal)</name>
+      <uri>http://twitter.com/Unodewaal</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1219429380</id>
+    <published>2009-02-17T16:34:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/WendyRobb/statuses/1219429380"/>
+    <title>headache.sorethroat + muggy heat = crappy day</title>
+    <content type="html">&lt;b&gt;headache&lt;/b&gt;.sorethroat + muggy heat = crappy day</content>
+    <updated>2009-02-17T16:34:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52689005/profilepic_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>WendyRobb (Wendy)</name>
+      <uri>http://twitter.com/WendyRobb</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1219245733</id>
+    <published>2009-02-17T15:41:24Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/mtheron14/statuses/1219245733"/>
+    <title>i have a terrible headache</title>
+    <content type="html">i have a terrible &lt;b&gt;headache&lt;/b&gt;</content>
+    <updated>2009-02-17T15:41:24Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/63740214/q1051150940_6091_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitterhelp.blogspot.com/2008/05/twitter-via-mobile-web-mtwittercom.html"&gt;mobile web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>mtheron14 (Monique)</name>
+      <uri>http://twitter.com/mtheron14</uri>
+    </author>
+  </entry>
+</feed>

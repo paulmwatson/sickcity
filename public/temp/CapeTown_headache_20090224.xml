@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-24 until:2009-02-24</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-24+until%3A2009-02-24"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-24&amp;until=2009-02-24"/>
+  <title>headache since:2009-02-24 until:2009-02-24 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-24&amp;since_id=1247074821&amp;until=2009-02-24"/>
+  <updated>2009-02-24T19:32:35Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1246072285</id>
+    <published>2009-02-24T19:32:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kerry_anne/statuses/1246072285"/>
+    <title>Seriously, this headache is becoming as ridiculous as my Christmas tree. Which is to say, THEY'RE BOTH STILL THERE.</title>
+    <content type="html">Seriously, this &lt;b&gt;headache&lt;/b&gt; is becoming as ridiculous as my Christmas tree. Which is to say, THEY'RE BOTH STILL THERE.</content>
+    <updated>2009-02-24T19:32:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69379754/Photo_16_lrg_crop_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kerry_anne (Kerry-Anne Gilowey)</name>
+      <uri>http://twitter.com/kerry_anne</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1244554369</id>
+    <published>2009-02-24T11:53:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kerry_anne/statuses/1244554369"/>
+    <title>This headache's starting to remind me of that weird family that once stayed with us for Christmas. They just wouldn't leave either.</title>
+    <content type="html">This &lt;b&gt;headache&lt;/b&gt;'s starting to remind me of that weird family that once stayed with us for Christmas. They just wouldn't leave either.</content>
+    <updated>2009-02-24T11:53:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69379754/Photo_16_lrg_crop_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kerry_anne (Kerry-Anne Gilowey)</name>
+      <uri>http://twitter.com/kerry_anne</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1244133266</id>
+    <published>2009-02-24T08:07:44Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/camera_obscura/statuses/1244133266"/>
+    <title>tuning out for just a little bit, detox headache causing dissociation from reality. Make me one with everything. Mmm, Zen pizza.</title>
+    <content type="html">tuning out for just a little bit, detox &lt;b&gt;headache&lt;/b&gt; causing dissociation from reality. Make me one with everything. Mmm, Zen pizza.</content>
+    <updated>2009-02-24T08:07:44Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/78913017/blacked-out_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://sugree.com/project/jibjib"&gt;jibjib&lt;/a&gt;</twitter:source>
+    <author>
+      <name>camera_obscura (Arno Breedt)</name>
+      <uri>http://twitter.com/camera_obscura</uri>
+    </author>
+  </entry>
+</feed>

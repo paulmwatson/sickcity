@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-08 until:2009-02-08</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-08+until%3A2009-02-08"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=51.5001524%2C-0.1262362%2C10km&amp;rpp=100&amp;since=2009-02-08&amp;until=2009-02-08"/>
+  <title>zombie since:2009-02-08 until:2009-02-08 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=51.5001524%2C-0.1262362%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-08&amp;since_id=1190154279&amp;until=2009-02-08"/>
+  <updated>2009-02-08T23:37:23Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190105566</id>
+    <published>2009-02-08T23:37:23Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/windsandle/statuses/1190105566"/>
+    <title>I don't want to be a rude zombie...</title>
+    <content type="html">I don't want to be a rude &lt;b&gt;zombie&lt;/b&gt;...</content>
+    <updated>2009-02-08T23:37:23Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82998058/&#53944;&#50948;&#53552;_normal.jpg"/>
+    <google:location>Islington, London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>windsandle (Jee Young Lee)</name>
+      <uri>http://twitter.com/windsandle</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190065720</id>
+    <published>2009-02-08T23:18:55Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/nearerdark/statuses/1190065720"/>
+    <title>@aNorthernSoul Very good point. Attack of the Zombie Wind-breaking Change-Sparing Mimes! Dare I whisper "Oscar"? C'mon, it's catchy.</title>
+    <content type="html">&lt;a href="http://twitter.com/aNorthernSoul"&gt;@aNorthernSoul&lt;/a&gt; Very good point. Attack of the &lt;b&gt;Zombie&lt;/b&gt; Wind-breaking Change-Sparing Mimes! Dare I whisper &amp;quot;Oscar&amp;quot;? C'mon, it's catchy.</content>
+    <updated>2009-02-08T23:18:55Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72834109/n621868627_683328_115_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>nearerdark (Virginia Nearerdark)</name>
+      <uri>http://twitter.com/nearerdark</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1189685506</id>
+    <published>2009-02-08T20:36:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/AlexClement/statuses/1189685506"/>
+    <title>Drunk, oh so very drunk on 1840 cocktails, Mike's version of a zombie and white wine. In reverse order. No work tomorrow, so hey ho. Hi all!</title>
+    <content type="html">Drunk, oh so very drunk on 1840 cocktails, Mike's version of a &lt;b&gt;zombie&lt;/b&gt; and white wine. In reverse order. No work tomorrow, so hey ho. Hi all!</content>
+    <updated>2009-02-08T20:36:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73997837/meeee_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>AlexClement (Alex Clement)</name>
+      <uri>http://twitter.com/AlexClement</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1189277090</id>
+    <published>2009-02-08T17:36:13Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lisybabe/statuses/1189277090"/>
+    <title>is a zombie today.</title>
+    <content type="html">is a &lt;b&gt;zombie&lt;/b&gt; today.</content>
+    <updated>2009-02-08T17:36:13Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57599223/South_Park_me_thumbnail_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lisybabe (Lisy Babe)</name>
+      <uri>http://twitter.com/lisybabe</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1189233666</id>
+    <published>2009-02-08T17:16:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/popbitch/statuses/1189233666"/>
+    <title>Radio Popbitch is playing Zombie by Fela Anikulapo Kuti &amp; Africa 70 http://radiopopbitch.com</title>
+    <content type="html">Radio Popbitch is playing &lt;b&gt;Zombie&lt;/b&gt; by Fela Anikulapo Kuti &amp;amp; Africa 70 &lt;a href="http://radiopopbitch.com"&gt;http://radiopopbitch.com&lt;/a&gt;</content>
+    <updated>2009-02-08T17:16:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/51546665/radiopopbitch_logo_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>popbitch (Pop Bitch)</name>
+      <uri>http://twitter.com/popbitch</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1189130973</id>
+    <published>2009-02-08T16:28:51Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lonemat/statuses/1189130973"/>
+    <title>@gill_edwards Zombie films should be banned - too creepy. Atleast easy to follow tho!</title>
+    <content type="html">&lt;a href="http://twitter.com/gill_edwards"&gt;@gill_edwards&lt;/a&gt; &lt;b&gt;Zombie&lt;/b&gt; films should be banned - too creepy. Atleast easy to follow tho!</content>
+    <updated>2009-02-08T16:28:51Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74186898/Picture_21_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lonemat (Matthew Burton)</name>
+      <uri>http://twitter.com/lonemat</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1188640368</id>
+    <published>2009-02-08T11:33:33Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JessL/statuses/1188640368"/>
+    <title>@kboddy  that's a fun way to spend a sunday! zombie shuffle and earl grey - sounds like the postmodernism we'll be talking about tomorrow!</title>
+    <content type="html">&lt;a href="http://twitter.com/kboddy"&gt;@kboddy&lt;/a&gt;  that's a fun way to spend a sunday! &lt;b&gt;zombie&lt;/b&gt; shuffle and earl grey - sounds like the postmodernism we'll be talking about tomorrow!</content>
+    <updated>2009-02-08T11:33:33Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74813229/me_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>JessL (Jess Laccetti)</name>
+      <uri>http://twitter.com/JessL</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1188517344</id>
+    <published>2009-02-08T09:41:40Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Antiochos/statuses/1188517344"/>
+    <title>Wake up. Shower up. Dress up. Eat up. Get brain to go from zombie mode to human.</title>
+    <content type="html">Wake up. Shower up. Dress up. Eat up. Get brain to go from &lt;b&gt;zombie&lt;/b&gt; mode to human.</content>
+    <updated>2009-02-08T09:41:40Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76384757/017_normal.JPG"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Antiochos (Vincent Fourcade)</name>
+      <uri>http://twitter.com/Antiochos</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1188366740</id>
+    <published>2009-02-08T07:39:08Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/yiannopoulos/statuses/1188366740"/>
+    <title>RT @zaibatsu What Twitter would look like during a Zombie outbreak (PIC)  http://bit.ly/3Hm7gm</title>
+    <content type="html">RT &lt;a href="http://twitter.com/zaibatsu"&gt;@zaibatsu&lt;/a&gt; What Twitter would look like during a &lt;b&gt;Zombie&lt;/b&gt; outbreak (PIC)  &lt;a href="http://bit.ly/3Hm7gm"&gt;http://bit.ly/3Hm7gm&lt;/a&gt;</content>
+    <updated>2009-02-08T07:39:08Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74736522/blues_sq_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>yiannopoulos (Milo Yiannopoulos)</name>
+      <uri>http://twitter.com/yiannopoulos</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1187620764</id>
+    <published>2009-02-08T00:09:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/cutoutandkeep/statuses/1187620764"/>
+    <title>Miss Zombie posted a new How To: Glossy Lip Balm http://tinyurl.com/dbju65</title>
+    <content type="html">Miss &lt;b&gt;Zombie&lt;/b&gt; posted a new How To: Glossy Lip Balm &lt;a href="http://tinyurl.com/dbju65"&gt;http://tinyurl.com/dbju65&lt;/a&gt;</content>
+    <updated>2009-02-08T00:09:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55197309/cuout_normal.gif"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://www.cutoutandkeep.net"&gt;Cut Out + Keep&lt;/a&gt;</twitter:source>
+    <author>
+      <name>cutoutandkeep (cutoutandkeep)</name>
+      <uri>http://twitter.com/cutoutandkeep</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1187614162</id>
+    <published>2009-02-08T00:06:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/cutoutandkeep/statuses/1187614162"/>
+    <title>Emily B. posted a new How To: Zombie Costumes http://tinyurl.com/dzgsmj</title>
+    <content type="html">Emily B. posted a new How To: &lt;b&gt;Zombie&lt;/b&gt; Costumes &lt;a href="http://tinyurl.com/dzgsmj"&gt;http://tinyurl.com/dzgsmj&lt;/a&gt;</content>
+    <updated>2009-02-08T00:06:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55197309/cuout_normal.gif"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://www.cutoutandkeep.net"&gt;Cut Out + Keep&lt;/a&gt;</twitter:source>
+    <author>
+      <name>cutoutandkeep (cutoutandkeep)</name>
+      <uri>http://twitter.com/cutoutandkeep</uri>
+    </author>
+  </entry>
+</feed>

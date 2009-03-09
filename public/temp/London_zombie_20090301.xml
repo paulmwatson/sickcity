@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-03-01 until:2009-03-01</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-03-01+until%3A2009-03-01"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=51.5001524%2C-0.1262362%2C10km&amp;rpp=100&amp;since=2009-03-01&amp;until=2009-03-01"/>
+  <title>zombie since:2009-03-01 until:2009-03-01 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=51.5001524%2C-0.1262362%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-03-01&amp;since_id=1267172479&amp;until=2009-03-01"/>
+  <updated>2009-03-01T23:08:04Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1267011614</id>
+    <published>2009-03-01T23:08:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jdenicholls/statuses/1267011614"/>
+    <title>A fun rodent twist on the classic zombie defense game - http://snipurl.com/cw7z7</title>
+    <content type="html">A fun rodent twist on the classic &lt;b&gt;zombie&lt;/b&gt; defense game - &lt;a href="http://snipurl.com/cw7z7"&gt;http://snipurl.com/cw7z7&lt;/a&gt;</content>
+    <updated>2009-03-01T23:08:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74596522/fender_telecaster1_normal.gif"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jdenicholls (James Nicholls)</name>
+      <uri>http://twitter.com/jdenicholls</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1266339635</id>
+    <published>2009-03-01T19:37:13Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/djanswer/statuses/1266339635"/>
+    <title>just scored a tropical hat-trick. Zombie, Mai Tai, Dark n Stormy. Game over.</title>
+    <content type="html">just scored a tropical hat-trick. &lt;b&gt;Zombie&lt;/b&gt;, Mai Tai, Dark n Stormy. Game over.</content>
+    <updated>2009-03-01T19:37:13Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73110773/n504843884_1999033_3574_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <author>
+      <name>djanswer (Andrew Nightingale)</name>
+      <uri>http://twitter.com/djanswer</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1266217174</id>
+    <published>2009-03-01T18:57:28Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Dugi_C/statuses/1266217174"/>
+    <title>@ferretprincess she made 2 and 3 .... still kicking zombie bottom</title>
+    <content type="html">&lt;a href="http://twitter.com/ferretprincess"&gt;@ferretprincess&lt;/a&gt; she made 2 and 3 .... still kicking &lt;b&gt;zombie&lt;/b&gt; bottom</content>
+    <updated>2009-03-01T18:57:28Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88676279/ratboy_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Dugi_C (Dugi Collins)</name>
+      <uri>http://twitter.com/Dugi_C</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1266145419</id>
+    <published>2009-03-01T18:34:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ferretprincess/statuses/1266145419"/>
+    <title>Plans for zombie killing temporarily on hold as child needs help w. French revision. This never happened to Milla Jovovich in Resident Evil.</title>
+    <content type="html">Plans for &lt;b&gt;zombie&lt;/b&gt; killing temporarily on hold as child needs help w. French revision. This never happened to Milla Jovovich in Resident Evil.</content>
+    <updated>2009-03-01T18:34:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73958308/Photo_102_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ferretprincess (Jane Goldman)</name>
+      <uri>http://twitter.com/ferretprincess</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265731117</id>
+    <published>2009-03-01T16:12:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/edjeff/statuses/1265731117"/>
+    <title>the dollhouse doesn't even work as a concept, why the fuck would anyone want a brainwashed zombie girl for anything other than the obvious?</title>
+    <content type="html">the dollhouse doesn't even work as a concept, why the fuck would anyone want a brainwashed &lt;b&gt;zombie&lt;/b&gt; girl for anything other than the obvious?</content>
+    <updated>2009-03-01T16:12:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/56739116/ed_jefferson_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>edjeff (Ed Jefferson)</name>
+      <uri>http://twitter.com/edjeff</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265423901</id>
+    <published>2009-03-01T14:04:12Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/sohailanjum/statuses/1265423901"/>
+    <title>Surving on 3 hours sleep ... looking like a zombie today</title>
+    <content type="html">Surving on 3 hours sleep ... looking like a &lt;b&gt;zombie&lt;/b&gt; today</content>
+    <updated>2009-03-01T14:04:12Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70217155/sol3_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>sohailanjum (Sohail Anjum)</name>
+      <uri>http://twitter.com/sohailanjum</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265399826</id>
+    <published>2009-03-01T13:52:29Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/headlessness/statuses/1265399826"/>
+    <title>Left 4 Dead 25 quid on Amazon. Bargain anti-zombie cooperative FPS nonsense ahoy.</title>
+    <content type="html">Left 4 Dead 25 quid on Amazon. Bargain anti-&lt;b&gt;zombie&lt;/b&gt; cooperative FPS nonsense ahoy.</content>
+    <updated>2009-03-01T13:52:29Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/90594689/jh_manga_normal.jpg"/>
+    <google:location>London, United Kingdom</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>headlessness (James Holloway)</name>
+      <uri>http://twitter.com/headlessness</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265218187</id>
+    <published>2009-03-01T12:08:23Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ricard67/statuses/1265218187"/>
+    <title>@rosswoo Zombie action? I'm sure we can arrange that!</title>
+    <content type="html">&lt;a href="http://twitter.com/rosswoo"&gt;@rosswoo&lt;/a&gt; &lt;b&gt;Zombie&lt;/b&gt; action? I'm sure we can arrange that!</content>
+    <updated>2009-03-01T12:08:23Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77647601/adegga_normal.png"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ricard67 (ricard67)</name>
+      <uri>http://twitter.com/ricard67</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265216908</id>
+    <published>2009-03-01T12:07:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rosswoo/statuses/1265216908"/>
+    <title>@ricard67 Peck's Atticus was perfect :) enjoyed film..left me wanting some Zombie action to replace lost testosterone though ;)</title>
+    <content type="html">&lt;a href="http://twitter.com/ricard67"&gt;@ricard67&lt;/a&gt; Peck's Atticus was perfect :) enjoyed film..left me wanting some &lt;b&gt;Zombie&lt;/b&gt; action to replace lost testosterone though ;)</content>
+    <updated>2009-03-01T12:07:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80767989/profile_pic_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rosswoo (rosswoo)</name>
+      <uri>http://twitter.com/rosswoo</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1265087486</id>
+    <published>2009-03-01T10:37:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/euzie/statuses/1265087486"/>
+    <title>Impressed that i made it through 15 mins of Zombie Strippers. What made me turn off? Effects? strippers?script? No..talking zombies!</title>
+    <content type="html">Impressed that i made it through 15 mins of &lt;b&gt;Zombie&lt;/b&gt; Strippers. What made me turn off? Effects? strippers?script? No..talking zombies!</content>
+    <updated>2009-03-01T10:37:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/89220833/s750667109_370858_1499_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>euzie (Ewan)</name>
+      <uri>http://twitter.com/euzie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1264536434</id>
+    <published>2009-03-01T05:05:48Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/erolalkan/statuses/1264536434"/>
+    <title>Today i learnt that Zombie Nation live is fantastic and Estaliga club in Munich is a wonderful place.</title>
+    <content type="html">Today i learnt that &lt;b&gt;Zombie&lt;/b&gt; Nation live is fantastic and Estaliga club in Munich is a wonderful place.</content>
+    <updated>2009-03-01T05:05:48Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74814354/eye_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>erolalkan (erol alkan)</name>
+      <uri>http://twitter.com/erolalkan</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1264532296</id>
+    <published>2009-03-01T05:04:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/erolalkan/statuses/1264532296"/>
+    <title>Today i learned that Zombie Nation live is fantastic and Estaliga club in Munich is a wonderful place.</title>
+    <content type="html">Today i learned that &lt;b&gt;Zombie&lt;/b&gt; Nation live is fantastic and Estaliga club in Munich is a wonderful place.</content>
+    <updated>2009-03-01T05:04:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74814354/eye_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>erolalkan (erol alkan)</name>
+      <uri>http://twitter.com/erolalkan</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1264023118</id>
+    <published>2009-03-01T01:45:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lydiathepixie/statuses/1264023118"/>
+    <title>Great gig = buzzing = no sleep = zombie pixie ^_^</title>
+    <content type="html">Great gig = buzzing = no sleep = &lt;b&gt;zombie&lt;/b&gt; pixie ^_^</content>
+    <updated>2009-03-01T01:45:26Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66105177/344394977_l_normal.jpg"/>
+    <google:location>North London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lydiathepixie (Rosered)</name>
+      <uri>http://twitter.com/lydiathepixie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1263758420</id>
+    <published>2009-03-01T00:07:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JamesMcMahon/statuses/1263758420"/>
+    <title>"Lets have a concert for these zombie nerds!" - http://hearyoume3.blogspot.com</title>
+    <content type="html">&amp;quot;Lets have a concert for these &lt;b&gt;zombie&lt;/b&gt; nerds!&amp;quot; - &lt;a href="http://hearyoume3.blogspot.com"&gt;http://hearyoume3.blogspot.com&lt;/a&gt;</content>
+    <updated>2009-03-01T00:07:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81685986/n737715150_3477842_6391_normal.jpg"/>
+    <google:location>City of London, England</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>JamesMcMahon (JamesMcMahon)</name>
+      <uri>http://twitter.com/JamesMcMahon</uri>
+    </author>
+  </entry>
+</feed>

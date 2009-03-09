@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-10 until:2009-02-10</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-10+until%3A2009-02-10"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-10&amp;until=2009-02-10"/>
+  <title>headache since:2009-02-10 until:2009-02-10 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-10&amp;since_id=1197368892&amp;until=2009-02-10"/>
+  <updated>2009-02-10T19:50:04Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1196585455</id>
+    <published>2009-02-10T19:50:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Robi27/statuses/1196585455"/>
+    <title>Euww...Don't feel well.Knew that headache and tummy cramping since Sunday was leading to something...Upset tummy, ow head and cramps.*pout*</title>
+    <content type="html">Euww...Don't feel well.Knew that &lt;b&gt;headache&lt;/b&gt; and tummy cramping since Sunday was leading to something...Upset tummy, ow head and cramps.*pout*</content>
+    <updated>2009-02-10T19:50:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85699819/Razy_s-pic023-Glowing-cool_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Robi27 (Robyn Addinall)</name>
+      <uri>http://twitter.com/Robi27</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1195436492</id>
+    <published>2009-02-10T13:52:16Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Sznq/statuses/1195436492"/>
+    <title>...Or it's like saying you had a headache &amp; you took a schedule 4 drugs for pneumonia &amp; it didn't cure your headache.</title>
+    <content type="html">...Or it's like saying you had a &lt;b&gt;headache&lt;/b&gt; &amp;amp; you took a schedule 4 drugs for pneumonia &amp;amp; it didn't cure your &lt;b&gt;headache&lt;/b&gt;.</content>
+    <updated>2009-02-10T13:52:16Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81763299/TW_Sg_water_icon_normal_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Sznq (Suzan Gray)</name>
+      <uri>http://twitter.com/Sznq</uri>
+    </author>
+  </entry>
+</feed>

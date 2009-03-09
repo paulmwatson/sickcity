@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-10 until:2009-02-10</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-10+until%3A2009-02-10"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-10&amp;until=2009-02-10"/>
+  <title>flu since:2009-02-10 until:2009-02-10 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-10&amp;since_id=1197368892&amp;until=2009-02-10"/>
+  <updated>2009-02-10T21:42:55Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1196955370</id>
+    <published>2009-02-10T21:42:55Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/AdinvanRyneveld/statuses/1196955370"/>
+    <title>@AlexKaris apart from the flu I'm great! Hey, when you watch my vids remember there may be a few that require an open mind...:-)</title>
+    <content type="html">&lt;a href="http://twitter.com/AlexKaris"&gt;@AlexKaris&lt;/a&gt; apart from the &lt;b&gt;flu&lt;/b&gt; I'm great! Hey, when you watch my vids remember there may be a few that require an open mind...:-)</content>
+    <updated>2009-02-10T21:42:55Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79803803/CSC_0721_normal.JPG"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>AdinvanRyneveld (AdinvanRyneveld)</name>
+      <uri>http://twitter.com/AdinvanRyneveld</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1195081741</id>
+    <published>2009-02-10T10:53:54Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ravenblade/statuses/1195081741"/>
+    <title>feels like that flu bug is wandering around inside me again :S</title>
+    <content type="html">feels like that &lt;b&gt;flu&lt;/b&gt; bug is wandering around inside me again :S</content>
+    <updated>2009-02-10T10:53:54Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55228812/me_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ravenblade (bevan christians)</name>
+      <uri>http://twitter.com/ravenblade</uri>
+    </author>
+  </entry>
+</feed>

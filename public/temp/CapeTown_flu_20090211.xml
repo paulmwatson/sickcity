@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-11 until:2009-02-11</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-11+until%3A2009-02-11"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-11&amp;until=2009-02-11"/>
+  <title>flu since:2009-02-11 until:2009-02-11 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-11&amp;since_id=1200905936&amp;until=2009-02-11"/>
+  <updated>2009-02-11T18:08:41Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1199779699</id>
+    <published>2009-02-11T18:08:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/DChetty/statuses/1199779699"/>
+    <title>Great weather, been eating healthy, etc ... but still SOMEHOW the flu finds a way to get me!</title>
+    <content type="html">Great weather, been eating healthy, etc ... but still SOMEHOW the &lt;b&gt;flu&lt;/b&gt; finds a way to get me!</content>
+    <updated>2009-02-11T18:08:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66846828/dee-1_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.digsby.com/"&gt;digsby&lt;/a&gt;</twitter:source>
+    <author>
+      <name>DChetty (DChetty)</name>
+      <uri>http://twitter.com/DChetty</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1199351813</id>
+    <published>2009-02-11T15:59:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/paulscott56/statuses/1199351813"/>
+    <title>Trying some flu medication this time round. Just living from one high to the next now.</title>
+    <content type="html">Trying some &lt;b&gt;flu&lt;/b&gt; medication this time round. Just living from one high to the next now.</content>
+    <updated>2009-02-11T15:59:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57974073/1de749011241b844c0e664278a9be3c1_normal.jpeg"/>
+    <google:location>University of the Western Cape</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>paulscott56 (paulscott56)</name>
+      <uri>http://twitter.com/paulscott56</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1199014944</id>
+    <published>2009-02-11T14:08:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ligur/statuses/1199014944"/>
+    <title>getting moody and agro. flu must be settling in now. yay for bed days!</title>
+    <content type="html">getting moody and agro. &lt;b&gt;flu&lt;/b&gt; must be settling in now. yay for bed days!</content>
+    <updated>2009-02-11T14:08:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65711674/profile_pic_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://83degrees.com/to/powertwitter"&gt;Power Twitter&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ligur (ligur)</name>
+      <uri>http://twitter.com/ligur</uri>
+    </author>
+  </entry>
+</feed>

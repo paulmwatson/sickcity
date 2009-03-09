@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-23 until:2009-02-23</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-23+until%3A2009-02-23"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-23&amp;until=2009-02-23"/>
+  <title>headache since:2009-02-23 until:2009-02-23 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-23&amp;since_id=1242881430&amp;until=2009-02-23"/>
+  <updated>2009-02-23T13:54:19Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1240820959</id>
+    <published>2009-02-23T13:54:19Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/roxbradnick/statuses/1240820959"/>
+    <title>Ugh, headache. I so desperately need to run off this awful stress, disprin better kick in pronto.</title>
+    <content type="html">Ugh, &lt;b&gt;headache&lt;/b&gt;. I so desperately need to run off this awful stress, disprin better kick in pronto.</content>
+    <updated>2009-02-23T13:54:19Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65244072/profile_pic_-_now_or_never_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>roxbradnick (Rox Bradnick)</name>
+      <uri>http://twitter.com/roxbradnick</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1240447845</id>
+    <published>2009-02-23T10:50:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kimberoo/statuses/1240447845"/>
+    <title>oohhh behind-the-eyes owie headache. you know the kind. a monday morning kind...</title>
+    <content type="html">oohhh behind-the-eyes owie &lt;b&gt;headache&lt;/b&gt;. you know the kind. a monday morning kind...</content>
+    <updated>2009-02-23T10:50:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71057704/me_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kimberoo (kimberoo)</name>
+      <uri>http://twitter.com/kimberoo</uri>
+    </author>
+  </entry>
+</feed>

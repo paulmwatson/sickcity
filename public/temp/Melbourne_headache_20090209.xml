@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-09 until:2009-02-09</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-09+until%3A2009-02-09"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-09&amp;until=2009-02-09"/>
+  <title>headache since:2009-02-09 until:2009-02-09 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-09&amp;since_id=1193711492&amp;until=2009-02-09"/>
+  <updated>2009-02-09T23:27:17Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1193622718</id>
+    <published>2009-02-09T23:27:17Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/misssandi/statuses/1193622718"/>
+    <title>I'm feeling much better today. Headache has gone!</title>
+    <content type="html">I'm feeling much better today. &lt;b&gt;Headache&lt;/b&gt; has gone!</content>
+    <updated>2009-02-09T23:27:17Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83245485/sandra_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>misssandi (Sandi Tighello)</name>
+      <uri>http://twitter.com/misssandi</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1191439511</id>
+    <published>2009-02-09T10:09:18Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/katepayton/statuses/1191439511"/>
+    <title>Have had a headache all day. Literally, since I woke up. Uncool :( At least I'm having a fun night :)</title>
+    <content type="html">Have had a &lt;b&gt;headache&lt;/b&gt; all day. Literally, since I woke up. Uncool :( At least I'm having a fun night :)</content>
+    <updated>2009-02-09T10:09:18Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/58256949/kate-manga_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>katepayton (Kate)</name>
+      <uri>http://twitter.com/katepayton</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1191121479</id>
+    <published>2009-02-09T06:27:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JingleJunkie/statuses/1191121479"/>
+    <title>terrible headache... time to go back to bed</title>
+    <content type="html">terrible &lt;b&gt;headache&lt;/b&gt;... time to go back to bed</content>
+    <updated>2009-02-09T06:27:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74543944/fed_up_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>JingleJunkie (Sarah Russell)</name>
+      <uri>http://twitter.com/JingleJunkie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190839708</id>
+    <published>2009-02-09T04:07:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jessie_monster/statuses/1190839708"/>
+    <title>@hijinksensue Be warned, you will have a killer headache from the lack caffeine and sugar for the first day or so.</title>
+    <content type="html">&lt;a href="http://twitter.com/hijinksensue"&gt;@hijinksensue&lt;/a&gt; Be warned, you will have a killer &lt;b&gt;headache&lt;/b&gt; from the lack caffeine and sugar for the first day or so.</content>
+    <updated>2009-02-09T04:07:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65239628/Zappulladietyicon_normal.png"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jessie_monster (jessie fargher)</name>
+      <uri>http://twitter.com/jessie_monster</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190771106</id>
+    <published>2009-02-09T03:42:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lucasrichter/statuses/1190771106"/>
+    <title>Headache not gone. Ergo, lack of caffeine is not likely to be the problem. Which worries me.</title>
+    <content type="html">&lt;b&gt;Headache&lt;/b&gt; not gone. Ergo, lack of caffeine is not likely to be the problem. Which worries me.</content>
+    <updated>2009-02-09T03:42:11Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61887539/piano-avatar2.0-100px_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lucasrichter (lucasrichter)</name>
+      <uri>http://twitter.com/lucasrichter</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190315778</id>
+    <published>2009-02-09T01:07:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lucasrichter/statuses/1190315778"/>
+    <title>Ugh. No-caffeine headache. I really should've gotten around to grabbing a coffee sooner.</title>
+    <content type="html">Ugh. No-caffeine &lt;b&gt;headache&lt;/b&gt;. I really should've gotten around to grabbing a coffee sooner.</content>
+    <updated>2009-02-09T01:07:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61887539/piano-avatar2.0-100px_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lucasrichter (lucasrichter)</name>
+      <uri>http://twitter.com/lucasrichter</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190312837</id>
+    <published>2009-02-09T01:06:52Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Ben/statuses/1190312837"/>
+    <title>Starting to feel hungry... and a headache is brewing too :(</title>
+    <content type="html">Starting to feel hungry... and a &lt;b&gt;headache&lt;/b&gt; is brewing too :(</content>
+    <updated>2009-02-09T01:06:52Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60878752/n613151409_3838_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Ben (ben)</name>
+      <uri>http://twitter.com/Ben</uri>
+    </author>
+  </entry>
+</feed>

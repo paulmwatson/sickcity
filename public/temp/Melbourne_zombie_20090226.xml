@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-26 until:2009-02-26</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-26+until%3A2009-02-26"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-26&amp;until=2009-02-26"/>
+  <title>zombie since:2009-02-26 until:2009-02-26 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-26&amp;since_id=1255972060&amp;until=2009-02-26"/>
+  <updated>2009-02-26T23:19:35Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1255830874</id>
+    <published>2009-02-26T23:19:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ethernz/statuses/1255830874"/>
+    <title>@perdysha me either. Am in zombie mode today.</title>
+    <content type="html">&lt;a href="http://twitter.com/perdysha"&gt;@perdysha&lt;/a&gt; me either. Am in &lt;b&gt;zombie&lt;/b&gt; mode today.</content>
+    <updated>2009-02-26T23:19:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71428230/Picture_4_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfon.net/"&gt;TwitterFon&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ethernz (Katie)</name>
+      <uri>http://twitter.com/ethernz</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1255472548</id>
+    <published>2009-02-26T21:46:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/yanyanteoh/statuses/1255472548"/>
+    <title>Need to stop watching late night crap tv. Am becoming a zombie myself.</title>
+    <content type="html">Need to stop watching late night crap tv. Am becoming a &lt;b&gt;zombie&lt;/b&gt; myself.</content>
+    <updated>2009-02-26T21:46:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72376826/Picture_2_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>yanyanteoh (yanyanteoh)</name>
+      <uri>http://twitter.com/yanyanteoh</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1253385524</id>
+    <published>2009-02-26T12:33:50Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/thehorror/statuses/1253385524"/>
+    <title>ROB ZOMBIE offers us a sneak peak into his "ultra gritty, ultra intense" realism http://urlb.at/724 (myspace)</title>
+    <content type="html">ROB &lt;b&gt;ZOMBIE&lt;/b&gt; offers us a sneak peak into his &amp;quot;ultra gritty, ultra intense&amp;quot; realism &lt;a href="http://urlb.at/724"&gt;http://urlb.at/724&lt;/a&gt; (myspace)</content>
+    <updated>2009-02-26T12:33:50Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/19412432/horror2_normal.gif"/>
+    <google:location>Hellbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>thehorror (Horror 101)</name>
+      <uri>http://twitter.com/thehorror</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1252992518</id>
+    <published>2009-02-26T09:10:08Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/marcbradshaw/statuses/1252992518"/>
+    <title>@Jarmara oh no, its Zombie Jarmara</title>
+    <content type="html">&lt;a href="http://twitter.com/Jarmara"&gt;@Jarmara&lt;/a&gt; oh no, its &lt;b&gt;Zombie&lt;/b&gt; Jarmara</content>
+    <updated>2009-02-26T09:10:08Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81549390/n526159127_802_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>marcbradshaw (Marc Bradshaw)</name>
+      <uri>http://twitter.com/marcbradshaw</uri>
+    </author>
+  </entry>
+</feed>

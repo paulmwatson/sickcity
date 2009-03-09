@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-13 until:2009-02-13</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-13+until%3A2009-02-13"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-13&amp;until=2009-02-13"/>
+  <title>flu since:2009-02-13 until:2009-02-13 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-13&amp;since_id=1208323704&amp;until=2009-02-13"/>
+  <updated>2009-02-13T02:23:02Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1205015721</id>
+    <published>2009-02-13T02:23:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bryanoon/statuses/1205015721"/>
+    <title>Has the start of a sore throat.. Hope I can nip it with supplements before it comes into full blown flu..</title>
+    <content type="html">Has the start of a sore throat.. Hope I can nip it with supplements before it comes into full blown &lt;b&gt;flu&lt;/b&gt;..</content>
+    <updated>2009-02-13T02:23:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72084941/fp3_normal.jpg"/>
+    <google:location>Yarraville, Victoria</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bryanoon (Bryan Oon)</name>
+      <uri>http://twitter.com/bryanoon</uri>
+    </author>
+  </entry>
+</feed>

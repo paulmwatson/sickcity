@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-10 until:2009-02-10</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-10+until%3A2009-02-10"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-10&amp;until=2009-02-10"/>
+  <title>headache since:2009-02-10 until:2009-02-10 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-10&amp;since_id=1197368892&amp;until=2009-02-10"/>
+  <updated>2009-02-10T10:37:58Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1195057264</id>
+    <published>2009-02-10T10:37:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/dumblydore/statuses/1195057264"/>
+    <title>Urgh, another splitting headache. Back ache. Thighs high on lactic acid. What am I 20 years old or 80?</title>
+    <content type="html">Urgh, another splitting &lt;b&gt;headache&lt;/b&gt;. Back ache. Thighs high on lactic acid. What am I 20 years old or 80?</content>
+    <updated>2009-02-10T10:37:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57612950/IMG_0554_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>dumblydore (Jen)</name>
+      <uri>http://twitter.com/dumblydore</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194967440</id>
+    <published>2009-02-10T09:39:40Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JingleJunkie/statuses/1194967440"/>
+    <title>too much happy dancing re: impending 2-time Aunty-hood. Headache has come back with a vengeance.  Will this sickness never end?</title>
+    <content type="html">too much happy dancing re: impending 2-time Aunty-hood. &lt;b&gt;Headache&lt;/b&gt; has come back with a vengeance.  Will this sickness never end?</content>
+    <updated>2009-02-10T09:39:40Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74543944/fed_up_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>JingleJunkie (Sarah Russell)</name>
+      <uri>http://twitter.com/JingleJunkie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194824231</id>
+    <published>2009-02-10T08:10:40Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Liiv7/statuses/1194824231"/>
+    <title>Fell asleep for two hours and woke up with a headache and some homework.</title>
+    <content type="html">Fell asleep for two hours and woke up with a &lt;b&gt;headache&lt;/b&gt; and some homework.</content>
+    <updated>2009-02-10T08:10:40Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65956831/Photo_33_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Liiv7 (Liv )</name>
+      <uri>http://twitter.com/Liiv7</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194810482</id>
+    <published>2009-02-10T08:02:23Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lukevodell/statuses/1194810482"/>
+    <title>I've had a bloody headache all day and I know it's cause I ate that Mars Bar at 10am. Attempting to cure it with fish n chips &amp; Heroes.</title>
+    <content type="html">I've had a bloody &lt;b&gt;headache&lt;/b&gt; all day and I know it's cause I ate that Mars Bar at 10am. Attempting to cure it with fish n chips &amp;amp; Heroes.</content>
+    <updated>2009-02-10T08:02:23Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73699425/Luke_Icon_Large_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lukevodell (Luke Vodell)</name>
+      <uri>http://twitter.com/lukevodell</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194603472</id>
+    <published>2009-02-10T05:56:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/trimba/statuses/1194603472"/>
+    <title>headache...sitting right in behind left eye.</title>
+    <content type="html">&lt;b&gt;headache&lt;/b&gt;...sitting right in behind left eye.</content>
+    <updated>2009-02-10T05:56:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82556399/angel_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>trimba (Andrea Trimble)</name>
+      <uri>http://twitter.com/trimba</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194598814</id>
+    <published>2009-02-10T05:53:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/uxrob/statuses/1194598814"/>
+    <title>Home to wifey to celebrate our anniversary. Hoping a '96 Henshke Mt Eddlestone Shiraz and a load of oysters will soothe my headache.</title>
+    <content type="html">Home to wifey to celebrate our anniversary. Hoping a '96 Henshke Mt Eddlestone Shiraz and a load of oysters will soothe my &lt;b&gt;headache&lt;/b&gt;.</content>
+    <updated>2009-02-10T05:53:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81508618/av_normal.jpg"/>
+    <google:location>Ashburton, VIC (-37.868349,145</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>uxrob (Rob Scherer)</name>
+      <uri>http://twitter.com/uxrob</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194590059</id>
+    <published>2009-02-10T05:48:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ajft/statuses/1194590059"/>
+    <title>getting tension headache from inanities and bureaucracies.</title>
+    <content type="html">getting tension &lt;b&gt;headache&lt;/b&gt; from inanities and bureaucracies.</content>
+    <updated>2009-02-10T05:48:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75203675/whatthehell_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ajft (Adrian Tritschler)</name>
+      <uri>http://twitter.com/ajft</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194456355</id>
+    <published>2009-02-10T04:40:33Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/uxrob/statuses/1194456355"/>
+    <title>User testing / interviews never fail to give me a headache! :-(</title>
+    <content type="html">User testing / interviews never fail to give me a &lt;b&gt;headache&lt;/b&gt;! :-(</content>
+    <updated>2009-02-10T04:40:33Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81508618/av_normal.jpg"/>
+    <google:location>Ashburton, VIC (-37.868349,145</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>uxrob (Rob Scherer)</name>
+      <uri>http://twitter.com/uxrob</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1194321246</id>
+    <published>2009-02-10T03:42:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/MiriamP/statuses/1194321246"/>
+    <title>doh! after starting on my 08 tax it looks like for the 07 tax which was giving me a headache etax cud have imported my income details *cry*</title>
+    <content type="html">doh! after starting on my 08 tax it looks like for the 07 tax which was giving me a &lt;b&gt;headache&lt;/b&gt; etax cud have imported my income details *cry*</content>
+    <updated>2009-02-10T03:42:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61935213/ava2_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>MiriamP (Miriam Parkinson)</name>
+      <uri>http://twitter.com/MiriamP</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1193979057</id>
+    <published>2009-02-10T01:37:08Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Smorgy/statuses/1193979057"/>
+    <title>I have a bit of a headache. Need some lunch.. Coop still sleeping</title>
+    <content type="html">I have a bit of a &lt;b&gt;headache&lt;/b&gt;. Need some lunch.. Coop still sleeping</content>
+    <updated>2009-02-10T01:37:08Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/23094582/Photo_52_normal.jpg"/>
+    <google:location>Melbourne, Victoria, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Smorgy (Smorgy)</name>
+      <uri>http://twitter.com/Smorgy</uri>
+    </author>
+  </entry>
+</feed>

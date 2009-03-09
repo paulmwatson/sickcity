@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-12 until:2009-02-12</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-12+until%3A2009-02-12"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-12&amp;until=2009-02-12"/>
+  <title>flu since:2009-02-12 until:2009-02-12 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-12&amp;since_id=1204647774&amp;until=2009-02-12"/>
+  <updated>2009-02-12T13:51:35Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1202627864</id>
+    <published>2009-02-12T13:51:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/whizper2me/statuses/1202627864"/>
+    <title>Of course if it were winter you would have a headache from the flu, be stiff from the cold and wish it was summer...ah human nature!</title>
+    <content type="html">Of course if it were winter you would have a headache from the &lt;b&gt;flu&lt;/b&gt;, be stiff from the cold and wish it was summer...ah human nature!</content>
+    <updated>2009-02-12T13:51:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81739567/blacked-out_bigger_bigger_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://sugree.com/project/jibjib"&gt;jibjib&lt;/a&gt;</twitter:source>
+    <author>
+      <name>whizper2me (whizper2me)</name>
+      <uri>http://twitter.com/whizper2me</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1201904558</id>
+    <published>2009-02-12T07:10:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/debre/statuses/1201904558"/>
+    <title>@matthewbuckland what's the matter matt, got a bit of man-flu?</title>
+    <content type="html">&lt;a href="http://twitter.com/matthewbuckland"&gt;@matthewbuckland&lt;/a&gt; what's the matter matt, got a bit of man-&lt;b&gt;flu&lt;/b&gt;?</content>
+    <updated>2009-02-12T07:10:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61150668/_MG_8995_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>debre (Debre Barrett)</name>
+      <uri>http://twitter.com/debre</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1201897014</id>
+    <published>2009-02-12T07:05:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/paulscott56/statuses/1201897014"/>
+    <title>@jdtangney Am working from home today. Don't really want to kill the rest of the team with this flu...</title>
+    <content type="html">&lt;a href="http://twitter.com/jdtangney"&gt;@jdtangney&lt;/a&gt; Am working from home today. Don't really want to kill the rest of the team with this &lt;b&gt;flu&lt;/b&gt;...</content>
+    <updated>2009-02-12T07:05:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57974073/1de749011241b844c0e664278a9be3c1_normal.jpeg"/>
+    <google:location>University of the Western Cape</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>paulscott56 (paulscott56)</name>
+      <uri>http://twitter.com/paulscott56</uri>
+    </author>
+  </entry>
+</feed>

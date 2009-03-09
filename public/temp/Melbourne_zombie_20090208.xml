@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-08 until:2009-02-08</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-08+until%3A2009-02-08"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-08&amp;until=2009-02-08"/>
+  <title>zombie since:2009-02-08 until:2009-02-08 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-08&amp;since_id=1190154279&amp;until=2009-02-08"/>
+  <updated>2009-02-08T23:58:45Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190151452</id>
+    <published>2009-02-08T23:58:45Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hipichic/statuses/1190151452"/>
+    <title>@sherman_bernard Yes, I saw Zombie Strippers at ACMI a few weeks ago. Hilarious!!!</title>
+    <content type="html">&lt;a href="http://twitter.com/sherman_bernard"&gt;@sherman_bernard&lt;/a&gt; Yes, I saw &lt;b&gt;Zombie&lt;/b&gt; Strippers at ACMI a few weeks ago. Hilarious!!!</content>
+    <updated>2009-02-08T23:58:45Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/87049835/psycho_smiley_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>hipichic (hipichic)</name>
+      <uri>http://twitter.com/hipichic</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1188290484</id>
+    <published>2009-02-08T06:33:21Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kahlerisms/statuses/1188290484"/>
+    <title>Holy fuck- 50 dead now. Home from Mum's place. Still hard to not call it Mum + Dad's. Gunna curl up on the couch + watch zombie films.</title>
+    <content type="html">Holy fuck- 50 dead now. Home from Mum's place. Still hard to not call it Mum + Dad's. Gunna curl up on the couch + watch &lt;b&gt;zombie&lt;/b&gt; films.</content>
+    <updated>2009-02-08T06:33:21Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67581386/Chucky_normal.jpg"/>
+    <google:location>Hawthorn, VIC (-37.821976,145.</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kahlerisms (kahlerisms)</name>
+      <uri>http://twitter.com/kahlerisms</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1187676263</id>
+    <published>2009-02-08T00:37:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/greensto/statuses/1187676263"/>
+    <title>zombie disco sex...</title>
+    <content type="html">&lt;b&gt;zombie&lt;/b&gt; disco sex...</content>
+    <updated>2009-02-08T00:37:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70185769/n579915586_5374235_170_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.ping.fm/"&gt;Ping.fm&lt;/a&gt;</twitter:source>
+    <author>
+      <name>greensto (Nathan Millson)</name>
+      <uri>http://twitter.com/greensto</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1187674948</id>
+    <published>2009-02-08T00:36:50Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/cocolaco/statuses/1187674948"/>
+    <title>Coffee. Sunday. Film crew in the street. Zombie birds.</title>
+    <content type="html">Coffee. Sunday. Film crew in the street. &lt;b&gt;Zombie&lt;/b&gt; birds.</content>
+    <updated>2009-02-08T00:36:50Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77808351/n500669698_55778_6207_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>cocolaco (fox woods)</name>
+      <uri>http://twitter.com/cocolaco</uri>
+    </author>
+  </entry>
+</feed>

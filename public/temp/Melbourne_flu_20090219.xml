@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-19 until:2009-02-19</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-19+until%3A2009-02-19"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-19&amp;until=2009-02-19"/>
+  <title>flu since:2009-02-19 until:2009-02-19 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-19&amp;since_id=1228668654&amp;until=2009-02-19"/>
+  <updated>2009-02-19T10:36:06Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1226209148</id>
+    <published>2009-02-19T10:36:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/junetwentytwo/statuses/1226209148"/>
+    <title>P.S. With this whole "flu" thing, I think I have sweated out like 10 kgs of fluid. ugh. Time for some sheet changes?</title>
+    <content type="html">P.S. With this whole &amp;quot;&lt;b&gt;flu&lt;/b&gt;&amp;quot; thing, I think I have sweated out like 10 kgs of fluid. ugh. Time for some sheet changes?</content>
+    <updated>2009-02-19T10:36:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76649920/AH_Driftr_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>junetwentytwo (Tara CB)</name>
+      <uri>http://twitter.com/junetwentytwo</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1226113357</id>
+    <published>2009-02-19T09:40:44Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/St_Flames/statuses/1226113357"/>
+    <title>Working... with the Flu.... AIDSfest.</title>
+    <content type="html">Working... with the &lt;b&gt;Flu&lt;/b&gt;.... AIDSfest.</content>
+    <updated>2009-02-19T09:40:44Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/87079136/X_HELL_SHADES_OFF_CDS_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>St_Flames (X....(&amp; Hell))</name>
+      <uri>http://twitter.com/St_Flames</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1225221046</id>
+    <published>2009-02-19T02:07:54Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ABCRural/statuses/1225221046"/>
+    <title>Hunter residents demand horse flu compo: The Federal Government can expect to receive legal documents within wee.. http://tinyurl.com/d5tcmr</title>
+    <content type="html">Hunter residents demand horse &lt;b&gt;flu&lt;/b&gt; compo: The Federal Government can expect to receive legal documents within wee.. &lt;a href="http://tinyurl.com/d5tcmr"&gt;http://tinyurl.com/d5tcmr&lt;/a&gt;</content>
+    <updated>2009-02-19T02:07:54Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74882501/twittersig2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ABCRural (ABC Rural)</name>
+      <uri>http://twitter.com/ABCRural</uri>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-12 until:2009-02-12</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-12+until%3A2009-02-12"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-12&amp;until=2009-02-12"/>
+  <title>zombie since:2009-02-12 until:2009-02-12 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-12&amp;since_id=1204647774&amp;until=2009-02-12"/>
+  <updated>2009-02-12T16:40:41Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1203173042</id>
+    <published>2009-02-12T16:40:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/birvine/statuses/1203173042"/>
+    <title>and raring to go! Ha! Great Zombie Jesus! BANGERANG!</title>
+    <content type="html">and raring to go! Ha! Great &lt;b&gt;Zombie&lt;/b&gt; Jesus! BANGERANG!</content>
+    <updated>2009-02-12T16:40:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72466587/DSC01295_normal.JPG"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>birvine (Brett Irvine)</name>
+      <uri>http://twitter.com/birvine</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1201947890</id>
+    <published>2009-02-12T07:39:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/MajorProblem/statuses/1201947890"/>
+    <title>@Robi27 Eina, really wish I could spend some time in the office today... feel like a zombie. Fixing problems on site is my fate for today</title>
+    <content type="html">&lt;a href="http://twitter.com/Robi27"&gt;@Robi27&lt;/a&gt; Eina, really wish I could spend some time in the office today... feel like a &lt;b&gt;zombie&lt;/b&gt;. Fixing problems on site is my fate for today</content>
+    <updated>2009-02-12T07:39:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85869399/DSC00516_normal.JPG"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://widgets.opera.com/widget/7206"&gt;Twitter Opera widget&lt;/a&gt;</twitter:source>
+    <author>
+      <name>MajorProblem (Yme Tichelaar)</name>
+      <uri>http://twitter.com/MajorProblem</uri>
+    </author>
+  </entry>
+</feed>

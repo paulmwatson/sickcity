@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-18 until:2009-02-18</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-18+until%3A2009-02-18"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-18&amp;until=2009-02-18"/>
+  <title>flu since:2009-02-18 until:2009-02-18 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-18&amp;since_id=1224867069&amp;until=2009-02-18"/>
+  <updated>2009-02-18T13:57:05Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1222822321</id>
+    <published>2009-02-18T13:57:05Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/YogaChicky/statuses/1222822321"/>
+    <title>Dang! Its return of the stomach bug/flu!</title>
+    <content type="html">Dang! Its return of the stomach bug/&lt;b&gt;flu&lt;/b&gt;!</content>
+    <updated>2009-02-18T13:57:05Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/59823899/amanda_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>YogaChicky (YogaChicky)</name>
+      <uri>http://twitter.com/YogaChicky</uri>
+    </author>
+  </entry>
+</feed>

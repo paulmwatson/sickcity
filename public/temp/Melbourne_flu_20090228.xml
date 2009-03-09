@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-28 until:2009-02-28</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-28+until%3A2009-02-28"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-28&amp;until=2009-02-28"/>
+  <title>flu since:2009-02-28 until:2009-02-28 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-28&amp;since_id=1263736174&amp;until=2009-02-28"/>
+  <updated>2009-02-28T22:56:37Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1263552417</id>
+    <published>2009-02-28T22:56:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/andyneumann/statuses/1263552417"/>
+    <title>Just got up. Still sick with this cold / flu. Hope the OBSers did well in the BRW Triathlon this morn', would've liked to have been there :(</title>
+    <content type="html">Just got up. Still sick with this cold / &lt;b&gt;flu&lt;/b&gt;. Hope the OBSers did well in the BRW Triathlon this morn', would've liked to have been there :(</content>
+    <updated>2009-02-28T22:56:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75929319/Aurora_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>andyneumann (Andy Neumann)</name>
+      <uri>http://twitter.com/andyneumann</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1261788984</id>
+    <published>2009-02-28T11:35:35Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jhlagado/statuses/1261788984"/>
+    <title>http://tinyurl.com/6cueky Google Flu Trends aggregates search data to estimate flu activity in your state faster than traditional systems</title>
+    <content type="html">&lt;a href="http://tinyurl.com/6cueky"&gt;http://tinyurl.com/6cueky&lt;/a&gt; Google &lt;b&gt;Flu&lt;/b&gt; Trends aggregates search data to estimate &lt;b&gt;flu&lt;/b&gt; activity in your state faster than traditional systems</content>
+    <updated>2009-02-28T11:35:35Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65700629/2008_016_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jhlagado (John Hardy)</name>
+      <uri>http://twitter.com/jhlagado</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1260682819</id>
+    <published>2009-02-28T02:02:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/wolfsymphony/statuses/1260682819"/>
+    <title>soundwave was some crazy sh*t.. i can't walk and i'm sore all over. to top it off i woke up today with the flu :) lovely.</title>
+    <content type="html">soundwave was some crazy sh*t.. i can't walk and i'm sore all over. to top it off i woke up today with the &lt;b&gt;flu&lt;/b&gt; :) lovely.</content>
+    <updated>2009-02-28T02:02:11Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>wolfsymphony (Milo)</name>
+      <uri>http://twitter.com/wolfsymphony</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1260569653</id>
+    <published>2009-02-28T01:20:13Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jeremyley/statuses/1260569653"/>
+    <title>Getting really really sick. No seriously. I think I've got the flu again.</title>
+    <content type="html">Getting really really sick. No seriously. I think I've got the &lt;b&gt;flu&lt;/b&gt; again.</content>
+    <updated>2009-02-28T01:20:13Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83694788/jeremy-ley_normal.jpg"/>
+    <google:location>Melbourne, Australia.</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jeremyley (Jeremy Ley)</name>
+      <uri>http://twitter.com/jeremyley</uri>
+    </author>
+  </entry>
+</feed>

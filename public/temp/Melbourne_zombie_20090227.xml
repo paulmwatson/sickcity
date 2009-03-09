@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-27 until:2009-02-27</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-27+until%3A2009-02-27"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-27&amp;until=2009-02-27"/>
+  <title>zombie since:2009-02-27 until:2009-02-27 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-27&amp;since_id=1260336718&amp;until=2009-02-27"/>
+  <updated>2009-02-27T13:07:48Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1257921796</id>
+    <published>2009-02-27T13:07:48Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/KathrynLowe/statuses/1257921796"/>
+    <title>@DamienRiley holy fucking sweet zombie jesus on a stick @ 1,000,000 live nin awesomeness</title>
+    <content type="html">&lt;a href="http://twitter.com/DamienRiley"&gt;@DamienRiley&lt;/a&gt; holy fucking sweet &lt;b&gt;zombie&lt;/b&gt; jesus on a stick @ 1,000,000 live nin awesomeness</content>
+    <updated>2009-02-27T13:07:48Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82621513/face_pic_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>KathrynLowe (Kathryn Lowe)</name>
+      <uri>http://twitter.com/KathrynLowe</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1257319303</id>
+    <published>2009-02-27T08:05:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/philpeffect/statuses/1257319303"/>
+    <title>RT @raelTwitter during a Zombie Outbreak: http://bit.ly/3Hm7gm</title>
+    <content type="html">RT &lt;a href="http://twitter.com/raelTwitter"&gt;@raelTwitter&lt;/a&gt; during a &lt;b&gt;Zombie&lt;/b&gt; Outbreak: &lt;a href="http://bit.ly/3Hm7gm"&gt;http://bit.ly/3Hm7gm&lt;/a&gt;</content>
+    <updated>2009-02-27T08:05:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73758233/Sam-Philp_117616_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>philpeffect (Sam Philp)</name>
+      <uri>http://twitter.com/philpeffect</uri>
+    </author>
+  </entry>
+</feed>

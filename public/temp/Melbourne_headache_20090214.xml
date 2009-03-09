@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-14 until:2009-02-14</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-14+until%3A2009-02-14"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-14&amp;until=2009-02-14"/>
+  <title>headache since:2009-02-14 until:2009-02-14 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-14&amp;since_id=1211040654&amp;until=2009-02-14"/>
+  <updated>2009-02-14T03:54:18Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1208849400</id>
+    <published>2009-02-14T03:54:18Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bellabacchante/statuses/1208849400"/>
+    <title>why am i only getting a headache now. snot fair /grizzles</title>
+    <content type="html">why am i only getting a &lt;b&gt;headache&lt;/b&gt; now. snot fair /grizzles</content>
+    <updated>2009-02-14T03:54:18Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81308066/CTJ_right_noe_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bellabacchante (CarolineTunnellJones)</name>
+      <uri>http://twitter.com/bellabacchante</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1208497287</id>
+    <published>2009-02-14T01:12:25Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/andrewbarnett/statuses/1208497287"/>
+    <title>smokey air -&gt; asthma, hayfever, headache. feeling bad for people near the fires.</title>
+    <content type="html">smokey air -&amp;gt; asthma, hayfever, &lt;b&gt;headache&lt;/b&gt;. feeling bad for people near the fires.</content>
+    <updated>2009-02-14T01:12:25Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68955289/oldbear_copy_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>andrewbarnett (andrew)</name>
+      <uri>http://twitter.com/andrewbarnett</uri>
+    </author>
+  </entry>
+</feed>

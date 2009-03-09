@@ -1,0 +1,6 @@
+<p><%= @urls.length %></p>
+<ul>
+<% @urls.each do |url| %>
+  <li><%= url.downloaded %> - <a href="<%= url.url %>"><%= url.url %></a></li>
+<% end %>
+</ul>

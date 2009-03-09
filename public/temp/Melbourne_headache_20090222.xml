@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-22 until:2009-02-22</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-22+until%3A2009-02-22"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-22&amp;until=2009-02-22"/>
+  <title>headache since:2009-02-22 until:2009-02-22 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-22&amp;since_id=1238691682&amp;until=2009-02-22"/>
+  <updated>2009-02-22T23:39:26Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1238631808</id>
+    <published>2009-02-22T23:39:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Euphonic/statuses/1238631808"/>
+    <title>I'm feeling a little dizzy... this probabaly is not a good sign, along with the whole feel like I'm swallowing knives, and headache thing...</title>
+    <content type="html">I'm feeling a little dizzy... this probabaly is not a good sign, along with the whole feel like I'm swallowing knives, and &lt;b&gt;headache&lt;/b&gt; thing...</content>
+    <updated>2009-02-22T23:39:26Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82709483/escher_normal.jpg"/>
+    <google:location>Melbourne - town</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Euphonic (Amber Gibson)</name>
+      <uri>http://twitter.com/Euphonic</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1238602850</id>
+    <published>2009-02-22T23:29:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/timsterne/statuses/1238602850"/>
+    <title>Sick. Headache. Tonsils swollen. Voice reduced to raspy whisper. Going back to bed.</title>
+    <content type="html">Sick. &lt;b&gt;Headache&lt;/b&gt;. Tonsils swollen. Voice reduced to raspy whisper. Going back to bed.</content>
+    <updated>2009-02-22T23:29:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52617264/satie2_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>timsterne (Tim Howard)</name>
+      <uri>http://twitter.com/timsterne</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1237091611</id>
+    <published>2009-02-22T13:18:05Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jitterlynx/statuses/1237091611"/>
+    <title>Make the bad bad headache go away!</title>
+    <content type="html">Make the bad bad &lt;b&gt;headache&lt;/b&gt; go away!</content>
+    <updated>2009-02-22T13:18:05Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/78161049/_MG_9751sml_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jitterlynx (Hanna)</name>
+      <uri>http://twitter.com/jitterlynx</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1237020028</id>
+    <published>2009-02-22T12:31:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/darsoid/statuses/1237020028"/>
+    <title>@_megzy oh shut up! :P I've got a headache, too. muap</title>
+    <content type="html">&lt;a href="http://twitter.com/_megzy"&gt;@_megzy&lt;/a&gt; oh shut up! :P I've got a &lt;b&gt;headache&lt;/b&gt;, too. muap</content>
+    <updated>2009-02-22T12:31:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81268658/0aa_normal.JPG"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>darsoid (Darcy Dann)</name>
+      <uri>http://twitter.com/darsoid</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1237002014</id>
+    <published>2009-02-22T12:18:27Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/01000101/statuses/1237002014"/>
+    <title>must get rid of this headache</title>
+    <content type="html">must get rid of this &lt;b&gt;headache&lt;/b&gt;</content>
+    <updated>2009-02-22T12:18:27Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88929844/3330949616_43eff79f49_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>01000101 (Efisia )</name>
+      <uri>http://twitter.com/01000101</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236991798</id>
+    <published>2009-02-22T12:11:14Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/florahui/statuses/1236991798"/>
+    <title>has had a nagging headache for the whole day...</title>
+    <content type="html">has had a nagging &lt;b&gt;headache&lt;/b&gt; for the whole day...</content>
+    <updated>2009-02-22T12:11:14Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80932639/IMG_0568_normal.JPG"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>florahui (Flora Hui)</name>
+      <uri>http://twitter.com/florahui</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236900366</id>
+    <published>2009-02-22T11:03:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Svix/statuses/1236900366"/>
+    <title>Has a headache and doesn't want to get ready for bed.</title>
+    <content type="html">Has a &lt;b&gt;headache&lt;/b&gt; and doesn't want to get ready for bed.</content>
+    <updated>2009-02-22T11:03:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80899579/SarahAttrill-24_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Svix (Sarah Attrill)</name>
+      <uri>http://twitter.com/Svix</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236879614</id>
+    <published>2009-02-22T10:47:51Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rumour58259/statuses/1236879614"/>
+    <title>Bloody awful headache. Like my heads being squeezed really hard. Finding it hard to think properly.</title>
+    <content type="html">Bloody awful &lt;b&gt;headache&lt;/b&gt;. Like my heads being squeezed really hard. Finding it hard to think properly.</content>
+    <updated>2009-02-22T10:47:51Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80591947/Arabidopsis-Thaliana-Pollen-Grains_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rumour58259 (Laura)</name>
+      <uri>http://twitter.com/rumour58259</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236829881</id>
+    <published>2009-02-22T10:07:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Meloniface/statuses/1236829881"/>
+    <title>Going to bed with a huge headache! Early times :(</title>
+    <content type="html">Going to bed with a huge &lt;b&gt;headache&lt;/b&gt;! Early times :(</content>
+    <updated>2009-02-22T10:07:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83819851/Picture_1_normal.png"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Meloniface (Melanie McSwain)</name>
+      <uri>http://twitter.com/Meloniface</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236809458</id>
+    <published>2009-02-22T09:51:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/steampunked/statuses/1236809458"/>
+    <title>Eeep.  Came home, lay down on the couch because of the headache...and fell asleep.  For four hours O.o</title>
+    <content type="html">Eeep.  Came home, lay down on the couch because of the &lt;b&gt;headache&lt;/b&gt;...and fell asleep.  For four hours O.o</content>
+    <updated>2009-02-22T09:51:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52619206/silver_normal.gif"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>steampunked (steampunked)</name>
+      <uri>http://twitter.com/steampunked</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236764684</id>
+    <published>2009-02-22T09:15:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lanivishnu/statuses/1236764684"/>
+    <title>i have a headache that 3 mersyndol have not been able to kill.</title>
+    <content type="html">i have a &lt;b&gt;headache&lt;/b&gt; that 3 mersyndol have not been able to kill.</content>
+    <updated>2009-02-22T09:15:07Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/63738060/n218102119_31625604_7843_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lanivishnu (Rebecca Dunne)</name>
+      <uri>http://twitter.com/lanivishnu</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236530777</id>
+    <published>2009-02-22T06:29:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/orj/statuses/1236530777"/>
+    <title>I have been feeling so fecking unwell this weekend. Have a headache that has lasted two days. Like I'm hungover but without the prior fun.</title>
+    <content type="html">I have been feeling so fecking unwell this weekend. Have a &lt;b&gt;headache&lt;/b&gt; that has lasted two days. Like I'm hungover but without the prior fun.</content>
+    <updated>2009-02-22T06:29:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/63145639/Me__cropped__normal.jpg"/>
+    <google:location>Melbourne, Victoria, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.atebits.com/software/tweetie/"&gt;Tweetie&lt;/a&gt;</twitter:source>
+    <author>
+      <name>orj (Oliver Jones)</name>
+      <uri>http://twitter.com/orj</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1236033780</id>
+    <published>2009-02-22T02:31:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/downesy/statuses/1236033780"/>
+    <title>20 minutes bent over fiddling with pool hoses. Rush of blood to the head should be good for thinking - when the headache goes</title>
+    <content type="html">20 minutes bent over fiddling with pool hoses. Rush of blood to the head should be good for thinking - when the &lt;b&gt;headache&lt;/b&gt; goes</content>
+    <updated>2009-02-22T02:31:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73055908/SD_pic_for_twitter_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>downesy (Stephen Downes)</name>
+      <uri>http://twitter.com/downesy</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1235978383</id>
+    <published>2009-02-22T02:07:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/allyouzombies/statuses/1235978383"/>
+    <title>okay now i have a headache /and/ my eye is itchy. this is awkward y/n</title>
+    <content type="html">okay now i have a &lt;b&gt;headache&lt;/b&gt; /and/ my eye is itchy. this is awkward y/n</content>
+    <updated>2009-02-22T02:07:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75581781/minime_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>allyouzombies (Jarrod)</name>
+      <uri>http://twitter.com/allyouzombies</uri>
+    </author>
+  </entry>
+</feed>

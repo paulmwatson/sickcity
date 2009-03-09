@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-21 until:2009-02-21</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-21+until%3A2009-02-21"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=51.5001524%2C-0.1262362%2C10km&amp;rpp=100&amp;since=2009-02-21&amp;until=2009-02-21"/>
+  <title>zombie since:2009-02-21 until:2009-02-21 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=51.5001524%2C-0.1262362%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-21&amp;since_id=1235680141&amp;until=2009-02-21"/>
+  <updated>2009-02-21T22:56:55Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1235521272</id>
+    <published>2009-02-21T22:56:55Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ddunwoody/statuses/1235521272"/>
+    <title>@bb42 - my favourite internet zombie link: http://tinyurl.com/cur3b9. I'm very pleased with my doppelganger's choice of genre.</title>
+    <content type="html">&lt;a href="http://twitter.com/bb42"&gt;@bb42&lt;/a&gt; - my favourite internet &lt;b&gt;zombie&lt;/b&gt; link: &lt;a href="http://tinyurl.com/cur3b9"&gt;http://tinyurl.com/cur3b9&lt;/a&gt;. I'm very pleased with my doppelganger's choice of genre.</content>
+    <updated>2009-02-21T22:56:55Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65728118/1957510_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ddunwoody (ddunwoody)</name>
+      <uri>http://twitter.com/ddunwoody</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1235408188</id>
+    <published>2009-02-21T22:13:20Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Dugi_C/statuses/1235408188"/>
+    <title>@Zombie_Claire well you are a zombie, perhaps they were disappointed</title>
+    <content type="html">&lt;a href="http://twitter.com/Zombie_Claire"&gt;@Zombie_Claire&lt;/a&gt; well you are a &lt;b&gt;zombie&lt;/b&gt;, perhaps they were disappointed</content>
+    <updated>2009-02-21T22:13:20Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88676279/ratboy_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Dugi_C (Dugi Collins)</name>
+      <uri>http://twitter.com/Dugi_C</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1234873804</id>
+    <published>2009-02-21T18:49:17Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kmwilliams/statuses/1234873804"/>
+    <title>@JTurps Killed many zombie today?</title>
+    <content type="html">&lt;a href="http://twitter.com/JTurps"&gt;@JTurps&lt;/a&gt; Killed many &lt;b&gt;zombie&lt;/b&gt; today?</content>
+    <updated>2009-02-21T18:49:17Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66307297/HelloBuddhaKitty_sml_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kmwilliams (KatherineMayWilliams)</name>
+      <uri>http://twitter.com/kmwilliams</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1234810796</id>
+    <published>2009-02-21T18:25:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Dugi_C/statuses/1234810796"/>
+    <title>@Zombie_Claire bye bye Zombie Clairem till we meet again</title>
+    <content type="html">&lt;a href="http://twitter.com/Zombie_Claire"&gt;@Zombie_Claire&lt;/a&gt; bye bye &lt;b&gt;Zombie&lt;/b&gt; Clairem till we meet again</content>
+    <updated>2009-02-21T18:25:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88676279/ratboy_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Dugi_C (Dugi Collins)</name>
+      <uri>http://twitter.com/Dugi_C</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1234762175</id>
+    <published>2009-02-21T18:08:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/sam_bishop/statuses/1234762175"/>
+    <title>working like a zombie</title>
+    <content type="html">working like a &lt;b&gt;zombie&lt;/b&gt;</content>
+    <updated>2009-02-21T18:08:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80864499/Orb_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>sam_bishop (Sam Bishop)</name>
+      <uri>http://twitter.com/sam_bishop</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1234107901</id>
+    <published>2009-02-21T13:34:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Danacea/statuses/1234107901"/>
+    <title>@loudmouthman *blinks* Morning! And thank you for the zombie love! http://tinyurl.com/27r76x</title>
+    <content type="html">&lt;a href="http://twitter.com/loudmouthman"&gt;@loudmouthman&lt;/a&gt; *blinks* Morning! And thank you for the &lt;b&gt;zombie&lt;/b&gt; love! &lt;a href="http://tinyurl.com/27r76x"&gt;http://tinyurl.com/27r76x&lt;/a&gt;</content>
+    <updated>2009-02-21T13:34:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85629378/CatMask_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Danacea (Danie Ware)</name>
+      <uri>http://twitter.com/Danacea</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1234095720</id>
+    <published>2009-02-21T13:28:13Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Danacea/statuses/1234095720"/>
+    <title>Morning, Twitter. Stumbling about like a zombie, wondering when the hell the front room turned into a squat. Way too much excess. Coffee.</title>
+    <content type="html">Morning, Twitter. Stumbling about like a &lt;b&gt;zombie&lt;/b&gt;, wondering when the hell the front room turned into a squat. Way too much excess. Coffee.</content>
+    <updated>2009-02-21T13:28:13Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85629378/CatMask_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Danacea (Danie Ware)</name>
+      <uri>http://twitter.com/Danacea</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233870237</id>
+    <published>2009-02-21T10:50:54Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/davetidey/statuses/1233870237"/>
+    <title>lol @notpatrick for the Zombie Jesus proposal.  I love it!</title>
+    <content type="html">lol &lt;a href="http://twitter.com/notpatrick"&gt;@notpatrick&lt;/a&gt; for the &lt;b&gt;Zombie&lt;/b&gt; Jesus proposal.  I love it!</content>
+    <updated>2009-02-21T10:50:54Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76718699/digifox_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://www.32hours.com/betwitteredinfo/"&gt;BeTwittered&lt;/a&gt;</twitter:source>
+    <author>
+      <name>davetidey (David Tidey)</name>
+      <uri>http://twitter.com/davetidey</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233860705</id>
+    <published>2009-02-21T10:42:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kearneykd/statuses/1233860705"/>
+    <title>@Twistedlilkitty Rec is great I'll have to add American Zombie to the list</title>
+    <content type="html">&lt;a href="http://twitter.com/Twistedlilkitty"&gt;@Twistedlilkitty&lt;/a&gt; Rec is great I'll have to add American &lt;b&gt;Zombie&lt;/b&gt; to the list</content>
+    <updated>2009-02-21T10:42:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81899730/Cartoon_pirate_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://twitterhelp.blogspot.com/2008/05/twitter-via-mobile-web-mtwittercom.html"&gt;mobile web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kearneykd (The Kaptain)</name>
+      <uri>http://twitter.com/kearneykd</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233826219</id>
+    <published>2009-02-21T10:13:17Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/espvisuals/statuses/1233826219"/>
+    <title>Zombie AKA Skullboy Interview! The Most Scary Yet Beautifully Tattooed Person Ever! http://tinyurl.com/zombietattoo</title>
+    <content type="html">&lt;b&gt;Zombie&lt;/b&gt; AKA Skullboy Interview! The Most Scary Yet Beautifully Tattooed Person Ever! &lt;a href="http://tinyurl.com/zombietattoo"&gt;http://tinyurl.com/zombietattoo&lt;/a&gt;</content>
+    <updated>2009-02-21T10:13:17Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80160415/espdrip_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>espvisuals (ESP Visuals)</name>
+      <uri>http://twitter.com/espvisuals</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233728919</id>
+    <published>2009-02-21T08:56:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/iinuit/statuses/1233728919"/>
+    <title>Dream 2: same zombie dream but they got me with a foot bite. I came back as one of course but got eaten by rats before my first kill. Damn!</title>
+    <content type="html">Dream 2: same &lt;b&gt;zombie&lt;/b&gt; dream but they got me with a foot bite. I came back as one of course but got eaten by rats before my first kill. Damn!</content>
+    <updated>2009-02-21T08:56:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55407610/cook-peter_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.twibble.de/"&gt;twibble&lt;/a&gt;</twitter:source>
+    <author>
+      <name>iinuit (Da Inuit)</name>
+      <uri>http://twitter.com/iinuit</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233722086</id>
+    <published>2009-02-21T08:51:30Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kyrik/statuses/1233722086"/>
+    <title>@extralife You have to do a zombie Yoda...</title>
+    <content type="html">&lt;a href="http://twitter.com/extralife"&gt;@extralife&lt;/a&gt; You have to do a &lt;b&gt;zombie&lt;/b&gt; Yoda...</content>
+    <updated>2009-02-21T08:51:30Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/78101062/Photo_84_normal.jpg"/>
+    <google:location>London, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kyrik (Kyri Karaiskakis)</name>
+      <uri>http://twitter.com/kyrik</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1232688160</id>
+    <published>2009-02-21T00:29:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kearneykd/statuses/1232688160"/>
+    <title>@Twistedlilkitty Had a Zombie themed week. I read the  Zombie Survival Guide, watched Fido and now watching new Resident Evil anime</title>
+    <content type="html">&lt;a href="http://twitter.com/Twistedlilkitty"&gt;@Twistedlilkitty&lt;/a&gt; Had a &lt;b&gt;Zombie&lt;/b&gt; themed week. I read the  &lt;b&gt;Zombie&lt;/b&gt; Survival Guide, watched Fido and now watching new Resident Evil anime</content>
+    <updated>2009-02-21T00:29:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81899730/Cartoon_pirate_normal.jpg"/>
+    <google:location>London</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kearneykd (The Kaptain)</name>
+      <uri>http://twitter.com/kearneykd</uri>
+    </author>
+  </entry>
+</feed>

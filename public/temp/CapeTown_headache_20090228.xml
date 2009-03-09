@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-28 until:2009-02-28</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-28+until%3A2009-02-28"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-28&amp;until=2009-02-28"/>
+  <title>headache since:2009-02-28 until:2009-02-28 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-28&amp;since_id=1263736174&amp;until=2009-02-28"/>
+  <updated>2009-02-28T15:04:11Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1262183473</id>
+    <published>2009-02-28T15:04:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hadez2000/statuses/1262183473"/>
+    <title>is busy planning the UI for the widget funtionality for his new site..  headache..</title>
+    <content type="html">is busy planning the UI for the widget funtionality for his new site..  &lt;b&gt;headache&lt;/b&gt;..</content>
+    <updated>2009-02-28T15:04:11Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68006729/Picture-018_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.ping.fm/"&gt;Ping.fm&lt;/a&gt;</twitter:source>
+    <author>
+      <name>hadez2000 (hadez2000)</name>
+      <uri>http://twitter.com/hadez2000</uri>
+    </author>
+  </entry>
+</feed>

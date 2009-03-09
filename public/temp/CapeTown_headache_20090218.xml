@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-18 until:2009-02-18</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-18+until%3A2009-02-18"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-18&amp;until=2009-02-18"/>
+  <title>headache since:2009-02-18 until:2009-02-18 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-18&amp;since_id=1224867069&amp;until=2009-02-18"/>
+  <updated>2009-02-18T20:30:46Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1224183098</id>
+    <published>2009-02-18T20:30:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hasina_za/statuses/1224183098"/>
+    <title>@SuzeMuse i think your headache may have trans-located. i have it now</title>
+    <content type="html">&lt;a href="http://twitter.com/SuzeMuse"&gt;@SuzeMuse&lt;/a&gt; i think your &lt;b&gt;headache&lt;/b&gt; may have trans-located. i have it now</content>
+    <updated>2009-02-18T20:30:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77121044/hasina_za_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>hasina_za (Hasina Suliman)</name>
+      <uri>http://twitter.com/hasina_za</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1223305361</id>
+    <published>2009-02-18T16:17:52Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rokchick03/statuses/1223305361"/>
+    <title>Me have a headache and drinking tea... and watching the Disney channel... Yeah, something's up!</title>
+    <content type="html">Me have a &lt;b&gt;headache&lt;/b&gt; and drinking tea... and watching the Disney channel... Yeah, something's up!</content>
+    <updated>2009-02-18T16:17:52Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57815144/eyecon_normal.png"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rokchick03 (rokchick03)</name>
+      <uri>http://twitter.com/rokchick03</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1222505857</id>
+    <published>2009-02-18T11:44:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/byronrode/statuses/1222505857"/>
+    <title>headache seems to be slightly better. touch wood.</title>
+    <content type="html">&lt;b&gt;headache&lt;/b&gt; seems to be slightly better. touch wood.</content>
+    <updated>2009-02-18T11:44:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69822646/n638746855_1081367_5884_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.destroytoday.com/?p=Project&amp;id=DestroyTwitter"&gt;DestroyTwitter&lt;/a&gt;</twitter:source>
+    <author>
+      <name>byronrode (Byron Rode)</name>
+      <uri>http://twitter.com/byronrode</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1222418786</id>
+    <published>2009-02-18T10:55:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/shaunoakes/statuses/1222418786"/>
+    <title>mmm, just got a lawyer's letter claiming I'm only the 94th (not 93rd)  sexiest man in Cape Town. Oi vey, a branding headache awaits.</title>
+    <content type="html">mmm, just got a lawyer's letter claiming I'm only the 94th (not 93rd)  sexiest man in Cape Town. Oi vey, a branding &lt;b&gt;headache&lt;/b&gt; awaits.</content>
+    <updated>2009-02-18T10:55:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/42630022/about-small_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>shaunoakes (Shaun Oakes)</name>
+      <uri>http://twitter.com/shaunoakes</uri>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-03-04 until:2009-03-04</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-03-04+until%3A2009-03-04"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-03-04&amp;until=2009-03-04"/>
+  <title>flu since:2009-03-04 until:2009-03-04 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-03-04&amp;since_id=1281027705&amp;until=2009-03-04"/>
+  <updated>2009-03-04T20:18:43Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1280148832</id>
+    <published>2009-03-04T20:18:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/campegg/statuses/1280148832"/>
+    <title>Still sleepy, but feeling much better for the handful of various cold and flu  drugs I've just taken.</title>
+    <content type="html">Still sleepy, but feeling much better for the handful of various cold and &lt;b&gt;flu&lt;/b&gt;  drugs I've just taken.</content>
+    <updated>2009-03-04T20:18:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/57978691/cp-som-128_normal.png"/>
+    <google:location>Melbourne, Victoria</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>campegg (Cam Pegg)</name>
+      <uri>http://twitter.com/campegg</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276678830</id>
+    <published>2009-03-04T01:55:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bryceives/statuses/1276678830"/>
+    <title>cancelled the flight to Sydney tommorow, so I can concentrate on beating this flu and moving to Footscray.</title>
+    <content type="html">cancelled the flight to Sydney tommorow, so I can concentrate on beating this &lt;b&gt;flu&lt;/b&gt; and moving to Footscray.</content>
+    <updated>2009-03-04T01:55:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67696411/n560304415_658186_129_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bryceives (Bryce Ives)</name>
+      <uri>http://twitter.com/bryceives</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276538926</id>
+    <published>2009-03-04T01:14:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bryceives/statuses/1276538926"/>
+    <title>@emmaleesharp I am a late apology for the @synmedia awards tonight. this damn flu has got me down and I can't come and play!</title>
+    <content type="html">&lt;a href="http://twitter.com/emmaleesharp"&gt;@emmaleesharp&lt;/a&gt; I am a late apology for the &lt;a href="http://twitter.com/synmedia"&gt;@synmedia&lt;/a&gt; awards tonight. this damn &lt;b&gt;flu&lt;/b&gt; has got me down and I can't come and play!</content>
+    <updated>2009-03-04T01:14:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67696411/n560304415_658186_129_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bryceives (Bryce Ives)</name>
+      <uri>http://twitter.com/bryceives</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276537654</id>
+    <published>2009-03-04T01:14:21Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/bryceives/statuses/1276537654"/>
+    <title>@ emmaleesharp I am a late apology for the @synmedia awards tonight. this damn flu has got me down and I can't come and play!</title>
+    <content type="html">@ emmaleesharp I am a late apology for the &lt;a href="http://twitter.com/synmedia"&gt;@synmedia&lt;/a&gt; awards tonight. this damn &lt;b&gt;flu&lt;/b&gt; has got me down and I can't come and play!</content>
+    <updated>2009-03-04T01:14:21Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67696411/n560304415_658186_129_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>bryceives (Bryce Ives)</name>
+      <uri>http://twitter.com/bryceives</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1276333476</id>
+    <published>2009-03-04T00:17:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/uommedia/statuses/1276333476"/>
+    <title>A vaccine to protect humans from a bird flu pandemic is close after a new discovery by researchers at UoM.http://is.gd/lFRi</title>
+    <content type="html">A vaccine to protect humans from a bird &lt;b&gt;flu&lt;/b&gt; pandemic is close after a new discovery by researchers at UoM.&lt;a href="http://is.gd/lFRi"&gt;http://is.gd/lFRi&lt;/a&gt;</content>
+    <updated>2009-03-04T00:17:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61570886/UOM-Pos3D_S_sm_normal.png"/>
+    <google:location>University of Melbourne, Parkv</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>uommedia (University of Melb)</name>
+      <uri>http://twitter.com/uommedia</uri>
+    </author>
+  </entry>
+</feed>

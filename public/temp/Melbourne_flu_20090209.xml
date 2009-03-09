@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-09 until:2009-02-09</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-09+until%3A2009-02-09"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-09&amp;until=2009-02-09"/>
+  <title>flu since:2009-02-09 until:2009-02-09 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-09&amp;since_id=1193711492&amp;until=2009-02-09"/>
+  <updated>2009-02-09T10:44:26Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1191492035</id>
+    <published>2009-02-09T10:44:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/drdent/statuses/1191492035"/>
+    <title>Trying to get sleep. Need to get rid of this flu.</title>
+    <content type="html">Trying to get sleep. Need to get rid of this &lt;b&gt;flu&lt;/b&gt;.</content>
+    <updated>2009-02-09T10:44:26Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73694264/mark_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>drdent (Mark Cameron)</name>
+      <uri>http://twitter.com/drdent</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1190543248</id>
+    <published>2009-02-09T02:27:14Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/seankelly/statuses/1190543248"/>
+    <title>Liked "Bacteria, not flu, cause of 1918 pandemic (ABC News in Science)" http://ff.im/VZqE</title>
+    <content type="html">Liked &amp;quot;Bacteria, not &lt;b&gt;flu&lt;/b&gt;, cause of 1918 pandemic (ABC News in Science)&amp;quot; &lt;a href="http://ff.im/VZqE"&gt;http://ff.im/VZqE&lt;/a&gt;</content>
+    <updated>2009-02-09T02:27:14Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52622528/MyPicture_3_normal.jpg"/>
+    <google:location>Melbourne, Victoria</google:location>
+    <twitter:source>&lt;a href="http://friendfeed.com/"&gt;FriendFeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>seankelly (Sean Kelly)</name>
+      <uri>http://twitter.com/seankelly</uri>
+    </author>
+  </entry>
+</feed>

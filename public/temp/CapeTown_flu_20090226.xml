@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-26 until:2009-02-26</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-26+until%3A2009-02-26"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-26&amp;until=2009-02-26"/>
+  <title>flu since:2009-02-26 until:2009-02-26 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-26&amp;since_id=1255972060&amp;until=2009-02-26"/>
+  <updated>2009-02-26T16:34:00Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1254213049</id>
+    <published>2009-02-26T16:34:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Blairhalk/statuses/1254213049"/>
+    <title>has the flu...not a nice thing to have in the UK!! :(</title>
+    <content type="html">has the &lt;b&gt;flu&lt;/b&gt;...not a nice thing to have in the UK!! :(</content>
+    <updated>2009-02-26T16:34:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83507754/BlairH_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Blairhalk (Blair.H)</name>
+      <uri>http://twitter.com/Blairhalk</uri>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-03-05 until:2009-03-05</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-03-05+until%3A2009-03-05"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-03-05&amp;until=2009-03-05"/>
+  <title>flu since:2009-03-05 until:2009-03-05 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-03-05&amp;since_id=1285961526&amp;until=2009-03-05"/>
+  <updated>2009-03-05T21:52:46Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1285433519</id>
+    <published>2009-03-05T21:52:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jhaebets/statuses/1285433519"/>
+    <title>some light humor for a friday. Beware of Man Flu  http://bit.ly/11zE1t</title>
+    <content type="html">some light humor for a friday. Beware of Man &lt;b&gt;Flu&lt;/b&gt;  &lt;a href="http://bit.ly/11zE1t"&gt;http://bit.ly/11zE1t&lt;/a&gt;</content>
+    <updated>2009-03-05T21:52:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73633976/joshua_haebets2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jhaebets (Joshua Haebets)</name>
+      <uri>http://twitter.com/jhaebets</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1282915471</id>
+    <published>2009-03-05T11:23:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ravingrichie/statuses/1282915471"/>
+    <title>@rheinardkorf Appendix, whoh and you thought it was just a flu thing!</title>
+    <content type="html">&lt;a href="http://twitter.com/rheinardkorf"&gt;@rheinardkorf&lt;/a&gt; Appendix, whoh and you thought it was just a &lt;b&gt;flu&lt;/b&gt; thing!</content>
+    <updated>2009-03-05T11:23:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81634167/bikerich_normal.jpg"/>
+    <google:location>Hawthorn, Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ravingrichie (Rich Rutter)</name>
+      <uri>http://twitter.com/ravingrichie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1282699938</id>
+    <published>2009-03-05T09:36:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/moo_DBM/statuses/1282699938"/>
+    <title>i'm sick... flu has attacked me.</title>
+    <content type="html">i'm sick... &lt;b&gt;flu&lt;/b&gt; has attacked me.</content>
+    <updated>2009-03-05T09:36:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/78674453/n604722673_1570583_2780_normal.jpg"/>
+    <google:location>Kew, Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>moo_DBM (Simon Mackinnon)</name>
+      <uri>http://twitter.com/moo_DBM</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1282622586</id>
+    <published>2009-03-05T08:58:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/matt_trentini/statuses/1282622586"/>
+    <title>Cold/Flu drugs are awesome!  Clears the head, sinus, blocks the nose and reduces the aches...I &lt;3 modern medicine!</title>
+    <content type="html">Cold/&lt;b&gt;Flu&lt;/b&gt; drugs are awesome!  Clears the head, sinus, blocks the nose and reduces the aches...I &amp;lt;3 modern medicine!</content>
+    <updated>2009-03-05T08:58:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/42911312/Photo_9_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>matt_trentini (matt_trentini)</name>
+      <uri>http://twitter.com/matt_trentini</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1282334242</id>
+    <published>2009-03-05T06:41:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/zooba/statuses/1282334242"/>
+    <title>Think I'm starting to get the flu... kind of ironic since I'm meant to be getting a flu shot tomorrow.</title>
+    <content type="html">Think I'm starting to get the &lt;b&gt;flu&lt;/b&gt;... kind of ironic since I'm meant to be getting a &lt;b&gt;flu&lt;/b&gt; shot tomorrow.</content>
+    <updated>2009-03-05T06:41:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/19468762/Zsml_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>zooba (Zooba)</name>
+      <uri>http://twitter.com/zooba</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1282279447</id>
+    <published>2009-03-05T06:17:43Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/abuttigieg/statuses/1282279447"/>
+    <title>Flu shot booking placed</title>
+    <content type="html">&lt;b&gt;Flu&lt;/b&gt; shot booking placed</content>
+    <updated>2009-03-05T06:17:43Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/87116836/WolverineAvatar_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>abuttigieg (Andrew Buttigieg)</name>
+      <uri>http://twitter.com/abuttigieg</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1281162651</id>
+    <published>2009-03-05T00:41:22Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/willygee/statuses/1281162651"/>
+    <title>Would like a very quick cure for flu-like illness. Suggestions?</title>
+    <content type="html">Would like a very quick cure for &lt;b&gt;flu&lt;/b&gt;-like illness. Suggestions?</content>
+    <updated>2009-03-05T00:41:22Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85719657/Photo_2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>willygee (Will Shirriffs)</name>
+      <uri>http://twitter.com/willygee</uri>
+    </author>
+  </entry>
+</feed>

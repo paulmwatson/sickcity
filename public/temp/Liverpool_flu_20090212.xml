@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-12 until:2009-02-12</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-12+until%3A2009-02-12"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=53.4107766%2C-2.9778383%2C10km&amp;rpp=100&amp;since=2009-02-12&amp;until=2009-02-12"/>
+  <title>flu since:2009-02-12 until:2009-02-12 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=53.4107766%2C-2.9778383%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-12&amp;since_id=1204647774&amp;until=2009-02-12"/>
+  <updated>2009-02-12T18:34:10Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1203584267</id>
+    <published>2009-02-12T18:34:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/LeeStanfield/statuses/1203584267"/>
+    <title>Ugh think I'm getting man flu. 
+Woe is me :(</title>
+    <content type="html">Ugh think I'm getting man &lt;b&gt;flu&lt;/b&gt;. 
+Woe is me :(</content>
+    <updated>2009-02-12T18:34:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/90349543/871002399a552093c30a539b53ec9911_normal.jpg"/>
+    <google:location>Liverpool, United Kingdom</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>LeeStanfield (Lee Stanfield)</name>
+      <uri>http://twitter.com/LeeStanfield</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1202048903</id>
+    <published>2009-02-12T08:44:22Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/IJL/statuses/1202048903"/>
+    <title>still at home with man flu. just about to have breakfast.</title>
+    <content type="html">still at home with man &lt;b&gt;flu&lt;/b&gt;. just about to have breakfast.</content>
+    <updated>2009-02-12T08:44:22Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <google:location>Liverpool</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>IJL (Ian Lunt)</name>
+      <uri>http://twitter.com/IJL</uri>
+    </author>
+  </entry>
+</feed>

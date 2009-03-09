@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-12 until:2009-02-12</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-12+until%3A2009-02-12"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-12&amp;until=2009-02-12"/>
+  <title>zombie since:2009-02-12 until:2009-02-12 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-12&amp;since_id=1204647774&amp;until=2009-02-12"/>
+  <updated>2009-02-12T21:11:46Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1204123455</id>
+    <published>2009-02-12T21:11:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/madam3181/statuses/1204123455"/>
+    <title>@Junesun It takes all kinds of geeks to make the world. Give the Zombie guys a break :)</title>
+    <content type="html">&lt;a href="http://twitter.com/Junesun"&gt;@Junesun&lt;/a&gt; It takes all kinds of geeks to make the world. Give the &lt;b&gt;Zombie&lt;/b&gt; guys a break :)</content>
+    <updated>2009-02-12T21:11:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71969330/3208681992_2e4e514cab_o22_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>madam3181 (Paul Rees)</name>
+      <uri>http://twitter.com/madam3181</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1202137154</id>
+    <published>2009-02-12T09:41:08Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/horrormovie/statuses/1202137154"/>
+    <title>I've just watched Quarantine and think it is a great film. So intense. Zombie films are become my new favorite sub genre.</title>
+    <content type="html">I've just watched Quarantine and think it is a great film. So intense. &lt;b&gt;Zombie&lt;/b&gt; films are become my new favorite sub genre.</content>
+    <updated>2009-02-12T09:41:08Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76375554/twitter_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>horrormovie (horrormovie)</name>
+      <uri>http://twitter.com/horrormovie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1201937607</id>
+    <published>2009-02-12T07:32:39Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Joelsk_/statuses/1201937607"/>
+    <title>i think i will just stay home and work on my Zombie killing tactics. So much to go through. The planning is becomming quite in-depth</title>
+    <content type="html">i think i will just stay home and work on my &lt;b&gt;Zombie&lt;/b&gt; killing tactics. So much to go through. The planning is becomming quite in-depth</content>
+    <updated>2009-02-12T07:32:39Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74330276/manyjoelsNew2small_normal.JPG"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Joelsk_ (Joelsk)</name>
+      <uri>http://twitter.com/Joelsk_</uri>
+    </author>
+  </entry>
+</feed>

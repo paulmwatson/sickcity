@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-03-08 until:2009-03-08</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-03-08+until%3A2009-03-08"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=40.7560540%2C-73.9869510%2C10km&amp;rpp=100&amp;since=2009-03-08&amp;until=2009-03-08"/>
+  <title>zombie since:2009-03-08 until:2009-03-08 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=40.7560540%2C-73.9869510%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-03-08&amp;since_id=1298170757&amp;until=2009-03-08"/>
+  <updated>2009-03-08T22:21:08Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297848949</id>
+    <published>2009-03-08T22:21:08Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/venturat/statuses/1297848949"/>
+    <title>@chrisbrogan The Hungry City Chronicles and the Zombie Survival Guide. ;D</title>
+    <content type="html">&lt;a href="http://twitter.com/chrisbrogan"&gt;@chrisbrogan&lt;/a&gt; The Hungry City Chronicles and the &lt;b&gt;Zombie&lt;/b&gt; Survival Guide. ;D</content>
+    <updated>2009-03-08T22:21:08Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/86403123/03_normal.jpg"/>
+    <google:location>NY</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>venturat (Tina Ventura)</name>
+      <uri>http://twitter.com/venturat</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297811340</id>
+    <published>2009-03-08T22:09:14Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/fashionpirate/statuses/1297811340"/>
+    <title>@alycupcakes im dying. it's perfect. im dead, im a zombie. i want to eat it. it is the brains to my fashion zombie afterlife.</title>
+    <content type="html">&lt;a href="http://twitter.com/alycupcakes"&gt;@alycupcakes&lt;/a&gt; im dying. it's perfect. im dead, im a &lt;b&gt;zombie&lt;/b&gt;. i want to eat it. it is the brains to my fashion &lt;b&gt;zombie&lt;/b&gt; afterlife.</content>
+    <updated>2009-03-08T22:09:14Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67265628/3101621702_74c8f082cf_normal.jpg"/>
+    <google:location>Jersey City</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>fashionpirate (Arabelle)</name>
+      <uri>http://twitter.com/fashionpirate</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297809190</id>
+    <published>2009-03-08T22:08:33Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/BigAppleAngie/statuses/1297809190"/>
+    <title>@laurenj27 said I look like a zombie, so I took a nap... now up working on video blogs, my 500-word essay and a little thing called dinner.</title>
+    <content type="html">&lt;a href="http://twitter.com/laurenj27"&gt;@laurenj27&lt;/a&gt; said I look like a &lt;b&gt;zombie&lt;/b&gt;, so I took a nap... now up working on video blogs, my 500-word essay and a little thing called dinner.</content>
+    <updated>2009-03-08T22:08:33Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61151513/Twitt_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>BigAppleAngie (BigAppleAngie)</name>
+      <uri>http://twitter.com/BigAppleAngie</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297690426</id>
+    <published>2009-03-08T21:31:39Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/crazyleah/statuses/1297690426"/>
+    <title>I think the reason I love Zombie movies is the unambiguous knowledge that everyone is going to die horribly.</title>
+    <content type="html">I think the reason I love &lt;b&gt;Zombie&lt;/b&gt; movies is the unambiguous knowledge that everyone is going to die horribly.</content>
+    <updated>2009-03-08T21:31:39Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81336942/n17401710_30549654_7_normal.jpg"/>
+    <google:location>Brooklyn, NY</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>crazyleah (Leah Goldensohn)</name>
+      <uri>http://twitter.com/crazyleah</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297378768</id>
+    <published>2009-03-08T19:53:44Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/danbharris/statuses/1297378768"/>
+    <title>has the term "zombie bank" gotten old yet? (i notice it now has a wikipedia page: http://tinyurl.com/bpwvc3</title>
+    <content type="html">has the term &amp;quot;&lt;b&gt;zombie&lt;/b&gt; bank&amp;quot; gotten old yet? (i notice it now has a wikipedia page: &lt;a href="http://tinyurl.com/bpwvc3"&gt;http://tinyurl.com/bpwvc3&lt;/a&gt;</content>
+    <updated>2009-03-08T19:53:44Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80394652/Dan_Harris_pic_normal.jpg"/>
+    <google:location>nyc</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>danbharris (dan harris)</name>
+      <uri>http://twitter.com/danbharris</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297370432</id>
+    <published>2009-03-08T19:50:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/JimiFitzVighnes/statuses/1297370432"/>
+    <title>Zombie spliff is aigh</title>
+    <content type="html">&lt;b&gt;Zombie&lt;/b&gt; spliff is aigh</content>
+    <updated>2009-03-08T19:50:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/90693359/fs1_normal.png"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>JimiFitzVighnes (Jimi Fitz Vighnes)</name>
+      <uri>http://twitter.com/JimiFitzVighnes</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297318932</id>
+    <published>2009-03-08T19:34:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/AfricanusMinor/statuses/1297318932"/>
+    <title>Jaggerbombs make you feel like a fucking zombie the next day. You want to sleep and your tired but you can't, in fact your wide awake</title>
+    <content type="html">Jaggerbombs make you feel like a fucking &lt;b&gt;zombie&lt;/b&gt; the next day. You want to sleep and your tired but you can't, in fact your wide awake</content>
+    <updated>2009-03-08T19:34:11Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <author>
+      <name>AfricanusMinor (AfricanusMinor)</name>
+      <uri>http://twitter.com/AfricanusMinor</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297260302</id>
+    <published>2009-03-08T19:15:22Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/NyBarfly/statuses/1297260302"/>
+    <title>Blech. Too much red wine and zombie movies last night. I feel like one of those rat people in Mulberry Street (bad bad bad).</title>
+    <content type="html">Blech. Too much red wine and &lt;b&gt;zombie&lt;/b&gt; movies last night. I feel like one of those rat people in Mulberry Street (bad bad bad).</content>
+    <updated>2009-03-08T19:15:22Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/59674209/NYBarfly_Logo_Small_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>NyBarfly (NyBarfly)</name>
+      <uri>http://twitter.com/NyBarfly</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1297021431</id>
+    <published>2009-03-08T17:58:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/goulashriot/statuses/1297021431"/>
+    <title>@adamsdayoff possible new location for mass nerd-dom? i feel the urge to buy zombie comics.</title>
+    <content type="html">&lt;a href="http://twitter.com/adamsdayoff"&gt;@adamsdayoff&lt;/a&gt; possible new location for mass nerd-dom? i feel the urge to buy &lt;b&gt;zombie&lt;/b&gt; comics.</content>
+    <updated>2009-03-08T17:58:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/86573765/calvin_normal.jpg"/>
+    <google:location>New York City</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>goulashriot (Brian Yurko)</name>
+      <uri>http://twitter.com/goulashriot</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1296811518</id>
+    <published>2009-03-08T16:47:28Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/sw_inku/statuses/1296811518"/>
+    <title>god I kept waking up from post apocalypse / zombie dreams last night</title>
+    <content type="html">god I kept waking up from post apocalypse / &lt;b&gt;zombie&lt;/b&gt; dreams last night</content>
+    <updated>2009-03-08T16:47:28Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66303051/sw_red_normal.png"/>
+    <google:location>NY. NY</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>sw_inku (Stevie Wilson)</name>
+      <uri>http://twitter.com/sw_inku</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1296715357</id>
+    <published>2009-03-08T16:13:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/cdiercksen/statuses/1296715357"/>
+    <title>I sound like Barry White this morning, leading me to believe that I will look like a zombie this week. coincidence?</title>
+    <content type="html">I sound like Barry White this morning, leading me to believe that I will look like a &lt;b&gt;zombie&lt;/b&gt; this week. coincidence?</content>
+    <updated>2009-03-08T16:13:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67664032/10048049_normal.jpg"/>
+    <google:location>nyc</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>cdiercksen (chris diercksen)</name>
+      <uri>http://twitter.com/cdiercksen</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1296112903</id>
+    <published>2009-03-08T11:50:10Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/NEWinNICHE/statuses/1296112903"/>
+    <title>SCENT on  SUNDAY: Apres l"ondee by Guerlain- where have all the great  Guerlains gone?  2009  is the invasion of the  LVMH zombie flankers</title>
+    <content type="html">SCENT on  SUNDAY: Apres l&amp;quot;ondee by Guerlain- where have all the great  Guerlains gone?  2009  is the invasion of the  LVMH &lt;b&gt;zombie&lt;/b&gt; flankers</content>
+    <updated>2009-03-08T11:50:10Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66647090/avatar2_normal.jpg"/>
+    <google:location>nyc</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>NEWinNICHE (MICHELYN CAMEN)</name>
+      <uri>http://twitter.com/NEWinNICHE</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1296083105</id>
+    <published>2009-03-08T11:32:31Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/hailstorm224/statuses/1296083105"/>
+    <title>3 hours of sleep really is just enough to be a space cadet, or a zombie.</title>
+    <content type="html">3 hours of sleep really is just enough to be a space cadet, or a &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-03-08T11:32:31Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55250861/Reardon_3-4_normal.jpg"/>
+    <google:location>Brooklyn NY</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>hailstorm224 (Christopher Reardon)</name>
+      <uri>http://twitter.com/hailstorm224</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1295497537</id>
+    <published>2009-03-08T05:48:04Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Rikakulon/statuses/1295497537"/>
+    <title>@DidYouSayGil If you. Um. If you need help with Zombie Hamlet. Um. Let me know.</title>
+    <content type="html">&lt;a href="http://twitter.com/DidYouSayGil"&gt;@DidYouSayGil&lt;/a&gt; If you. Um. If you need help with &lt;b&gt;Zombie&lt;/b&gt; Hamlet. Um. Let me know.</content>
+    <updated>2009-03-08T05:48:04Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71378160/IMG_1926_normal.JPG"/>
+    <google:location>Manhattan</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Rikakulon (Rachel Destroy)</name>
+      <uri>http://twitter.com/Rikakulon</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1294960501</id>
+    <published>2009-03-08T02:20:38Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Agent_M/statuses/1294960501"/>
+    <title>@crimsong19 I used to work at the Palisades mall in West Nyack, NY. I spent a LOT of time dreaming about zombie battles in that place.</title>
+    <content type="html">&lt;a href="http://twitter.com/crimsong19"&gt;@crimsong19&lt;/a&gt; I used to work at the Palisades mall in West Nyack, NY. I spent a LOT of time dreaming about &lt;b&gt;zombie&lt;/b&gt; battles in that place.</content>
+    <updated>2009-03-08T02:20:38Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/21969412/3020972_normal.jpg"/>
+    <google:location>nyc</google:location>
+    <twitter:source>&lt;a href="http://twidroid.com"&gt;twidroid&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Agent_M (Agent M)</name>
+      <uri>http://twitter.com/Agent_M</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1294733408</id>
+    <published>2009-03-08T01:00:27Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jainy9/statuses/1294733408"/>
+    <title>What kills zombies in this movie?  Alcohol. I'm glad I'm not a zombie.</title>
+    <content type="html">What kills zombies in this movie?  Alcohol. I'm glad I'm not a &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-03-08T01:00:27Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/89857481/twittertattoo131_normal.jpg"/>
+    <google:location>Sunnyside Queens</google:location>
+    <twitter:source>&lt;a href="http://www.atebits.com/software/tweetie/"&gt;Tweetie&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jainy9 (Joseph Isahack)</name>
+      <uri>http://twitter.com/jainy9</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1294631772</id>
+    <published>2009-03-08T00:24:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/reeph/statuses/1294631772"/>
+    <title>RT @DonStugots: http://twitpic.com/1wrcy - Zombie stugots - Looks VERY Hitlerish!</title>
+    <content type="html">RT &lt;a href="http://twitter.com/DonStugots"&gt;@DonStugots&lt;/a&gt;: &lt;a href="http://twitpic.com/1wrcy"&gt;http://twitpic.com/1wrcy&lt;/a&gt; - &lt;b&gt;Zombie&lt;/b&gt; stugots - Looks VERY Hitlerish!</content>
+    <updated>2009-03-08T00:24:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72597248/n840226309_270973_4645_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>reeph (Tony Fafa)</name>
+      <uri>http://twitter.com/reeph</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1294594280</id>
+    <published>2009-03-08T00:09:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/reeph/statuses/1294594280"/>
+    <title>@DonStugots Why does Zombie Stugots look like Hitler after a street fight?</title>
+    <content type="html">&lt;a href="http://twitter.com/DonStugots"&gt;@DonStugots&lt;/a&gt; Why does &lt;b&gt;Zombie&lt;/b&gt; Stugots look like Hitler after a street fight?</content>
+    <updated>2009-03-08T00:09:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72597248/n840226309_270973_4645_normal.jpg"/>
+    <google:location>New York</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>reeph (Tony Fafa)</name>
+      <uri>http://twitter.com/reeph</uri>
+    </author>
+  </entry>
+</feed>

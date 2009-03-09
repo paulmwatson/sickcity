@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-23 until:2009-02-23</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-23+until%3A2009-02-23"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-23&amp;until=2009-02-23"/>
+  <title>zombie since:2009-02-23 until:2009-02-23 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-23&amp;since_id=1242881430&amp;until=2009-02-23"/>
+  <updated>2009-02-23T12:54:02Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1240674330</id>
+    <published>2009-02-23T12:54:02Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/missbossyboots/statuses/1240674330"/>
+    <title>My god rpatzz looks like a zombie.</title>
+    <content type="html">My god rpatzz looks like a &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-02-23T12:54:02Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/39295872/28247_normal.jpeg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>missbossyboots (natty)</name>
+      <uri>http://twitter.com/missbossyboots</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1240498642</id>
+    <published>2009-02-23T11:20:54Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/johannaneilsen/statuses/1240498642"/>
+    <title>@BillyMathers you think lovely Hugh Jackman is a zombie?</title>
+    <content type="html">&lt;a href="http://twitter.com/BillyMathers"&gt;@BillyMathers&lt;/a&gt; you think lovely Hugh Jackman is a &lt;b&gt;zombie&lt;/b&gt;?</content>
+    <updated>2009-02-23T11:20:54Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/77562990/profile_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>johannaneilsen (Johanna Neilsen)</name>
+      <uri>http://twitter.com/johannaneilsen</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1239711488</id>
+    <published>2009-02-23T04:30:27Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/LarryHudson/statuses/1239711488"/>
+    <title>Who's the zombie on stage?</title>
+    <content type="html">Who's the &lt;b&gt;zombie&lt;/b&gt; on stage?</content>
+    <updated>2009-02-23T04:30:27Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68699504/1536915_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.atebits.com/software/tweetie/"&gt;Tweetie&lt;/a&gt;</twitter:source>
+    <author>
+      <name>LarryHudson (Larry Hudson)</name>
+      <uri>http://twitter.com/LarryHudson</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1239316150</id>
+    <published>2009-02-23T02:54:12Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rob_caporetto/statuses/1239316150"/>
+    <title>At least I know I'm actually human now - and not a zombie or vampire or something undead... *phew*</title>
+    <content type="html">At least I know I'm actually human now - and not a &lt;b&gt;zombie&lt;/b&gt; or vampire or something undead... *phew*</content>
+    <updated>2009-02-23T02:54:12Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75007705/Rob_20090202opt_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://thecosmicmachine.com/eventbox/"&gt;EventBox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rob_caporetto (Rob Caporetto)</name>
+      <uri>http://twitter.com/rob_caporetto</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1239253332</id>
+    <published>2009-02-23T02:37:52Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/markdotoole/statuses/1239253332"/>
+    <title>Maybe I should argue a few... tell him that Michael Jackson actually transformed into a Zombie in the video for Ben.</title>
+    <content type="html">Maybe I should argue a few... tell him that Michael Jackson actually transformed into a &lt;b&gt;Zombie&lt;/b&gt; in the video for Ben.</content>
+    <updated>2009-02-23T02:37:52Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80883377/Right_Eye_jpeg_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>markdotoole (Mark O'Toole)</name>
+      <uri>http://twitter.com/markdotoole</uri>
+    </author>
+  </entry>
+</feed>

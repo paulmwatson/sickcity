@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090309021705) do
+ActiveRecord::Schema.define(:version => 20090309165632) do
 
   create_table "cities", :force => true do |t|
     t.string   "name"
@@ -56,6 +56,18 @@ ActiveRecord::Schema.define(:version => 20090309021705) do
     t.string   "search"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "url_downloads", :force => true do |t|
+    t.string   "filename"
+    t.string   "url"
+    t.boolean  "downloaded",  :default => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "city_id"
+    t.integer  "phrase_id"
+    t.datetime "sample_date"
+    t.boolean  "imported",    :default => false
   end
 
 end

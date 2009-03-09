@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-16 until:2009-02-16</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-16+until%3A2009-02-16"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-16&amp;until=2009-02-16"/>
+  <title>flu since:2009-02-16 until:2009-02-16 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-16&amp;since_id=1217142686&amp;until=2009-02-16"/>
+  <updated>2009-02-16T21:48:37Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1216753733</id>
+    <published>2009-02-16T21:48:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ulishoes/statuses/1216753733"/>
+    <title>everyone around here seems to be getting this dreaded throat-flu thing.</title>
+    <content type="html">everyone around here seems to be getting this dreaded throat-&lt;b&gt;flu&lt;/b&gt; thing.</content>
+    <updated>2009-02-16T21:48:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/67080973/jimmy_choo_ruby_slipper_wizard_oz_3_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ulishoes (ulishoes)</name>
+      <uri>http://twitter.com/ulishoes</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1216553217</id>
+    <published>2009-02-16T20:45:18Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Kumuda/statuses/1216553217"/>
+    <title>Dear baby H. I look grumpy because I have the flu and I was woken up at 5.30am. I'll let you know when the grumpy passes.</title>
+    <content type="html">Dear baby H. I look grumpy because I have the &lt;b&gt;flu&lt;/b&gt; and I was woken up at 5.30am. I'll let you know when the grumpy passes.</content>
+    <updated>2009-02-16T20:45:18Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/58576718/DSC_0704_normal.JPG"/>
+    <google:location>Melbourne Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Kumuda (Kumuda Simpson)</name>
+      <uri>http://twitter.com/Kumuda</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1214761270</id>
+    <published>2009-02-16T09:01:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/prettypinkbow/statuses/1214761270"/>
+    <title>@FUCKCITY wow thought I was the only one who obsessivley tweets LOL.Any thoughts on magical cures for the flu? Must feel better b4 wednesday</title>
+    <content type="html">&lt;a href="http://twitter.com/FUCKCITY"&gt;@FUCKCITY&lt;/a&gt; wow thought I was the only one who obsessivley tweets LOL.Any thoughts on magical cures for the &lt;b&gt;flu&lt;/b&gt;? Must feel better b4 wednesday</content>
+    <updated>2009-02-16T09:01:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71727573/1_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/twinkleking"&gt;Twinkle&lt;/a&gt;</twitter:source>
+    <author>
+      <name>prettypinkbow (Anna)</name>
+      <uri>http://twitter.com/prettypinkbow</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1213832858</id>
+    <published>2009-02-16T01:11:20Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/helen_lo/statuses/1213832858"/>
+    <title>Participate in the flu tracking project (Australians)  http://bit.ly/9H4qc</title>
+    <content type="html">Participate in the &lt;b&gt;flu&lt;/b&gt; tracking project (Australians)  &lt;a href="http://bit.ly/9H4qc"&gt;http://bit.ly/9H4qc&lt;/a&gt;</content>
+    <updated>2009-02-16T01:11:20Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/63520154/close-up_normal.jpg"/>
+    <google:location>Thornbury, Melbourne Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>helen_lo (Helen Lawrence)</name>
+      <uri>http://twitter.com/helen_lo</uri>
+    </author>
+  </entry>
+</feed>

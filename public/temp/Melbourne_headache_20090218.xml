@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-18 until:2009-02-18</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-18+until%3A2009-02-18"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-18&amp;until=2009-02-18"/>
+  <title>headache since:2009-02-18 until:2009-02-18 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-18&amp;since_id=1224867069&amp;until=2009-02-18"/>
+  <updated>2009-02-18T22:51:51Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1224658208</id>
+    <published>2009-02-18T22:51:51Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/1234emmat/statuses/1224658208"/>
+    <title>Headache headache go away, dont come back another day.</title>
+    <content type="html">&lt;b&gt;Headache&lt;/b&gt; &lt;b&gt;headache&lt;/b&gt; go away, dont come back another day.</content>
+    <updated>2009-02-18T22:51:51Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70172188/Image010_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <author>
+      <name>1234emmat (emma thomason)</name>
+      <uri>http://twitter.com/1234emmat</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1224543426</id>
+    <published>2009-02-18T22:17:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/grtdane/statuses/1224543426"/>
+    <title>Good late morning, just recovering from a severe headache I had, back on deck now.</title>
+    <content type="html">Good late morning, just recovering from a severe &lt;b&gt;headache&lt;/b&gt; I had, back on deck now.</content>
+    <updated>2009-02-18T22:17:53Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <google:location>Melbourne Vi Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>grtdane (Dane Trethowan)</name>
+      <uri>http://twitter.com/grtdane</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1224391429</id>
+    <published>2009-02-18T21:34:06Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/obrienmp/statuses/1224391429"/>
+    <title>woke up with a headache... :(</title>
+    <content type="html">woke up with a &lt;b&gt;headache&lt;/b&gt;... :(</content>
+    <updated>2009-02-18T21:34:06Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/79619154/twitter_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>obrienmp (Michael O'Brien)</name>
+      <uri>http://twitter.com/obrienmp</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1222697565</id>
+    <published>2009-02-18T13:10:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/istvanv/statuses/1222697565"/>
+    <title>This is funny! Certainly removed one headache caused by trying to decide which phone to go for: http://is.gd/jXnp - Palm Pre still winning!</title>
+    <content type="html">This is funny! Certainly removed one &lt;b&gt;headache&lt;/b&gt; caused by trying to decide which phone to go for: &lt;a href="http://is.gd/jXnp"&gt;http://is.gd/jXnp&lt;/a&gt; - Palm Pre still winning!</content>
+    <updated>2009-02-18T13:10:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74341250/forum_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://83degrees.com/to/powertwitter"&gt;Power Twitter&lt;/a&gt;</twitter:source>
+    <author>
+      <name>istvanv (Istv&#225;n Vincze)</name>
+      <uri>http://twitter.com/istvanv</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1221676011</id>
+    <published>2009-02-18T04:18:31Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/chrisryantaylor/statuses/1221676011"/>
+    <title>just got a massive headache from running 40mins of acceptance tests, ouch</title>
+    <content type="html">just got a massive &lt;b&gt;headache&lt;/b&gt; from running 40mins of acceptance tests, ouch</content>
+    <updated>2009-02-18T04:18:31Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76617920/PAINTBALL2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</twitter:source>
+    <author>
+      <name>chrisryantaylor (Chris)</name>
+      <uri>http://twitter.com/chrisryantaylor</uri>
+    </author>
+  </entry>
+</feed>

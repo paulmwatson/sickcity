@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-03-05 until:2009-03-05</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-03-05+until%3A2009-03-05"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-03-05&amp;until=2009-03-05"/>
+  <title>headache since:2009-03-05 until:2009-03-05 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-03-05&amp;since_id=1285961526&amp;until=2009-03-05"/>
+  <updated>2009-03-05T22:12:41Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1285523689</id>
+    <published>2009-03-05T22:12:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Robi27/statuses/1285523689"/>
+    <title>In bed now.. Snug yet cool.. Lil headache tho.. *sleepy pout*</title>
+    <content type="html">In bed now.. Snug yet cool.. Lil &lt;b&gt;headache&lt;/b&gt; tho.. *sleepy pout*</content>
+    <updated>2009-03-05T22:12:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85699819/Razy_s-pic023-Glowing-cool_normal.jpg"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://twitterhelp.blogspot.com/2008/05/twitter-via-mobile-web-mtwittercom.html"&gt;mobile web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Robi27 (Robyn Addinall)</name>
+      <uri>http://twitter.com/Robi27</uri>
+    </author>
+  </entry>
+</feed>

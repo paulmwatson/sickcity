@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-19 until:2009-02-19</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-19+until%3A2009-02-19"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-19&amp;until=2009-02-19"/>
+  <title>zombie since:2009-02-19 until:2009-02-19 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-19&amp;since_id=1228668654&amp;until=2009-02-19"/>
+  <updated>2009-02-19T20:06:07Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1227905970</id>
+    <published>2009-02-19T20:06:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/lanche_au/statuses/1227905970"/>
+    <title>@izzynobre not much, just got up, got school to go to soon... how was the zombie movie?</title>
+    <content type="html">&lt;a href="http://twitter.com/izzynobre"&gt;@izzynobre&lt;/a&gt; not much, just got up, got school to go to soon... how was the &lt;b&gt;zombie&lt;/b&gt; movie?</content>
+    <updated>2009-02-19T20:06:07Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80072565/stigchimney_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>lanche_au (Sam)</name>
+      <uri>http://twitter.com/lanche_au</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1226505550</id>
+    <published>2009-02-19T13:04:53Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/timeyles/statuses/1226505550"/>
+    <title>Interactive Zombie Movie online? http://www.survivetheoutbreak.com/</title>
+    <content type="html">Interactive &lt;b&gt;Zombie&lt;/b&gt; Movie online? &lt;a href="http://www.survivetheoutbreak.com/"&gt;http://www.survivetheoutbreak.com/&lt;/a&gt;</content>
+    <updated>2009-02-19T13:04:53Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/70164615/timshave002_normal.jpg"/>
+    <google:location>Melbourne, Australia.</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>timeyles (timeyles)</name>
+      <uri>http://twitter.com/timeyles</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1226424331</id>
+    <published>2009-02-19T12:29:52Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rumour58259/statuses/1226424331"/>
+    <title>I look like a zombie.</title>
+    <content type="html">I look like a &lt;b&gt;zombie&lt;/b&gt;.</content>
+    <updated>2009-02-19T12:29:52Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/80591947/Arabidopsis-Thaliana-Pollen-Grains_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rumour58259 (Laura)</name>
+      <uri>http://twitter.com/rumour58259</uri>
+    </author>
+  </entry>
+</feed>

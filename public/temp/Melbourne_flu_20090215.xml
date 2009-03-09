@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-15 until:2009-02-15</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-15+until%3A2009-02-15"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-15&amp;until=2009-02-15"/>
+  <title>flu since:2009-02-15 until:2009-02-15 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-15&amp;since_id=1213676130&amp;until=2009-02-15"/>
+  <updated>2009-02-15T22:31:15Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1213465145</id>
+    <published>2009-02-15T22:31:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/drylight/statuses/1213465145"/>
+    <title>a cold and/or flu is hitting me.</title>
+    <content type="html">a cold and/or &lt;b&gt;flu&lt;/b&gt; is hitting me.</content>
+    <updated>2009-02-15T22:31:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81689911/comic_book_guy_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>drylight (Diego Barros)</name>
+      <uri>http://twitter.com/drylight</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1213270349</id>
+    <published>2009-02-15T21:11:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Blacky/statuses/1213270349"/>
+    <title>@Maxsmomhere Try this out it will you fight those nasty bugs. It works for our family. no flu or colds for 3 years.www.x1pro.com</title>
+    <content type="html">&lt;a href="http://twitter.com/Maxsmomhere"&gt;@Maxsmomhere&lt;/a&gt; Try this out it will you fight those nasty bugs. It works for our family. no &lt;b&gt;flu&lt;/b&gt; or colds for 3 years.&lt;a href="http://www.x1pro.com"&gt;www.x1pro.com&lt;/a&gt;</content>
+    <updated>2009-02-15T21:11:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68934192/salblacky5_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Blacky (Stephen Black)</name>
+      <uri>http://twitter.com/Blacky</uri>
+    </author>
+  </entry>
+</feed>

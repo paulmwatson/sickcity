@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-24 until:2009-02-24</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-24+until%3A2009-02-24"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-24&amp;until=2009-02-24"/>
+  <title>flu since:2009-02-24 until:2009-02-24 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-24&amp;since_id=1247074821&amp;until=2009-02-24"/>
+  <updated>2009-02-24T23:37:11Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1247000006</id>
+    <published>2009-02-24T23:37:11Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/frankfil/statuses/1247000006"/>
+    <title>watching #rtyass .  Making perfect sense to my flu filled brain :)</title>
+    <content type="html">watching &lt;a href="http://search.twitter.com/search?q=%23rtyass"&gt;#rtyass&lt;/a&gt; .  Making perfect sense to my &lt;b&gt;flu&lt;/b&gt; filled brain :)</content>
+    <updated>2009-02-24T23:37:11Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81389423/Photo2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>frankfil (Frank Filippone)</name>
+      <uri>http://twitter.com/frankfil</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1246632497</id>
+    <published>2009-02-24T21:56:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/frankfil/statuses/1246632497"/>
+    <title>Day 3 of being punched in the head by the flu. At least I can think today. Yesterday I thought 1+1=green. With yellow polka dots.</title>
+    <content type="html">Day 3 of being punched in the head by the &lt;b&gt;flu&lt;/b&gt;. At least I can think today. Yesterday I thought 1+1=green. With yellow polka dots.</content>
+    <updated>2009-02-24T21:56:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81389423/Photo2_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>frankfil (Frank Filippone)</name>
+      <uri>http://twitter.com/frankfil</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1244255364</id>
+    <published>2009-02-24T09:19:07Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/amiriche/statuses/1244255364"/>
+    <title>is getting the flu. had to miss snowboarding today so i've enough energy for the next two days.</title>
+    <content type="html">is getting the &lt;b&gt;flu&lt;/b&gt;. had to miss snowboarding today so i've enough energy for the next two days.</content>
+    <updated>2009-02-24T09:19:07Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/65616484/Picture_2_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>amiriche (amiriche)</name>
+      <uri>http://twitter.com/amiriche</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1243966148</id>
+    <published>2009-02-24T06:33:32Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/melbournefeed/statuses/1243966148"/>
+    <title>neuraxon77: Vitamin D deficiency may increase risk of colds, flu: People with the lowest blood vitamin D levels .. http://tinyurl.com/bwnv9z</title>
+    <content type="html">neuraxon77: Vitamin D deficiency may increase risk of colds, &lt;b&gt;flu&lt;/b&gt;: People with the lowest blood vitamin D levels .. &lt;a href="http://tinyurl.com/bwnv9z"&gt;http://tinyurl.com/bwnv9z&lt;/a&gt;</content>
+    <updated>2009-02-24T06:33:32Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/55349611/photo_lg_melbourne_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>melbournefeed (melbournefeed)</name>
+      <uri>http://twitter.com/melbournefeed</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1243961229</id>
+    <published>2009-02-24T06:30:56Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/neuraxon77/statuses/1243961229"/>
+    <title>Vitamin D deficiency may increase risk of colds, flu: People with the lowest blood vitamin D levels reported hav.. http://tinyurl.com/bpf4kh</title>
+    <content type="html">Vitamin D deficiency may increase risk of colds, &lt;b&gt;flu&lt;/b&gt;: People with the lowest blood vitamin D levels reported hav.. &lt;a href="http://tinyurl.com/bpf4kh"&gt;http://tinyurl.com/bpf4kh&lt;/a&gt;</content>
+    <updated>2009-02-24T06:30:56Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/75944802/smurf_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>neuraxon77 (Craig Overend)</name>
+      <uri>http://twitter.com/neuraxon77</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1243113555</id>
+    <published>2009-02-24T01:17:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/shanegold/statuses/1243113555"/>
+    <title>Oh no Mr flu, you are not welcome here. I can feel you trying to get a hold and its not happening I tell you..</title>
+    <content type="html">Oh no Mr &lt;b&gt;flu&lt;/b&gt;, you are not welcome here. I can feel you trying to get a hold and its not happening I tell you..</content>
+    <updated>2009-02-24T01:17:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/78730414/Yellow_Ribbon_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>shanegold (Shane Goldberg)</name>
+      <uri>http://twitter.com/shanegold</uri>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-03-07 until:2009-03-07</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-03-07+until%3A2009-03-07"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-03-07&amp;until=2009-03-07"/>
+  <title>zombie since:2009-03-07 until:2009-03-07 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-03-07&amp;since_id=1294568009&amp;until=2009-03-07"/>
+  <updated>2009-03-07T19:43:36Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1293764504</id>
+    <published>2009-03-07T19:43:36Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jabolotai/statuses/1293764504"/>
+    <title>#haiku : Wondering what now/polyphasic zombie here/I miss 9 to 5</title>
+    <content type="html">&lt;a href="http://search.twitter.com/search?q=%23haiku"&gt;#haiku&lt;/a&gt; : Wondering what now/polyphasic &lt;b&gt;zombie&lt;/b&gt; here/I miss 9 to 5</content>
+    <updated>2009-03-07T19:43:36Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74655273/me_normal.JPG"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jabolotai (jabolotai)</name>
+      <uri>http://twitter.com/jabolotai</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1292811941</id>
+    <published>2009-03-07T14:38:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/drapes12/statuses/1292811941"/>
+    <title>#mw2 Also, make a game mode similar to Zombie Nazis. But because it's modern warfare possible robots? or something far fetched like that.</title>
+    <content type="html">&lt;a href="http://search.twitter.com/search?q=%23mw2"&gt;#mw2&lt;/a&gt; Also, make a game mode similar to &lt;b&gt;Zombie&lt;/b&gt; Nazis. But because it's modern warfare possible robots? or something far fetched like that.</content>
+    <updated>2009-03-07T14:38:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/86649647/me_and_kat_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>drapes12 (Chris Draper)</name>
+      <uri>http://twitter.com/drapes12</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1291354879</id>
+    <published>2009-03-07T02:43:21Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/yonderboy/statuses/1291354879"/>
+    <title>mmm, zombie parrots..</title>
+    <content type="html">mmm, &lt;b&gt;zombie&lt;/b&gt; parrots..</content>
+    <updated>2009-03-07T02:43:21Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/66578116/osito1ca_normal.gif"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>yonderboy (Lupis Yonderboy)</name>
+      <uri>http://twitter.com/yonderboy</uri>
+    </author>
+  </entry>
+</feed>

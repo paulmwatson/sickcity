@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-21 until:2009-02-21</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-21+until%3A2009-02-21"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-21&amp;until=2009-02-21"/>
+  <title>flu since:2009-02-21 until:2009-02-21 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-21&amp;since_id=1235680141&amp;until=2009-02-21"/>
+  <updated>2009-02-21T22:34:58Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1235464324</id>
+    <published>2009-02-21T22:34:58Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/mis_nomore/statuses/1235464324"/>
+    <title>@GuySebastian Thats bad Guy battling the flu and the cold!. good luck with the house hunting..can we come to the house warming?</title>
+    <content type="html">&lt;a href="http://twitter.com/GuySebastian"&gt;@GuySebastian&lt;/a&gt; Thats bad Guy battling the &lt;b&gt;flu&lt;/b&gt; and the cold!. good luck with the house hunting..can we come to the house warming?</content>
+    <updated>2009-02-21T22:34:58Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76163996/Fire_bird_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>mis_nomore (Dawn )</name>
+      <uri>http://twitter.com/mis_nomore</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1235130184</id>
+    <published>2009-02-21T20:25:59Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/Sherry_Bobbins_/statuses/1235130184"/>
+    <title>so very tired, so sick of being worlds number 1 insomniac. now have deathly ill faux husband 2 deal w/. suspect this time NOT man-flu *sigh*</title>
+    <content type="html">so very tired, so sick of being worlds number 1 insomniac. now have deathly ill faux husband 2 deal w/. suspect this time NOT man-&lt;b&gt;flu&lt;/b&gt; *sigh*</content>
+    <updated>2009-02-21T20:25:59Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/81315337/PwxWMbVS.PA230124-1_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>Sherry_Bobbins_ (Cath)</name>
+      <uri>http://twitter.com/Sherry_Bobbins_</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1233469209</id>
+    <published>2009-02-21T06:03:16Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/oneredrobin/statuses/1233469209"/>
+    <title>is thinking the cold/flu is almost gone after a good afternoon nap with the girls. Now to get stuck in to some pattern cutting.</title>
+    <content type="html">is thinking the cold/&lt;b&gt;flu&lt;/b&gt; is almost gone after a good afternoon nap with the girls. Now to get stuck in to some pattern cutting.</content>
+    <updated>2009-02-21T06:03:16Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/69735089/me_april2008_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>oneredrobin (Jhoanna Monte Aranez)</name>
+      <uri>http://twitter.com/oneredrobin</uri>
+    </author>
+  </entry>
+</feed>

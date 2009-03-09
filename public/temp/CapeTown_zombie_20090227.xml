@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-27 until:2009-02-27</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-27+until%3A2009-02-27"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-27&amp;until=2009-02-27"/>
+  <title>zombie since:2009-02-27 until:2009-02-27 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-27&amp;since_id=1260336718&amp;until=2009-02-27"/>
+  <updated>2009-02-27T08:30:47Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1257366174</id>
+    <published>2009-02-27T08:30:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/KatharinaS/statuses/1257366174"/>
+    <title>RT @nickjackson: RT @rael: Twitter during a Zombie Outbreak: http://bit.ly/3Hm7gm | Haha! It would be *exactly* like this!</title>
+    <content type="html">RT &lt;a href="http://twitter.com/nickjackson"&gt;@nickjackson&lt;/a&gt;: RT &lt;a href="http://twitter.com/rael"&gt;@rael&lt;/a&gt;: Twitter during a &lt;b&gt;Zombie&lt;/b&gt; Outbreak: &lt;a href="http://bit.ly/3Hm7gm"&gt;http://bit.ly/3Hm7gm&lt;/a&gt; | Haha! It would be *exactly* like this!</content>
+    <updated>2009-02-27T08:30:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/83190178/n193700578_30149617_6756_normal.jpg"/>
+    <google:location>Cape Town</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>KatharinaS (Katharina Scholtz)</name>
+      <uri>http://twitter.com/KatharinaS</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1257270615</id>
+    <published>2009-02-27T07:39:01Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/boastboy/statuses/1257270615"/>
+    <title>ok, lots to do today, need to get going, feeling like a bit of a zombie today, coffee first</title>
+    <content type="html">ok, lots to do today, need to get going, feeling like a bit of a &lt;b&gt;zombie&lt;/b&gt; today, coffee first</content>
+    <updated>2009-02-27T07:39:01Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/87850350/phoenixg_logoc_700_normal.png"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>boastboy (Marcel Boast)</name>
+      <uri>http://twitter.com/boastboy</uri>
+    </author>
+  </entry>
+</feed>

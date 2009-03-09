@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-10 until:2009-02-10</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-10+until%3A2009-02-10"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=53.4107766%2C-2.9778383%2C10km&amp;rpp=100&amp;since=2009-02-10&amp;until=2009-02-10"/>
+  <title>flu since:2009-02-10 until:2009-02-10 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=53.4107766%2C-2.9778383%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-10&amp;since_id=1197368892&amp;until=2009-02-10"/>
+  <updated>2009-02-10T21:10:31Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1196849776</id>
+    <published>2009-02-10T21:10:31Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/davidrules04/statuses/1196849776"/>
+    <title>@jenpeach I feel like I have bird flu :( think I'm dying tell everyone I love them hehe.x</title>
+    <content type="html">&lt;a href="http://twitter.com/jenpeach"&gt;@jenpeach&lt;/a&gt; I feel like I have bird &lt;b&gt;flu&lt;/b&gt; :( think I'm dying tell everyone I love them hehe.x</content>
+    <updated>2009-02-10T21:10:31Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/84337403/Danger_Mouse_normal.jpg"/>
+    <google:location>Liverool, England</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>davidrules04 (David Harrison)</name>
+      <uri>http://twitter.com/davidrules04</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1196501394</id>
+    <published>2009-02-10T19:24:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/iamdamien/statuses/1196501394"/>
+    <title>Flu now has Lemsip Max on a full scale assault. Day was spent washing, uploading pix &amp; catching up with Jack, Petrelli and in a sec, Adama</title>
+    <content type="html">&lt;b&gt;Flu&lt;/b&gt; now has Lemsip Max on a full scale assault. Day was spent washing, uploading pix &amp;amp; catching up with Jack, Petrelli and in a sec, Adama</content>
+    <updated>2009-02-10T19:24:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82644804/red_normal.JPG"/>
+    <google:location>Liverpool, UK</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>iamdamien (Damien Carten)</name>
+      <uri>http://twitter.com/iamdamien</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1195481793</id>
+    <published>2009-02-10T14:09:16Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/talentedfergal/statuses/1195481793"/>
+    <title>Tired and full of flu..</title>
+    <content type="html">Tired and full of &lt;b&gt;flu&lt;/b&gt;..</content>
+    <updated>2009-02-10T14:09:16Z</updated>
+    <link type="image/png" rel="image" href="http://static.twitter.com/images/default_profile_normal.png"/>
+    <google:location>Wallasey, Wirral</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>talentedfergal (Kevin Eves)</name>
+      <uri>http://twitter.com/talentedfergal</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1195470711</id>
+    <published>2009-02-10T14:05:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/iamdamien/statuses/1195470711"/>
+    <title>Flu setting in. Diffo not man flu. This flu is kyponite laced</title>
+    <content type="html">&lt;b&gt;Flu&lt;/b&gt; setting in. Diffo not man &lt;b&gt;flu&lt;/b&gt;. This &lt;b&gt;flu&lt;/b&gt; is kyponite laced</content>
+    <updated>2009-02-10T14:05:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82644804/red_normal.JPG"/>
+    <google:location>Liverpool, UK</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>iamdamien (Damien Carten)</name>
+      <uri>http://twitter.com/iamdamien</uri>
+    </author>
+  </entry>
+</feed>

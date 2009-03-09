@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/headache since:2009-02-07 until:2009-02-07</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=headache+since%3A2009-02-07+until%3A2009-02-07"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=headache&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-07&amp;until=2009-02-07"/>
+  <title>headache since:2009-02-07 until:2009-02-07 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=headache&amp;rpp=100&amp;since=2009-02-07&amp;since_id=1187599999&amp;until=2009-02-07"/>
+  <updated>2009-02-07T16:39:26Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1186616147</id>
+    <published>2009-02-07T16:39:26Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/vm_eats/statuses/1186616147"/>
+    <title>listening to an audio lecture. zoning out. developing a headache. realising exam is in ten days. (fully unprepared.) getting hungry...</title>
+    <content type="html">listening to an audio lecture. zoning out. developing a &lt;b&gt;headache&lt;/b&gt;. realising exam is in ten days. (fully unprepared.) getting hungry...</content>
+    <updated>2009-02-07T16:39:26Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68160570/twitter_thumb_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>vm_eats (Viet-My Bui)</name>
+      <uri>http://twitter.com/vm_eats</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1185925166</id>
+    <published>2009-02-07T09:10:14Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/kgleninrainbows/statuses/1185925166"/>
+    <title>big sigh. kind of sad, kind of confused, kind of pissed off. mostly I have a massive headache &gt;:|</title>
+    <content type="html">big sigh. kind of sad, kind of confused, kind of pissed off. mostly I have a massive &lt;b&gt;headache&lt;/b&gt; &amp;gt;:|</content>
+    <updated>2009-02-07T09:10:14Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85711752/n569317312_1435654_7312824_normal.jpeg"/>
+    <google:location>Melbourne, Australia.</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>kgleninrainbows (Kate Glenister.)</name>
+      <uri>http://twitter.com/kgleninrainbows</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1185720093</id>
+    <published>2009-02-07T06:21:13Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/jadeykins/statuses/1185720093"/>
+    <title>i have a stress headache</title>
+    <content type="html">i have a stress &lt;b&gt;headache&lt;/b&gt;</content>
+    <updated>2009-02-07T06:21:13Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73692034/n802052066_1054862_8947_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>jadeykins (jadeykins)</name>
+      <uri>http://twitter.com/jadeykins</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1185426116</id>
+    <published>2009-02-07T03:32:31Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/aeoth/statuses/1185426116"/>
+    <title>uuuuuugh, bro-in-laws g4 12" powerbook is sooo loud, giving me a headache :(</title>
+    <content type="html">uuuuuugh, bro-in-laws g4 12&amp;quot; powerbook is sooo loud, giving me a &lt;b&gt;headache&lt;/b&gt; :(</content>
+    <updated>2009-02-07T03:32:31Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/76961553/191424_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://www.tinytwitter.com/"&gt;TinyTwitter&lt;/a&gt;</twitter:source>
+    <author>
+      <name>aeoth (Paul Jenkins)</name>
+      <uri>http://twitter.com/aeoth</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1185375945</id>
+    <published>2009-02-07T03:07:34Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/DontCallMeBones/statuses/1185375945"/>
+    <title>woke up with a headache :'(</title>
+    <content type="html">woke up with a &lt;b&gt;headache&lt;/b&gt; :'(</content>
+    <updated>2009-02-07T03:07:34Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/71861951/n501622610_1774699_3711_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>DontCallMeBones (Dani Wilson)</name>
+      <uri>http://twitter.com/DontCallMeBones</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1185122829</id>
+    <published>2009-02-07T01:07:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/andrewszombie/statuses/1185122829"/>
+    <title>and I already have a headache lol</title>
+    <content type="html">and I already have a &lt;b&gt;headache&lt;/b&gt; lol</content>
+    <updated>2009-02-07T01:07:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/74276091/1112866847_1768987270_normal.gif"/>
+    <google:location>Melbourne, VIC, AU</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>andrewszombie (AndrewZombieeee)</name>
+      <uri>http://twitter.com/andrewszombie</uri>
+    </author>
+  </entry>
+</feed>

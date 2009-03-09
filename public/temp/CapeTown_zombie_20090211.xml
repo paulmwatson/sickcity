@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-02-11 until:2009-02-11</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-02-11+until%3A2009-02-11"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-33.9160000%2C18.4222000%2C10km&amp;rpp=100&amp;since=2009-02-11&amp;until=2009-02-11"/>
+  <title>zombie since:2009-02-11 until:2009-02-11 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-33.9160000%2C18.4222000%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-02-11&amp;since_id=1200905936&amp;until=2009-02-11"/>
+  <updated>2009-02-11T21:35:15Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1200459231</id>
+    <published>2009-02-11T21:35:15Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/birvine/statuses/1200459231"/>
+    <title>exclaims: "Great Zombie Jesus!"</title>
+    <content type="html">exclaims: &amp;quot;Great &lt;b&gt;Zombie&lt;/b&gt; Jesus!&amp;quot;</content>
+    <updated>2009-02-11T21:35:15Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/72466587/DSC01295_normal.JPG"/>
+    <google:location>Cape Town, South Africa</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>birvine (Brett Irvine)</name>
+      <uri>http://twitter.com/birvine</uri>
+    </author>
+  </entry>
+</feed>

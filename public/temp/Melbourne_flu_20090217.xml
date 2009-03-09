@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/flu since:2009-02-17 until:2009-02-17</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=flu+since%3A2009-02-17+until%3A2009-02-17"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=flu&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-02-17&amp;until=2009-02-17"/>
+  <title>flu since:2009-02-17 until:2009-02-17 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=flu&amp;rpp=100&amp;since=2009-02-17&amp;since_id=1220925830&amp;until=2009-02-17"/>
+  <updated>2009-02-17T22:05:03Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1220551574</id>
+    <published>2009-02-17T22:05:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/generalrotors/statuses/1220551574"/>
+    <title>@catattac I tried to get fit last week. All I got was the flu</title>
+    <content type="html">&lt;a href="http://twitter.com/catattac"&gt;@catattac&lt;/a&gt; I tried to get fit last week. All I got was the &lt;b&gt;flu&lt;/b&gt;</content>
+    <updated>2009-02-17T22:05:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73424001/GeneralRotors_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>generalrotors (generalrotors)</name>
+      <uri>http://twitter.com/generalrotors</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1218025328</id>
+    <published>2009-02-17T06:07:57Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/paperblade/statuses/1218025328"/>
+    <title>bad flu + bad sore throat = misery. need chicken soup.</title>
+    <content type="html">bad &lt;b&gt;flu&lt;/b&gt; + bad sore throat = misery. need chicken soup.</content>
+    <updated>2009-02-17T06:07:57Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/29608152/19-02-07_0000_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>paperblade (Tony)</name>
+      <uri>http://twitter.com/paperblade</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1217485923</id>
+    <published>2009-02-17T02:11:51Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/snoofy/statuses/1217485923"/>
+    <title>I'm not getting the flu. I'm not getting the flu. I'm not getting the flu. I'm not getting the flu. I'm not getting the flu.</title>
+    <content type="html">I'm not getting the &lt;b&gt;flu&lt;/b&gt;. I'm not getting the &lt;b&gt;flu&lt;/b&gt;. I'm not getting the &lt;b&gt;flu&lt;/b&gt;. I'm not getting the &lt;b&gt;flu&lt;/b&gt;. I'm not getting the &lt;b&gt;flu&lt;/b&gt;.</content>
+    <updated>2009-02-17T02:11:51Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73935765/eye_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>snoofy (Coz the Paladin)</name>
+      <uri>http://twitter.com/snoofy</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1217304348</id>
+    <published>2009-02-17T01:02:52Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/C4ZZ4/statuses/1217304348"/>
+    <title>@bethanie -I'm with ya on "being sick sucks" of course I get the flu 2 days before I'm supposed to be on vacation!</title>
+    <content type="html">&lt;a href="http://twitter.com/bethanie"&gt;@bethanie&lt;/a&gt; -I'm with ya on &amp;quot;being sick sucks&amp;quot; of course I get the &lt;b&gt;flu&lt;/b&gt; 2 days before I'm supposed to be on vacation!</content>
+    <updated>2009-02-17T01:02:52Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/51773484/Cherry_20blossom_202_normal.jpg"/>
+    <google:location>Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>C4ZZ4 (Caz)</name>
+      <uri>http://twitter.com/C4ZZ4</uri>
+    </author>
+  </entry>
+</feed>

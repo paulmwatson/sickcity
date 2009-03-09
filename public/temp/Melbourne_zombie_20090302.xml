@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/zombie since:2009-03-02 until:2009-03-02</id>
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=zombie+since%3A2009-03-02+until%3A2009-03-02"/>
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=zombie&amp;geocode=-37.8413450%2C144.9774170%2C10km&amp;rpp=100&amp;since=2009-03-02&amp;until=2009-03-02"/>
+  <title>zombie since:2009-03-02 until:2009-03-02 - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?geocode=-37.8413450%2C144.9774170%2C10km&amp;q=zombie&amp;rpp=100&amp;since=2009-03-02&amp;since_id=1272544154&amp;until=2009-03-02"/>
+  <updated>2009-03-03T04:58:37Z</updated>
+  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:search.twitter.com,2005:1272537015</id>
+    <published>2009-03-03T04:58:37Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/amoir/statuses/1272537015"/>
+    <title>@futuresandwich And, as a fan of scientific research into the undeads' capabilities, you'd like Zombie vs Shark http://tinyurl.com/yvjf5j</title>
+    <content type="html">&lt;a href="http://twitter.com/futuresandwich"&gt;@futuresandwich&lt;/a&gt; And, as a fan of scientific research into the undeads' capabilities, you'd like &lt;b&gt;Zombie&lt;/b&gt; vs Shark &lt;a href="http://tinyurl.com/yvjf5j"&gt;http://tinyurl.com/yvjf5j&lt;/a&gt;</content>
+    <updated>2009-03-03T04:58:37Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82080961/412452877_ba0056ef8a_m_normal.jpg"/>
+    <google:location>East Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</twitter:source>
+    <author>
+      <name>amoir (amoir)</name>
+      <uri>http://twitter.com/amoir</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1272401194</id>
+    <published>2009-03-03T04:15:27Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/amoir/statuses/1272401194"/>
+    <title>Enjoying zombie trailers per @rperdio's tweet. I love that Vampires vs Zombies was posted to YouTube by 'NaturesDiet'</title>
+    <content type="html">Enjoying &lt;b&gt;zombie&lt;/b&gt; trailers per &lt;a href="http://twitter.com/rperdio"&gt;@rperdio&lt;/a&gt;'s tweet. I love that Vampires vs Zombies was posted to YouTube by 'NaturesDiet'</content>
+    <updated>2009-03-03T04:15:27Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82080961/412452877_ba0056ef8a_m_normal.jpg"/>
+    <google:location>East Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>amoir (amoir)</name>
+      <uri>http://twitter.com/amoir</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1272368344</id>
+    <published>2009-03-03T04:05:47Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/amoir/statuses/1272368344"/>
+    <title>@rperdio Oh jesus, that's perfect. We need to have a zombie film party!</title>
+    <content type="html">&lt;a href="http://twitter.com/rperdio"&gt;@rperdio&lt;/a&gt; Oh jesus, that's perfect. We need to have a &lt;b&gt;zombie&lt;/b&gt; film party!</content>
+    <updated>2009-03-03T04:05:47Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/82080961/412452877_ba0056ef8a_m_normal.jpg"/>
+    <google:location>East Melbourne</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>amoir (amoir)</name>
+      <uri>http://twitter.com/amoir</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1272335802</id>
+    <published>2009-03-03T03:56:41Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/rperdio/statuses/1272335802"/>
+    <title>How did I miss this? Japanese undead film, Tokyo Zombie: (VID trailer) http://tinyurl.com/clzhuw</title>
+    <content type="html">How did I miss this? Japanese undead film, Tokyo &lt;b&gt;Zombie&lt;/b&gt;: (VID trailer) &lt;a href="http://tinyurl.com/clzhuw"&gt;http://tinyurl.com/clzhuw&lt;/a&gt;</content>
+    <updated>2009-03-03T03:56:41Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68981714/sunshine_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>rperdio (Ryan)</name>
+      <uri>http://twitter.com/rperdio</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1271277931</id>
+    <published>2009-03-02T22:57:03Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/ITJobsMelbourne/statuses/1271277931"/>
+    <title>IIA says be aware and beware of zombie PCs: The Internet Industry Association (IIA) has launched a National Zomb.. http://tinyurl.com/ct8g7q</title>
+    <content type="html">IIA says be aware and beware of &lt;b&gt;zombie&lt;/b&gt; PCs: The Internet Industry Association (IIA) has launched a National Zomb.. &lt;a href="http://tinyurl.com/ct8g7q"&gt;http://tinyurl.com/ct8g7q&lt;/a&gt;</content>
+    <updated>2009-03-02T22:57:03Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73027632/Picture_19_normal.png"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+    <author>
+      <name>ITJobsMelbourne (ITJobsMelbourne)</name>
+      <uri>http://twitter.com/ITJobsMelbourne</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1269077783</id>
+    <published>2009-03-02T13:02:46Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/brentsnook/statuses/1269077783"/>
+    <title>approaching keyboard mashing autopilot zombie stage....bed in t-minus 3 minutes</title>
+    <content type="html">approaching keyboard mashing autopilot &lt;b&gt;zombie&lt;/b&gt; stage....bed in t-minus 3 minutes</content>
+    <updated>2009-03-02T13:02:46Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/73707458/173503c_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://iconfactory.com/software/twitterrific"&gt;twitterrific&lt;/a&gt;</twitter:source>
+    <author>
+      <name>brentsnook (Brent Snook)</name>
+      <uri>http://twitter.com/brentsnook</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1268813455</id>
+    <published>2009-03-02T11:04:36Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/albiea/statuses/1268813455"/>
+    <title>@stylemelbourne ahhh you are one of the lucky few!!! you have been saved from experiencing the zombie apocalypse!</title>
+    <content type="html">&lt;a href="http://twitter.com/stylemelbourne"&gt;@stylemelbourne&lt;/a&gt; ahhh you are one of the lucky few!!! you have been saved from experiencing the &lt;b&gt;zombie&lt;/b&gt; apocalypse!</content>
+    <updated>2009-03-02T11:04:36Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62186766/infinityopeningnight-147_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://twitter.com/"&gt;web&lt;/a&gt;</twitter:source>
+    <author>
+      <name>albiea (Albie Abiog)</name>
+      <uri>http://twitter.com/albiea</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1268059832</id>
+    <published>2009-03-02T04:48:51Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/mikestuchbery/statuses/1268059832"/>
+    <title>Hahah, @asio just picked up my zombie tweet. I always think about applying for you guys... but... Canberra? C'mon...</title>
+    <content type="html">Hahah, &lt;a href="http://twitter.com/asio"&gt;@asio&lt;/a&gt; just picked up my &lt;b&gt;zombie&lt;/b&gt; tweet. I always think about applying for you guys... but... Canberra? C'mon...</content>
+    <updated>2009-03-02T04:48:51Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/88900950/me_normal.jpg"/>
+    <google:location>Richmond, Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>mikestuchbery (mikestuchbery)</name>
+      <uri>http://twitter.com/mikestuchbery</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1267513314</id>
+    <published>2009-03-02T01:50:42Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/firstdogonmoon/statuses/1267513314"/>
+    <title>@wolfcat I suspect the ABC may be the INSTIGATOR OF A ZOMBIE ATTACK!</title>
+    <content type="html">&lt;a href="http://twitter.com/wolfcat"&gt;@wolfcat&lt;/a&gt; I suspect the ABC may be the INSTIGATOR OF A &lt;b&gt;ZOMBIE&lt;/b&gt; ATTACK!</content>
+    <updated>2009-03-02T01:50:42Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/90907872/sharksealcrop_normal.jpg"/>
+    <google:location>Melbourne, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <author>
+      <name>firstdogonmoon (Mr Onthemoon)</name>
+      <uri>http://twitter.com/firstdogonmoon</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:1267507708</id>
+    <published>2009-03-02T01:49:00Z</published>
+    <link type="text/html" rel="alternate" href="http://twitter.com/wolfcat/statuses/1267507708"/>
+    <title>just had a thought... wonder if the ABC would still be the emergency broadcaster in case of a zombie attack?</title>
+    <content type="html">just had a thought... wonder if the ABC would still be the emergency broadcaster in case of a &lt;b&gt;zombie&lt;/b&gt; attack?</content>
+    <updated>2009-03-02T01:49:00Z</updated>
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/85374327/1rqo4-e198454e6911aed960b3e50e1d702a30.49ab10dc_normal.jpg"/>
+    <google:location>Melbourne, Victoria, Australia</google:location>
+    <twitter:source>&lt;a href="http://www.twhirl.org/"&gt;twhirl&lt;/a&gt;</twitter:source>
+    <author>
+      <name>wolfcat (Wolf Cocklin)</name>
+      <uri>http://twitter.com/wolfcat</uri>
+    </author>
+  </entry>
+</feed>
