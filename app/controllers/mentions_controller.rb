@@ -5,7 +5,8 @@ class MentionsController < ApplicationController
     @city = City.find :first, :conditions => {:name => params[:city]}
     @phrase = Phrase.find :first, :conditions => {:title => params[:phrase]}
     
-    update(@phrase, @city, @sample_date) if params[:update]
+    last_update = History.find :first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}, :order => :last_get
+    update(@phrase, @city, @sample_date) if params[:update] || !last_update || last_update.last_get < (Time.now - (60 * 60))
       
     @location = get_location(@city.name, @city.country)
 
@@ -31,6 +32,11 @@ class MentionsController < ApplicationController
     twitter_geo_search_url = "http://search.twitter.com/search.atom?q=#{phrase.search.gsub(' ', '%20')}&geocode=#{location.latitude}%2C#{location.longitude}%2C#{search_radius}km&rpp=100&since=#{year}-#{month}-#{day}&until=#{year}-#{month}-#{day}"
     begin
       tweet_doc = open(twitter_geo_search_url) { |f| Hpricot(f) }
+      history = History.find(:first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}) || History.new
+      history.city_id = city.id
+      history.phrase_id = phrase.id
+      history.last_get = Time.now
+      history.save
     rescue
     end
     
