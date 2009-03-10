@@ -7,7 +7,9 @@
   <a target="_blank" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude%>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude%>,<%= @location.longitude %>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 </div>
 <div class="navbar second">
-  <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date - 1 %>"><%= (@sample_date - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
+  <% if ((@sample_date - 1) >= (Date.today - 60)) %>
+    <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date - 1 %>"><%= (@sample_date - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
+  <% end %>
   <% if ((@sample_date + 1) <= Date.today)%>
     <a target="_top" class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date + 1 %>"><img src="/images/bk2lb.png" /><%= (@sample_date + 1).strftime('%d %b') %></a>
   <% end %>
