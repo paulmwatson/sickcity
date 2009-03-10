@@ -3,15 +3,9 @@
   <a target="_top" class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
   <h1><%= params[:city] %></h1>
 </div>
-<% if @mentions.length == 0 && !params[:update] %>
-  <div class="intro">
-    <p>No data found. <a href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= params[:date] || @sample_date %>/update">Update SickCity</a>.</p>
-  </div>
-<% end %>
 <div class="map">
   <a target="_blank" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude%>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude%>,<%= @location.longitude %>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 </div>
-<div class="trend"></div>
 <div class="navbar second">
   <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date - 1 %>"><%= (@sample_date - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
   <% if ((@sample_date + 1) <= Date.today)%>
@@ -19,8 +13,9 @@
   <% end %>
   <h1><%= @sample_date.strftime('%d %b \'%y') %></h1>
 </div>
+<div class="trend"></div>
 <div class="intro">
-  <p><%= @mentions.length %> mentions of "<%= params[:phrase] %>"</p>
+  <p><%= @mentions.length %> mentions of "<%= params[:phrase] %>" over 24 hours</p>
 </div>
 <ul id="tweets">
   <% hour_trend = Array.new(24,0) %>

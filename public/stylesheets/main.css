@@ -143,7 +143,6 @@ ul li.odd
 
 .trend
 {
-  border-bottom: solid 1px #333;
   height: 50px;
   line-height: 50px;
   background-color: #ffc;
@@ -179,6 +178,7 @@ ul.list li
 
 .intro
 {
+  text-align: center;
   margin: 0;
   background-color: #ffc;
   color: #c00;
