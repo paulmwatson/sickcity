@@ -1,6 +1,7 @@
 html, body
 {
   font-family: Helvetica;
+  height: 1000px;
 }
 
 h1
@@ -147,6 +148,7 @@ ul li.odd
   line-height: 50px;
   background-color: #ffc;
   padding: 0.5%;
+  text-align: center;
 }
 
 .twitterpower
@@ -233,4 +235,15 @@ ul.list li
   width: auto;
   margin-right: 10px;
   color: #666;
+}
+
+.center
+{
+  background-color: #0c0;
+  height: 50px;
+  width: 8px;
+  opacity: 0.5;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
 }

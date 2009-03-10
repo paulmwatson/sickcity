@@ -1,21 +1,22 @@
 class MentionsController < ApplicationController
   layout 'base'
   def index
-    @sample_date = params[:date] ? Date.parse(params[:date]) : Date.today
     @city = City.find :first, :conditions => {:name => params[:city]}
     @phrase = Phrase.find :first, :conditions => {:title => params[:phrase]}
-    
-    last_update = History.find :first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}, :order => :last_get
-    update(@phrase, @city, @sample_date) if params[:update] || !last_update || last_update.last_get < (Time.now - (60 * 60))
-      
     @location = get_location(@city.name, @city.country)
+    
+    # 30 day range centered on the current date
+    range = 30
+    @range_center = params[:date] ? Date.parse(params[:date]) : Date.today
+    @range_start = @range_center - (range / 2)
+    @range_end = @range_center + (range / 2)
 
-    day = "%02d" % @sample_date.day
-    month = "%02d" % @sample_date.month
-    year = @sample_date.year
-    date_range_start = "#{year}-#{month}-#{day} 00:00"
-    date_range_end = "#{year}-#{month}-#{day} 23:59"
-    @mentions = Mention.find :all, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => (date_range_start..date_range_end)}, :order => :mentioned_at
+    # Data is updated hourly for today
+    last_update = History.find :first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}, :order => :last_get
+    update(@phrase, @city, @range_center) if params[:update] || !last_update || last_update.last_get < (Time.now - (60 * 60))
+
+    @mentions = Mention.find :all, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at    
+    @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at    
   end
 
   def update(phrase, city, sample_date)

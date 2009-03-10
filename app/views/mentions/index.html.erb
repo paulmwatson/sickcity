@@ -1,36 +1,51 @@
 <div class="navbar">
   <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Diseases<img src="/images/bkr.png" /></a>
   <a target="_top" class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
-  <h1><%= params[:city] %></h1>
+  <h1><%= @city.name %></h1>
 </div>
 <div class="map">
   <a target="_blank" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude%>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude%>,<%= @location.longitude %>&zoom=11&size=314x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 </div>
-<div class="navbar second">
-  <% if ((@sample_date - 1) >= (Date.today - 60)) %>
-    <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date - 1 %>"><%= (@sample_date - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
-  <% end %>
-  <% if ((@sample_date + 1) <= Date.today)%>
-    <a target="_top" class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @sample_date + 1 %>"><img src="/images/bk2lb.png" /><%= (@sample_date + 1).strftime('%d %b') %></a>
-  <% end %>
-  <h1><%= @sample_date.strftime('%d %b \'%y') %></h1>
+<div class="center"></div>
+<div id="thirty_day_trend" class="trend">
 </div>
-<div class="trend"></div>
+<div class="navbar second">
+  <% if ((@range_center - 1) >= (Date.today - 60)) %>
+    <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center - 1 %>"><%= (@range_center - 1).strftime('%d %b') %><img src="/images/bkrb.png" /></a>
+  <% end %>
+  <% if ((@range_center + 1) <= Date.today)%>
+    <a target="_top" class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2lb.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
+  <% end %>
+  <h1><%= @range_center.strftime('%d %b \'%y') %></h1>
+</div>
+<div id="twenty_four_hour_trend" class="trend"></div>
 <div class="intro">
-  <p><%= @mentions.length %> mentions of "<%= params[:phrase] %>" over 24 hours</p>
+  <p><%= @twenty_four_hour_count %> mentions of "<%= @phrase.title %>" over 24 hours</p>
 </div>
 <ul id="tweets">
+  <% thirty_day_trend = Array.new(31,0) %>
   <% hour_trend = Array.new(24,0) %>
   <% @mentions.each do |mention| %>
+  <%
+    published_date = mention.mentioned_at
+    # Work out day difference of mention and update array
+    index = ((published_date.to_date - @range_end) + 30).to_i
+    thirty_day_trend[index] = thirty_day_trend[index] + 1
+  %>
+  
+  <% if published_date.to_date == @range_center %>
   <li class="<%= cycle('odd','even')%>">
-    <% published_date = mention.mentioned_at %>
+    
     <% username = mention.mentioner %>
     <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username.split(' (')[0] %></a></span>
+    
     <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
   </li>
+  <% end %>
   <% end %>
 </ul>
 <p class="twitterpower"><a href="http://twitter.com"><img src="/images/powered-by-twitter-sig.gif" /></a><p>
 <script type="text/javascript">
-  $('.trend').sparkline([<% hour_trend.each do |hour| %><%= hour %>,<% end %>], {height: '50px', width:'99%'});
+  $('#twenty_four_hour_trend').sparkline([<% hour_trend.each do |hour| %><%= hour %>,<% end %>], {height: '50px', width:'99%'});
+  $('#thirty_day_trend').sparkline([<% thirty_day_trend.each do |day| %><%= day %>,<% end %>], {type: 'bar',height: '50px', barSpacing: 2, barWidth: 8});
 </script>
