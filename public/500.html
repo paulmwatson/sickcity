@@ -5,7 +5,7 @@
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <title>We're sorry, but something went wrong (500)</title>
+  <title>SickCity is sick (500)</title>
 	<style type="text/css">
 		body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
 		div.dialog {
@@ -17,17 +17,20 @@
 			border-bottom-color: #999;
 		}
 		h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+		img
+		{
+		  margin: 10px;
+		}
 	</style>
 </head>
 
 <body>
   <!-- This file lives in public/500.html -->
   <div class="dialog">
-    <h1>We're sorry, but something went wrong.</h1>
-    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
-    <p><small>(If you're the administrator of this website, then please read
-    the log file "<%=h RAILS_ENV %>.log"
-    to find out what went wrong.)</small></p>
+    <a href="/"><img src="/images/logo.png" alt="Logo" /></a>
+    <h1>SickCity is sick</h1>
+    <p>SickCity.org seems to have caught a bug. The doctors have been called.</p>
+    <p><a href="/">Lets get you out</a> of this sick zone.</p>
   </div>
 </body>
 </html>
