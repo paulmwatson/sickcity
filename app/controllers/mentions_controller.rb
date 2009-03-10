@@ -80,4 +80,32 @@ class MentionsController < ApplicationController
     end
     location
   end
+  
+  # Temporary import of Dan's 60 days of data
+  def import_60_days
+    require 'hpricot'
+    
+    cities = City.find :all
+    cities.each do |city|
+      phrases = Phrase.find :all
+      phrases.each do |phrase|
+        puts "Importing #{city.name} - #{phrase.title}"
+        doc = open("./public/temp/60days/#{city.name.gsub(' ', '')}-#{phrase.title.gsub(' ','+')}") { |f| Hpricot(f) }
+        tweets = doc.search('//entry')
+        tweets.each do |tweet|
+          link = tweet.search('//link')[0].attributes['href']
+          mention = Mention.find(:first, :conditions => {:link => link}) || Mention.new
+          mention.link = link
+          mention.mentioner = tweet.search('//name').text
+          mention.mentioned_at = tweet.search('//published').text
+          mention.exact_location = tweet.search('//google:location').text
+          mention.city = city
+          mention.phrase = phrase
+          mention.save
+        end
+      end
+    end
+     
+    render :text => 'Imported lots'
+  end
 end
