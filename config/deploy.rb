@@ -1,6 +1,7 @@
 set :user, 'deploy'
 set :application, "sickcity.org"
 set :scm, :git
+set :branch, 'master'
 set :repository,  "git://github.com/paulmwatson/sickcity.git"
 after "deploy:update_code", "deploy:symlink_configs"
 
