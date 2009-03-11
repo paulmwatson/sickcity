@@ -13,8 +13,18 @@
     <%= javascript_include_tag 'jquery', 'jquery.sparkline' %>
   </head>
   <body>
+    <div class="wrapper">
     <%= yield %>
+      <div class="photo_credit">
+        <a href="http://www.flickr.com/photos/moriza/175599244">Textbreak</a> by moriza
+      </div>
+    </div>
     <script type="text/javascript">
+    var not_iphone = navigator.userAgent.indexOf('iPhone') <= 0;
+    if (not_iphone)
+    {
+      $('body').addClass('not_iphone');
+    }
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>

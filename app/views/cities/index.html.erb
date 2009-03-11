@@ -1,18 +1,22 @@
-<div class="navbar">
-  <img class="logo" src="/images/logo.png" alt="SickCity" />
-  <a class="forward button" href="/about/"><img src="/images/bk2l.png" />About</a>
-</div>
 <div class="intro info">
-  <p>Realtime disease detection for your city <a href="http://diycity.org/sickcity-realtime-disease-detection-your-city">by DIYCity</a></p>
+  <p><a href="http://diycity.org"><img src="/images/diycity.png" alt="DIYCity" /></a></p>
+  <p>&nbsp;</p>
+  <p>Realtime disease detection for your city from your friends on <em>Twitter</em> and <em>Facebook</em>*</p>
+  <p>&nbsp;</p>
+  <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
 </div>
 <ul class="list">
   <% @cities.each do |city|%>
   <li><a href="/<%= city.country %>/<%= city.name %>"><span class="city"><%= city.country %>, <%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
 </ul>
-<div class="intro">
-  <p>Email us at <a href="mailto:diy@diycity.org">diy@diycity.org</a> if you would like your city added.</p>
+<div class="navbar">
+  <img class="logo" src="/images/logo.png" alt="SickCity" />
+  <a class="forward button" href="mailto:diy@diycity.org"><img src="/images/bk2l.png" />Add Your City</a>
+  <a class="forward button" href="http://github.com/paulmwatson/sickcity"><img src="/images/bk2l.png" />Download SickCity</a>
+  <a class="forward button" href="/about/"><img src="/images/bk2l.png" />About</a>
 </div>
+
 <script type="text/javascript">
   $('.tiny_graph').sparkline();
 </script>
