@@ -2,14 +2,17 @@
   <img class="logo" src="/images/logo.png" alt="SickCity" />
   <a target="_top" class="forward button" href="/about/"><img src="/images/bk2l.png" />About</a>
 </div>
-<div class="intro">
+<div class="intro info">
   <p>Realtime disease detection for your city <a href="http://diycity.org/sickcity-realtime-disease-detection-your-city">by DIYCity</a></p>
 </div>
 <ul class="list">
   <% @cities.each do |city|%>
-  <li><a target="_top" href="/<%= city.country %>/<%= city.name %>"><%= city.country %>, <%= city.name %></a></li>
+  <li><a target="_top" href="/<%= city.country %>/<%= city.name %>"><%= city.country %>, <%= city.name %> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
 </ul>
 <div class="intro">
   <p>Email us at <a href="mailto:diy@diycity.org">diy@diycity.org</a> if you would like your city added.</p>
 </div>
+<script type="text/javascript">
+  $('.tiny_graph').sparkline();
+</script>
