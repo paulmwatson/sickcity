@@ -16,8 +16,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
+  adapter: postgresql
   database: sickcity_production
   username: root
-  password:
-  socket: /tmp/mysql.sock
+  password: 
