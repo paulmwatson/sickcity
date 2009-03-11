@@ -16,7 +16,7 @@ class MentionsController < ApplicationController
     update(@phrase, @city, @range_center) if params[:update] || !last_update || last_update.last_get < (Time.now - (60 * 60))
 
     @mentions = Mention.find :all, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at    
-    @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at    
+    @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}
   end
 
   def update(phrase, city, sample_date)
