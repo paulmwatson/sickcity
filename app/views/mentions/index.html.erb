@@ -1,6 +1,6 @@
 <div class="navbar">
-  <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Diseases<img src="/images/bkr.png" /></a>
-  <a target="_top" class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
+  <a class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Diseases<img src="/images/bkr.png" /></a>
+  <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
   <h1><%= @city.name %></h1>
 </div>
 <div class="intro alt"><p><%= @mentions.length %> mentions of "<%= @phrase.title %>" over 31 days</p></div>
@@ -8,10 +8,10 @@
 <div id="thirty_day_trend" class="trend"></div>
 <div class="navbar second">
   <% if ((@range_center - 1) >= (Date.today - 60)) %>
-    <a target="_top" class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center - 1 %>"><%= (@range_center - 1).strftime('%d %b') %><img src="/images/bkr.png" /></a>
+    <a class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center - 1 %>"><%= (@range_center - 1).strftime('%d %b') %><img src="/images/bkr.png" /></a>
   <% end %>
   <% if ((@range_center + 1) <= Date.today)%>
-    <a target="_top" class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2l.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
+    <a class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2l.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
   <% end %>
   <h1><%= @range_center.strftime('%d %b \'%y') %></h1>
 </div>
