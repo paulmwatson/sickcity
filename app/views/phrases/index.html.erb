@@ -9,7 +9,7 @@
 
 <ul class="list">
   <% @phrases.each do |phrase|%>
-  <li><a href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.title %>"><%= phrase.title %> <span id="phrase_graph_<%= phrase.id %>" class="tiny_graph"><% @trend[phrase.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+  <li><a href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.title %>"><span class="city"><%= phrase.title %></span> <span id="phrase_graph_<%= phrase.id %>" class="tiny_graph"><% @trend[phrase.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
 </ul>
 <script type="text/javascript">
