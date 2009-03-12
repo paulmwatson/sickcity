@@ -1,6 +1,6 @@
 <div class="intro alt">
   <h2><%= @city.name %></h2>
-  <p><%= @mentions.length %> mentions of "<%= @phrase.title %>" over 31 days</p>
+  <p><%= @mentions.length %> mentions of "<%= @phrase.title %>" over 31 days:</p>
 </div>
 <div class="center">&nbsp;</div>
 <div id="thirty_day_trend" class="trend"></div>
@@ -13,7 +13,7 @@
   <% end %>
   <h1><%= @range_center.strftime('%d %b \'%y') %></h1>
 </div>
-<div id="twenty_four_hour_info" class="intro"><p><%= @twenty_four_hour_count %> mentions of "<%= @phrase.title %>" over 24 hours</p></div>
+<div id="twenty_four_hour_info" class="intro"><p><%= @twenty_four_hour_count %> mentions of "<%= @phrase.title %>" over 24 hours:</p></div>
 <div id="twenty_four_hour_trend" class="trend"></div>
 <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 <ul id="tweets">

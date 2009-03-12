@@ -1,0 +1,35 @@
+sydney:
+  city: sydney
+  photographer: Leorex
+  url: http://www.flickr.com/photos/leorex/65842983/
+  title: Finding Earth
+
+newyork:
+  city: newyork
+  photographer: moriza
+  url: http://www.flickr.com/photos/moriza/175599244
+  title: Textbreak
+
+london:
+  city: london
+  photographer: MSH*
+  url: http://www.flickr.com/photos/69108241@N00/173167820/
+  title: Long
+  
+dublin:
+  city: dublin
+  photographer: Paul Watson
+  url: http://www.flickr.com/photos/paulwatson/188289390/
+  title: Temple Bloom
+  
+austin:
+  city: austin
+  photographer: Austin TX
+  url: http://www.flickr.com/photos/austintexas/63605934/
+  title: 360 bridge evening
+  
+sanfrancisco:
+  city: sanfrancisco
+  photographer: pbo31
+  url: http://www.flickr.com/photos/pbo31/3290249949/
+  title: t.h. location pass

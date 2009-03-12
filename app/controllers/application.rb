@@ -2,6 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  before_filter :random_photo
   helper :all # include all helpers, all the time
 
   # See ActionController::RequestForgeryProtection for details
@@ -12,4 +13,17 @@ class ApplicationController < ActionController::Base
   # Uncomment this to filter the contents of submitted sensitive data parameters
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
+  
+  # Sets up @photo to be used in base.html.erb to show a random photo
+  # for the selected city (or if no city is selected then just a random one)
+  def random_photo
+    if params[:city]
+      city = City.find :first, :conditions => {:name => params[:city]}
+      @photo = Photo.find :first, :conditions => {:city_id => city.id}
+    end
+    if !@photo
+      @photo = Photo.find(:first, :offset => rand(Photo.all.size))
+    end
+    @photo['filename'] = "#{@photo.city.name.gsub(' ','').downcase}.jpg"
+  end
 end

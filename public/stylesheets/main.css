@@ -312,9 +312,7 @@ ul.list li
 .not_iphone
 {
   background-color: #333;
-  background-image: url(http://farm1.static.flickr.com/52/175599244_114537f117_o.jpg);
-  /*http://s3.amazonaws.com/twitter_production/profile_background_images/3881323/5545609_b20fa3d477_o.jpg
-  background-position: -50px 0;*/
+  background-position: center 0;
 }
 
 h2
@@ -333,7 +331,7 @@ h2
   color: #333;
   position: fixed;
   padding: 5px;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .not_iphone .photo_credit
