@@ -274,13 +274,13 @@ ul.list li
 #twenty_four_hour_trend
 {
   padding: 5px;
+  margin-top: -1px;
 }
 
 #tweets
 {
-  margin-top: -3px;
   max-width: 500px;
-  margin: -3px auto;
+  margin: 1px auto;
 }
 
 #tweets li a
