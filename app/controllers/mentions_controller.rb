@@ -15,7 +15,7 @@ class MentionsController < ApplicationController
     last_update = History.find :first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}, :order => :last_get
     update(@phrase, @city, @range_center) if params[:update] || !last_update || last_update.last_get < (Time.now - (60 * 60))
 
-    @mentions = Mention.find :all, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at    
+    @mentions = Mention.find :all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, mentioner, link, exact_location", :group => 'mentioner, mentioned_at_date', :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}
   end
 

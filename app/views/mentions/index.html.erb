@@ -35,22 +35,19 @@
   <% thirty_day_trend = Array.new(31,0) %>
   <% hour_trend = Array.new(24,0) %>
   <% @mentions.each do |mention| %>
-  <%
-    published_date = mention.mentioned_at
-    # Work out day difference of mention and update array
-    index = ((published_date.to_date - @range_end) + 30).to_i
-    thirty_day_trend[index] = thirty_day_trend[index] + 1
-  %>
-  
-  <% if published_date.to_date == @range_center %>
-  <li class="<%= cycle('odd','even')%>">
-    
-    <% username = mention.mentioner %>
-    <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username.split(' (')[0] %></a></span>
-    
-    <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
-  </li>
-  <% end %>
+    <%
+      published_date = mention.mentioned_at
+      # Work out day difference of mention and update array
+      index = ((published_date.to_date - @range_end) + 30).to_i
+      thirty_day_trend[index] = thirty_day_trend[index] + 1
+    %>
+    <% if published_date.to_date == @range_center %>
+      <li class="<%= cycle('odd','even')%>">
+        <% username = mention.mentioner %>
+        <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username.split(' (')[0] %></a></span>
+        <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
+      </li>
+    <% end %>
   <% end %>
 </ul>
 <p class="twitterpower"><a href="http://twitter.com"><img src="/images/powered-by-twitter-sig.gif" /></a><p>
