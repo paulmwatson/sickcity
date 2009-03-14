@@ -6,10 +6,10 @@ class MentionsController < ApplicationController
     @location = get_location(@city.name, @city.country)
     
     # 30 day range centered on the current date
-    range = 30
+    @range = 30
     @range_center = params[:date] ? Date.parse(params[:date]) : Date.today
-    @range_start = @range_center - (range / 2)
-    @range_end = @range_center + (range / 2)
+    @range_start = @range_center - (@range / 2)
+    @range_end = @range_center + (@range / 2)
 
     # Data is updated hourly for today
     last_update = History.find :first, :conditions => {:city_id => @city.id, :phrase_id => @phrase.id}, :order => :last_get
@@ -17,6 +17,8 @@ class MentionsController < ApplicationController
 
     @mentions = Mention.find :all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, mentioner, link, exact_location", :group => 'mentioner, mentioned_at_date', :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}
+    @graph_max = Mention.find(:first, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id}, :group => 'mentioned_at_date', :select => 'DATE(mentioned_at) as mentioned_at_date, count(id) as graph_max', :order => 'graph_max DESC').graph_max
+    
   end
 
   def update(phrase, city, sample_date)

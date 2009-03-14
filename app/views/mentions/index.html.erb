@@ -1,6 +1,6 @@
 <div class="intro alt">
   <h2><%= @city.name %></h2>
-  <p><%= @mentions.length %> mentions of "<%= @phrase.title %>" over 31 days:</p>
+  <p><%= @mentions.length %> mentions of "<%= @phrase.title %>" over <%= @range + 1 %> days:</p>
 </div>
 <div class="center">&nbsp;</div>
 <div id="thirty_day_trend" class="trend"></div>
@@ -32,13 +32,13 @@
 </div>
 
 <ul id="tweets">
-  <% thirty_day_trend = Array.new(31,0) %>
+  <% thirty_day_trend = Array.new((@range + 1),0) %>
   <% hour_trend = Array.new(24,0) %>
   <% @mentions.each do |mention| %>
     <%
       published_date = mention.mentioned_at
       # Work out day difference of mention and update array
-      index = ((published_date.to_date - @range_end) + 30).to_i
+      index = ((published_date.to_date - @range_end) + @range).to_i
       thirty_day_trend[index] = thirty_day_trend[index] + 1
     %>
     <% if published_date.to_date == @range_center %>
@@ -52,7 +52,7 @@
 </ul>
 <p class="twitterpower"><a href="http://twitter.com"><img src="/images/powered-by-twitter-sig.gif" /></a><p>
 <script type="text/javascript">
-  $('#thirty_day_trend').sparkline([<% thirty_day_trend.each do |day| %><%= day %>,<% end %>], {type: 'bar',height: '50px', barSpacing: 2, barWidth: 8, barColor: '#000000'});
+  $('#thirty_day_trend').sparkline([<% thirty_day_trend.each do |day| %><%= day %>,<% end %>], {type: 'bar',height: '50px', barSpacing: 2, barWidth: 8, barColor: '#000000', chartRangeMax: <%= @graph_max %>, chartRangeMin: 0});
   var trend_width = navigator.userAgent.indexOf('iPhone') == -1 ? 490 : 320;
   $('#twenty_four_hour_trend').sparkline([<% hour_trend.each do |hour| %><%= hour %>,<% end %>], {height: '50px', width: trend_width + 'px', fillColor: '#c6dddc', lineColor: '#333'});
 </script>
