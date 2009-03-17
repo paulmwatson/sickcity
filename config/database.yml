@@ -22,5 +22,4 @@ production:
   encoding: utf8
   database: sickcity_production
   username: root
-  password:
-  socket: /tmp/mysql.sock
+  password: 

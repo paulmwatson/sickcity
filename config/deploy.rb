@@ -50,10 +50,10 @@ namespace :deploy do
   end
 
   task :symlink_configs, :roles => :app, :except => {:no_symlink => true} do
-    run <<-CMD
-      cd #{release_path} &&
-      ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml
-    CMD
+    #run <<-CMD
+    #  cd #{release_path} &&
+    #  ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml
+    #CMD
   end
 
 end
