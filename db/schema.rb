@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090312100558) do
+ActiveRecord::Schema.define(:version => 20090317091121) do
 
   create_table "cities", :force => true do |t|
     t.string   "name"
@@ -43,7 +43,11 @@ ActiveRecord::Schema.define(:version => 20090312100558) do
     t.string   "mentioner"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "message"
+    t.integer  "source_id"
   end
+
+  add_index "mentions", ["source_id"], :name => "index_mentions_on_source_id"
 
   create_table "photos", :force => true do |t|
     t.integer  "city_id"

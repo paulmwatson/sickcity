@@ -56,6 +56,8 @@ class MentionsController < ApplicationController
         get_location(mention.exact_location, city.country)
         mention.city = city
         mention.phrase = phrase
+        mention.message = tweet.search('//title').text
+        mention.source_id = tweet.search('//id').text.split(':')[2]
         mention.save
       end
     end
@@ -110,6 +112,8 @@ class MentionsController < ApplicationController
           mention.exact_location = tweet.search('//google:location').text
           mention.city = city
           mention.phrase = phrase
+          mention.message = tweet.search('//title').text
+          mention.source_id = tweet.search('//id').text.split(':')[2]
           mention.save
         end
       end
