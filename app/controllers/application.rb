@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
   # Sets up @photo to be used in base.html.erb to show a random photo
   # for the selected city (or if no city is selected then just a random one)
   def random_photo
-    if params[:city]
+    if params[:city] && !params[:city][:name]
       city = City.find :first, :conditions => {:name => params[:city]}
       @photo = Photo.find :first, :conditions => {:city_id => city.id}
     end

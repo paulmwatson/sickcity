@@ -1,5 +1,6 @@
 class CitiesController < ApplicationController
   layout 'base'
+
   def index
     @cities = City.find :all, :order => 'country, name'
     
@@ -13,5 +14,56 @@ class CitiesController < ApplicationController
     @mentions.each do |mention|
       @trend[mention.city_id][mention.mentioned_at.hour] = @trend[mention.city_id][mention.mentioned_at.hour] + 1
     end
+  end
+  
+  def new
+    @city = City.new
+  end
+  
+  def check
+    @city = City.new
+    @city.name = params[:city][:name]
+    @city.country = params[:city][:country]
+    @location = get_location(@city.name, @city.country)
+  end
+  
+  def create
+    @city = City.find(:first, :conditions => {:name => params[:city][:name]}) || City.new(params[:city])
+
+    if @city.save
+      flash[:notice] = 'City was successfully created.'
+      redirect_to "/#{@city.country.gsub(' ', '%20')}/#{@city.name.gsub(' ', '%20')}"
+    else
+      render :action => "new"
+    end
+  end
+  
+  
+  def get_location(city, country)
+    require 'hpricot'
+    require 'open-uri'
+
+    location = Location.find :first, :conditions => {:name => city}
+    if !location
+      begin
+        geocode_url = "http://maps.google.com/maps/geo?q=#{city.gsub(' ', '%20')},#{country.gsub(' ', '%20')}&output=xml&oe=utf8&sensor=false&key=#{GOOGLE_API_KEY}"
+        geocode_doc = open(geocode_url) { |f| Hpricot(f) }
+
+        coords_ele = geocode_doc.search('//coordinates')[0]
+      rescue
+      end
+      if coords_ele
+        coords = coords_ele.inner_html
+      else
+        coords = '0,0'
+      end
+
+      location = Location.new
+      location.name = city
+      location.latitude = coords.split(',')[1]
+      location.longitude = coords.split(',')[0]
+      location.save
+    end
+    location
   end
 end

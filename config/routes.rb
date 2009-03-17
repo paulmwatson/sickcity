@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connect '/cities/check/', :controller => 'cities', :action => 'check'
+  map.connect '/cities/create/', :controller => 'cities', :action => 'create'
+  map.connect '/cities/add/', :controller => 'cities', :action => 'new'
   map.connect '/mentions/import_60_days', :controller => 'mentions', :action => 'import_60_days'
   map.connet '/about', :controller => 'site', :action => 'about'
   map.connect '/:country', :controller => 'cities'
@@ -7,6 +10,8 @@ ActionController::Routing::Routes.draw do |map|
   map.connect '/:country/:city/:phrase', :controller => 'mentions'
   map.connect '/:country/:city/:phrase/:date', :controller => 'mentions'
   map.connect '/:country/:city/:phrase/:date/update', :controller => 'mentions', :update => true
+  
+  map.resources :cities
 
   map.root :controller => 'cities'
   map.connect ':controller/:action/:id'

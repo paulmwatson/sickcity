@@ -1,0 +1,17 @@
+<div class="intro alt">
+  <h2>Add Your City</h2>
+</div>
+<div class="info" style="background-color: #fff;">
+  
+<% form_for :city, @city, :url => { :action => "check" } do |f| %>
+  <%= f.error_messages %>
+  <p>I want to add <%= f.text_field :name, :value => 'Timbuktu' %> in <%= f.text_field :country, :value => 'Mali' %></p>
+  <p>
+    <%= f.submit "Add it" %>
+  </p>
+<% end %>
+</div>
+<div class="navbar">
+  <a class="back home" href="/">Cities<img src="/images/bkr.png" /></a>
+  <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
+</div>

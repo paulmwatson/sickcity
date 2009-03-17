@@ -338,3 +338,17 @@ h2
 {
   display: block;
 }
+
+input[type='text']
+{
+  width: 30%;
+  margin: 15px 0;
+  padding: 5px;
+  font-size: larger;
+  vertical-align: middle;
+}
+
+input[type='submit']
+{
+  font-size: larger;
+}

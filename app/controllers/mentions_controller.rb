@@ -17,8 +17,11 @@ class MentionsController < ApplicationController
 
     @mentions = Mention.find :all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, mentioner, link, exact_location", :group => 'mentioner, mentioned_at_date', :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_start.year}-#{@range_start.month.to_s.rjust(2, '0')}-#{@range_start.day.to_s.rjust(2, '0')} 00:00".."#{@range_end.year}-#{@range_end.month.to_s.rjust(2, '0')}-#{@range_end.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     @twenty_four_hour_count = Mention.count :conditions => {:phrase_id => @phrase.id, :city_id => @city.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")}
-    @graph_max = Mention.find(:first, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id}, :group => 'mentioned_at_date', :select => 'DATE(mentioned_at) as mentioned_at_date, count(id) as graph_max', :order => 'graph_max DESC').graph_max
-    
+    begin
+      @graph_max = Mention.find(:first, :conditions => {:phrase_id => @phrase.id, :city_id => @city.id}, :group => 'mentioned_at_date', :select => 'DATE(mentioned_at) as mentioned_at_date, count(id) as graph_max', :order => 'graph_max DESC').graph_max
+    rescue
+      @graph_max = 0
+    end
   end
 
   def update(phrase, city, sample_date)
