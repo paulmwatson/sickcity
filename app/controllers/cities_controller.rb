@@ -2,7 +2,7 @@ class CitiesController < ApplicationController
   layout 'base'
 
   def index
-    @cities = City.find :all, :order => 'country, name'
+    @cities = City.find :all, :order => 'country, name', :conditions => {:hidden => false}
     
     @mentions = Mention.find :all, :conditions => {:mentioned_at => ("#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 00:00".."#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     
