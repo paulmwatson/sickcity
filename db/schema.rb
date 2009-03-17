@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(:version => 20090317103447) do
     t.integer  "source_id"
   end
 
-  add_index "mentions", ["source_id"], :name => "index_mentions_on_source_id"
+  add_index "mentions", ["source_id"], :name => "index_mentions_on_source_id", :unique => true
 
   create_table "photos", :force => true do |t|
     t.integer  "city_id"
