@@ -1,10 +1,20 @@
 <div class="intro info">
   <p><a href="http://diycity.org"><img src="/images/diycity.png" alt="DIYCity" /></a></p>
   <p>&nbsp;</p>
-  <p>Realtime disease detection for your city from your friends on <em>Twitter</em> and <em>Facebook</em>*</p>
+  <p>Realtime disease detection for your city from messages on <em>Twitter</em> (and soon <em>Facebook</em>)</p>
   <p>&nbsp;</p>
   <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
 </div>
+<h1>Top Ten Sickest Cities</h1>
+<ol class="list">
+  <% i = 0 %>
+  <% @topten_cities.each do |mention|%>
+  <% i = i + 1%>
+  <%- city = mention.city -%>
+  <li><a href="/<%= city.country %>/<%= city.name %>"><span class="city"><span class="toptencount"><%= "%02d" % i %></span> <%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+  <% end %>
+</ol>
+<h1>All Cities</h1>
 <ul class="list">
   <% @cities.each do |city|%>
   <li><a href="/<%= city.country %>/<%= city.name %>"><span class="city"><%= city.country %>, <%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>

@@ -111,30 +111,30 @@ h1
   padding: 0;
 }
 
-ul, ul li
+ol, ul, ol li, ul li
 {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-ul
+ol, ul
 {
   margin-bottom: 0;
 }
 
-ul li
+ol li, ul li
 {
   padding: 5px;
   background-color: #b4d1d1;
 }
 
-ul li a
+ol li a, ul li a
 {
   line-height: 20px;
 }
 
-ul li.odd
+ol li.odd, ul li.odd
 {
   background-color: #c6dddc;
 }
@@ -161,7 +161,7 @@ ul li.odd
   text-align: center;
 }
 
-ul.list li a
+ol.list li a, ul.list li a
 {
   border-bottom: solid 1px #ccc;
   color: #333;
@@ -172,7 +172,7 @@ ul.list li a
   background-color: #fff;
 }
 
-ul.list li
+ol.list li, ul.list li
 {
   padding: 0;
 }
@@ -351,4 +351,9 @@ input[type='text']
 input[type='submit']
 {
   font-size: larger;
+}
+
+.toptencount
+{
+  color: #c00;
 }

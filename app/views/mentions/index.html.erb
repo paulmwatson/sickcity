@@ -11,7 +11,7 @@
 
     <a class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2l.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
 
-  <h1 style="font-size: 15px"><%= @twenty_four_hour_count %> mentions of "<%= @phrase.title %>" on <%= @range_center.strftime('%B %d') %></h1>
+  <h1 style="font-size: 15px"><%= @twenty_four_hour_count.length %> mentions of "<%= @phrase.title %>" on <%= @range_center.strftime('%B %d') %></h1>
 </div>
 <div id="twenty_four_hour_trend" class="trend"></div>
 <a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="" alt="Map" /></a>
@@ -44,7 +44,7 @@
     <% if published_date.to_date == @range_center %>
       <li class="<%= cycle('odd','even')%>">
         <% username = mention.mentioner %>
-        <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username.split(' (')[0] %></a></span>
+        <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username %></a></span>
         <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
       </li>
     <% end %>
