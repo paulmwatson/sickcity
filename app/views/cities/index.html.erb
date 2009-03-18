@@ -4,16 +4,18 @@
   <p>Realtime disease detection for your city from messages on <em>Twitter</em> (and soon <em>Facebook</em>)</p>
   <p>&nbsp;</p>
   <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
-  <p>&nbsp;</p>
-  <p>*Some cities are still coming online</p>
 </div>
-<h1>SickCity's Ten Sickest Cities</h1>
+<h1>SickCity's Ten Sickest Cities*</h1>
+<p style="font-size: 11px; text-align: center">*Some cities are still coming online</p>
 <ol class="list">
   <% i = 0 %>
   <% @topten_cities.each do |mention|%>
-  <% i = i + 1%>
   <%- city = mention.city -%>
-  <li><a href="/<%= city.country %>/<%= city.name.gsub('.','%2E') %>"><span class="city"><span class="toptencount"><%= "%02d" % i %></span> <%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+  <%- if !city.hidden %>
+    <% i = i + 1%>
+    <li><a href="/<%= city.country %>/<%= city.name.gsub('.','%2E') %>"><span class="city"><span class="toptencount"><%= "%02d" % i %></span> <%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+  <% end %>
+  <% break if i > 9 %>
   <% end %>
 </ol>
 <h1>All Cities</h1>
