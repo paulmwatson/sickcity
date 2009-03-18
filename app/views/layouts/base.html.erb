@@ -25,19 +25,25 @@
         <a href="<%= @photo.url %>"><%= @photo.title %></a> by <%= @photo.photographer %>
       </div>
     </div>
-    <script type="text/javascript">
-    var not_iphone = navigator.userAgent.indexOf('iPhone') <= 0;
-    if (not_iphone)
-    {
-      $('body').addClass('not_iphone');
-    }
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-    var pageTracker = _gat._getTracker("UA-265441-9");
-    pageTracker._trackPageview();
-    } catch(err) {}</script>
+    <%- if RAILS_ENV == "production" -%>
+      <script type="text/javascript">
+      var not_iphone = navigator.userAgent.indexOf('iPhone') <= 0;
+      if (not_iphone)
+      {
+        $('body').addClass('not_iphone');
+      }
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-265441-9");
+      pageTracker._trackPageview();
+      } catch(err) {}</script>
+      
+      <a title="Clicky Web Analytics" href="http://getclicky.com/81343"><img alt="Clicky Web Analytics" src="http://static.getclicky.com/media/links/badge.gif" border="0" /></a>
+      <script src="http://static.getclicky.com/81343.js" type="text/javascript"></script>
+      <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/81343-db10.gif" /></p></noscript>
+    <%- end -%>
   </body>
 </html>

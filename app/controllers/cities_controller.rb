@@ -1,5 +1,7 @@
 class CitiesController < ApplicationController
   layout 'base'
+  
+  caches_page :index
 
   def index
     @cities = City.find :all, :order => 'country, name', :conditions => {:hidden => false}
@@ -33,6 +35,8 @@ class CitiesController < ApplicationController
   
   def create
     @city = City.find(:first, :conditions => {:name => params[:city][:name]}) || City.new(params[:city])
+    
+    expire_page :controller => '/', :action => :index
 
     if @city.save
       flash[:notice] = 'City was successfully created.'
