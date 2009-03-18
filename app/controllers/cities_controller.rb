@@ -13,7 +13,10 @@ class CitiesController < ApplicationController
     end
     
     @mentions.each do |mention|
-      @trend[mention.city_id][mention.mentioned_at.hour] = @trend[mention.city_id][mention.mentioned_at.hour] + 1
+      begin
+        @trend[mention.city_id][mention.mentioned_at.hour] = @trend[mention.city_id][mention.mentioned_at.hour] + 1
+      rescue
+      end
     end
   end
   
