@@ -9,7 +9,6 @@ ActionController::Routing::Routes.draw do |map|
   
   map.connect '/:country/:city/:phrase', :controller => 'mentions'
   map.connect '/:country/:city/:phrase/:date', :controller => 'mentions'
-  map.connect '/:country/:city/:phrase/:date/update', :controller => 'mentions', :update => true
   
   map.resources :cities
 
