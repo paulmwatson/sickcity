@@ -14,17 +14,7 @@
   <h1 style="font-size: 15px"><%= @twenty_four_hour_count.length %> mentions of "<%= @phrase.title %>" on <%= @range_center.strftime('%B %d') %></h1>
 </div>
 <div id="twenty_four_hour_trend" class="trend"></div>
-<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="" alt="Map" /></a>
-<script type="text/javascript">
-  if (navigator.userAgent.indexOf('iPhone') <= 0)
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-  else
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=320x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-</script>
+<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 <div class="navbar">
   <a class="back" href="/<%= params[:country] %>/<%= params[:city] %>">Diseases<img src="/images/bkr.png" /></a>
   <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
@@ -53,6 +43,6 @@
 <p class="twitterpower"><a href="http://twitter.com"><img src="/images/powered-by-twitter-sig.gif" /></a><p>
 <script type="text/javascript">
   $('#thirty_day_trend').sparkline([<% thirty_day_trend.each do |day| %><%= day %>,<% end %>], {type: 'bar',height: '50px', barSpacing: 2, barWidth: 8, barColor: '#000000', chartRangeMax: <%= @graph_max %>, chartRangeMin: 0});
-  var trend_width = navigator.userAgent.indexOf('iPhone') == -1 ? 490 : 320;
+  var trend_width = 490;
   $('#twenty_four_hour_trend').sparkline([<% hour_trend.each do |hour| %><%= hour %>,<% end %>], {height: '50px', width: trend_width + 'px', fillColor: '#c6dddc', lineColor: '#333'});
 </script>

@@ -5,7 +5,7 @@
 <% if @city.country.gsub(' ','') == '' %>
 <p>Please enter a country and city.</p><p>&nbsp;</p>
 <% else %>
-<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="" alt="Map" /></a>
+<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 <% if @location.latitude == '0' %>
 <p>Not even almighty Google could find your city.</p>
 <% else %>
@@ -20,17 +20,6 @@
 <% end %>
 <% end %>
 </div>
-
-<script type="text/javascript">
-  if (navigator.userAgent.indexOf('iPhone') <= 0)
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-  else
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=320x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-</script>
 <% end %>
 <div class="navbar">
   <a class="back home" href="/cities/add">Try Again<img src="/images/bkr.png" /></a>

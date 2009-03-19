@@ -1,7 +1,7 @@
 class CitiesController < ApplicationController
   layout 'base'
   
-  caches_page :index
+  #caches_page :index
 
   def index
     @cities = City.find :all, :order => 'country, name', :conditions => {:hidden => false}

@@ -7,17 +7,7 @@
   <li><a href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.title %>"><span class="city"><%= phrase.title %></span> <span id="phrase_graph_<%= phrase.id %>" class="tiny_graph"><% @trend[phrase.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
 </ul>
-<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="" alt="Map" /></a>
-<script type="text/javascript">
-  if (navigator.userAgent.indexOf('iPhone') <= 0)
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-  else
-  {
-    $('#map img').attr('src', 'http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=320x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false');
-  }
-</script>
+<a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 <div class="navbar">
   <a class="back home" href="/">Cities<img src="/images/bkr.png" /></a>
   <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>

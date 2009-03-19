@@ -5,7 +5,8 @@ html, body
 
 body
 {
-  background-color: #b4d1d1;
+  background-color: #333;
+  background-position: center 0;
 }
 
 h1
@@ -300,19 +301,13 @@ ol.list li, ul.list li
   width: 200px;
 }
 
-.not_iphone .wrapper
+.wrapper
 {
   background-color: #b4d1d1;
   border: solid 15px #09c;
   -moz-border-radius: 5px;
   margin: 20px auto 20px auto;
   width: 500px;
-}
-
-.not_iphone
-{
-  background-color: #333;
-  background-position: center 0;
 }
 
 h2
@@ -334,7 +329,7 @@ h2
   opacity: 0.5;
 }
 
-.not_iphone .photo_credit
+.photo_credit
 {
   display: block;
 }
