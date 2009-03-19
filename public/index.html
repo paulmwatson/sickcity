@@ -1,0 +1,228 @@
+<html>
+  <head>
+    
+    <title>Realtime disease detection for your city - SickCity</title>
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=320, user-scalable=yes" />
+    <link href="/stylesheets/reset.css?1237153643" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main.css?1237392052" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/jquery.js?1237153643" type="text/javascript"></script>
+<script src="/javascripts/jquery.sparkline.js?1237153643" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="intro info">
+  <p><a href="http://diycity.org"><img src="/images/diycity.png" alt="DIYCity" /></a></p>
+  <p>&nbsp;</p>
+  <p>Realtime disease detection for your city from messages on <em>Twitter</em> (and soon <em>Facebook</em>)</p>
+  <p>&nbsp;</p>
+  <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
+</div>
+<h1>SickCity's Ten Sickest Cities*</h1>
+<p style="font-size: 11px; text-align: center">*Some cities are still coming online</p>
+<ol class="list">
+  
+  
+
+    
+    <li><a href="/England/London"><span class="city"><span class="toptencount">01</span> London</span> <span id="city_graph_37774119" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/USA/New York"><span class="city"><span class="toptencount">02</span> New York</span> <span id="city_graph_169199234" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/USA/San Francisco"><span class="city"><span class="toptencount">03</span> San Francisco</span> <span id="city_graph_263733987" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/Australia/Sydney"><span class="city"><span class="toptencount">04</span> Sydney</span> <span id="city_graph_142544059" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/USA/Austin"><span class="city"><span class="toptencount">05</span> Austin</span> <span id="city_graph_243248176" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/Ohio/Columbus"><span class="city"><span class="toptencount">06</span> Columbus</span> <span id="city_graph_928873919" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/Scotland/Glasgow"><span class="city"><span class="toptencount">07</span> Glasgow</span> <span id="city_graph_928873903" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/USA/Portland"><span class="city"><span class="toptencount">08</span> Portland</span> <span id="city_graph_928873873" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/Canada/Montreal"><span class="city"><span class="toptencount">09</span> Montreal</span> <span id="city_graph_928873900" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+  
+
+    
+    <li><a href="/Canada/Toronto"><span class="city"><span class="toptencount">10</span> Toronto</span> <span id="city_graph_928873879" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  
+</ol>
+<h1>All Cities</h1>
+<ul class="list">
+  
+  <li><a href="/Australia/Melbourne"><span class="city">Australia, Melbourne</span> <span id="city_graph_928873876" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Australia/Sydney"><span class="city">Australia, Sydney</span> <span id="city_graph_142544059" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Brazil/Sao Paulo"><span class="city">Brazil, Sao Paulo</span> <span id="city_graph_928873906" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Canada/Montreal"><span class="city">Canada, Montreal</span> <span id="city_graph_928873900" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Canada/Ottowa"><span class="city">Canada, Ottowa</span> <span id="city_graph_928873889" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Canada/Toronto"><span class="city">Canada, Toronto</span> <span id="city_graph_928873879" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Canada/Vancouver"><span class="city">Canada, Vancouver</span> <span id="city_graph_928873899" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Canada/Winnipeg"><span class="city">Canada, Winnipeg</span> <span id="city_graph_928873893" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Denmark/Copenhagen"><span class="city">Denmark, Copenhagen</span> <span id="city_graph_928873907" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/England/Birmingham"><span class="city">England, Birmingham</span> <span id="city_graph_928873901" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/England/Leeds"><span class="city">England, Leeds</span> <span id="city_graph_928873902" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/England/Liverpool"><span class="city">England, Liverpool</span> <span id="city_graph_928873904" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/England/London"><span class="city">England, London</span> <span id="city_graph_37774119" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/England/Manchester"><span class="city">England, Manchester</span> <span id="city_graph_928873905" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/France/Paris"><span class="city">France, Paris</span> <span id="city_graph_928873908" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Germany/Berlin"><span class="city">Germany, Berlin</span> <span id="city_graph_928873909" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Greece/Athens"><span class="city">Greece, Athens</span> <span id="city_graph_928873920" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Ireland/Dublin"><span class="city">Ireland, Dublin</span> <span id="city_graph_928873871" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Mexico/Mexico City"><span class="city">Mexico, Mexico City</span> <span id="city_graph_928873910" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/New Zealand/Wellington"><span class="city">New Zealand, Wellington</span> <span id="city_graph_928873913" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Ohio/Columbus"><span class="city">Ohio, Columbus</span> <span id="city_graph_928873919" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Scotland/Edinburgh"><span class="city">Scotland, Edinburgh</span> <span id="city_graph_928873894" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Scotland/Glasgow"><span class="city">Scotland, Glasgow</span> <span id="city_graph_928873903" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/South Africa/Bloemfontein"><span class="city">South Africa, Bloemfontein</span> <span id="city_graph_928873923" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/South Africa/Cape Town"><span class="city">South Africa, Cape Town</span> <span id="city_graph_928873911" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/South Africa/Johannesburg"><span class="city">South Africa, Johannesburg</span> <span id="city_graph_928873872" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/South Korea/Ulsan"><span class="city">South Korea, Ulsan</span> <span id="city_graph_928873918" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Thailand/Bangkok"><span class="city">Thailand, Bangkok</span> <span id="city_graph_928873917" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/United States/Charlotte"><span class="city">United States, Charlotte</span> <span id="city_graph_928873914" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/United States/St%2E Louis"><span class="city">United States, St. Louis</span> <span id="city_graph_928873922" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Austin"><span class="city">USA, Austin</span> <span id="city_graph_243248176" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Baltimore"><span class="city">USA, Baltimore</span> <span id="city_graph_928873887" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Bloomington"><span class="city">USA, Bloomington</span> <span id="city_graph_928873912" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Boston"><span class="city">USA, Boston</span> <span id="city_graph_928873884" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Bozeman"><span class="city">USA, Bozeman</span> <span id="city_graph_928873916" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Chicago"><span class="city">USA, Chicago</span> <span id="city_graph_928873878" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Cincinnati"><span class="city">USA, Cincinnati</span> <span id="city_graph_928873883" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Dallas"><span class="city">USA, Dallas</span> <span id="city_graph_928873897" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/El Paso"><span class="city">USA, El Paso</span> <span id="city_graph_928873885" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Grand Rapids"><span class="city">USA, Grand Rapids</span> <span id="city_graph_928873888" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/usa/great barrington"><span class="city">usa, great barrington</span> <span id="city_graph_928873915" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Houston"><span class="city">USA, Houston</span> <span id="city_graph_928873898" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Indianapolis"><span class="city">USA, Indianapolis</span> <span id="city_graph_928873921" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Los Angeles"><span class="city">USA, Los Angeles</span> <span id="city_graph_928873881" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Milwaukee"><span class="city">USA, Milwaukee</span> <span id="city_graph_928873877" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Minneapolis"><span class="city">USA, Minneapolis</span> <span id="city_graph_928873875" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Minneapolis-St%2E Paul"><span class="city">USA, Minneapolis-St. Paul</span> <span id="city_graph_928873874" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/New Orleans"><span class="city">USA, New Orleans</span> <span id="city_graph_928873880" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/New York"><span class="city">USA, New York</span> <span id="city_graph_169199234" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Philadelphia"><span class="city">USA, Philadelphia</span> <span id="city_graph_928873882" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Portland"><span class="city">USA, Portland</span> <span id="city_graph_928873873" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Sacramento"><span class="city">USA, Sacramento</span> <span id="city_graph_928873886" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/San Francisco"><span class="city">USA, San Francisco</span> <span id="city_graph_263733987" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/San Jose"><span class="city">USA, San Jose</span> <span id="city_graph_928873895" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Seattle"><span class="city">USA, Seattle</span> <span id="city_graph_928873896" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Tacoma"><span class="city">USA, Tacoma</span> <span id="city_graph_928873890" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/USA/Washington D%2EC%2E"><span class="city">USA, Washington D.C.</span> <span id="city_graph_928873891" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+  <li><a href="/Zimbabwe/Harare"><span class="city">Zimbabwe, Harare</span> <span id="city_graph_928873924" class="tiny_graph">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,</span></a></li>
+  
+</ul>
+<div class="navbar">
+  <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
+  <a class="forward button" href="/cities/add/"><img src="/images/bk2l.png" />Add Your City</a>
+  <a class="forward button" href="http://github.com/paulmwatson/sickcity"><img src="/images/bk2l.png" />Download SickCity</a>
+  <a class="forward button" href="/about/"><img src="/images/bk2l.png" />About</a>
+</div>
+
+<script type="text/javascript">
+  $('.tiny_graph').sparkline();
+</script>
+      <style>
+        .not_iphone
+        {
+          background-image: url(/images/cities/austin.jpg);
+        }
+      </style>
+      <div class="photo_credit">
+        <a href="http://www.flickr.com/photos/austintexas/63605934/">360 bridge evening</a> by Austin TX
+      </div>
+    </div>
+  </body>
+</html>
