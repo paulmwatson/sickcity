@@ -34,16 +34,14 @@ class CitiesController < ApplicationController
   end
   
   def create
-    @city = City.find(:first, :conditions => {:name => params[:city][:name]}) || City.new(params[:city])
-    
-    expire_page :controller => '/', :action => :index
-
-    if @city.save
-      flash[:notice] = 'City was successfully created.'
-      redirect_to "/#{@city.country.gsub(' ', '%20')}/#{@city.name.gsub(' ', '%20')}"
-    else
-      render :action => "new"
+    @city = City.find(:first, :conditions => {:name => params[:city][:name]})
+    if !@city
+      @city = City.new(params[:city])
+      @city.save
+      expire_page :controller => '/', :action => :index
     end
+    flash[:notice] = 'City was successfully created.'
+    redirect_to "/#{@city.country.gsub(' ', '%20')}/#{@city.name.gsub(' ', '%20')}"
   end
   
   
