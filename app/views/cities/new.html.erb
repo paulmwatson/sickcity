@@ -5,7 +5,7 @@
   
 <% form_for :city, @city, :url => { :action => "check" } do |f| %>
   <%= f.error_messages %>
-  <p>I want to add <%= f.text_field :name, :value => 'Timbuktu' %> in <%= f.text_field :country, :value => 'Mali' %></p>
+  <p>I want to add <%= f.text_field :name, :value => 'Timbuktu' %> to SickCity.</p>
   <p>
     <%= f.submit "Add it" %>
   </p>

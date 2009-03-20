@@ -2,22 +2,17 @@
   <h2>Add Your City</h2>
 </div>
 <div class="intro alt">
-<% if @city.country.gsub(' ','') == '' %>
-<p>Please enter a country and city.</p><p>&nbsp;</p>
-<% else %>
 <a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=11&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>
 <% if @location.latitude == '0' %>
 <p>Not even almighty Google could find your city.</p>
 <% else %>
 <% form_for :city, @city, :url => { :action => "create" } do |f| %>
   <%= f.error_messages %>
-
     <%= f.hidden_field :name %>
-    <%= f.hidden_field :country %>
+    <%= f.hidden_field :country, :value => @location['country'] %>
   <p style="text-align: center; padding: 25px 0 0 0;">
     <%= f.submit "That's the place, add it!" %>
   </p>
-<% end %>
 <% end %>
 </div>
 <% end %>

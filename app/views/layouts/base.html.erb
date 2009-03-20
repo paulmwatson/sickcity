@@ -4,6 +4,8 @@
     <title><%= @phrase.title %> in <%= @city.name %> on <%= @range_center.strftime('%B %d') %> - SickCity</title>
     <% elsif controller.controller_name == 'phrases' %>
     <title>Realtime disease detection for <%= @city.name %> - SickCity</title>
+    <% elsif controller.controller_name == 'cities' %>
+    <title>Realtime disease detection for <%= params[:country] %> - SickCity</title>
     <% else %>
     <title>Realtime disease detection for your city - SickCity</title>
     <% end %>
