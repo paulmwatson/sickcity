@@ -1,6 +1,7 @@
 <div class="intro info">
   <h2><%= @city.name %></h2>
   <p>Realtime disease detection <a href="http://diycity.org/sickcity-realtime-disease-detection-your-city">by DIYCity</a></p>
+  <%= "<p class=\"notice\">#{flash[:notice]}</p>" if flash[:notice] %>
 </div>
 <ul class="list">
   <% @phrases.each do |phrase|%>

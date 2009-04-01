@@ -39,8 +39,8 @@ class CitiesController < ApplicationController
       @city = City.new(params[:city])
       @city.save
       expire_page :controller => '/', :action => :index
+      flash[:notice] = "We have added #{@city.name} to SickCity. It can take a few hours for the first results to show up though, please be patient."
     end
-    flash[:notice] = 'City was successfully created.'
     redirect_to "/#{@city.country.gsub(' ', '%20')}/#{@city.name.gsub(' ', '%20')}"
   end
   

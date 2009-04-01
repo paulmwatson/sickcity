@@ -352,3 +352,13 @@ input[type='submit']
 {
   color: #c00;
 }
+
+p.notice
+{
+  background-color: #fff;
+  color: #c00;
+  font-size: larger;
+  margin-top: 10px;
+  padding: 5px;
+  -moz-border-radius: 3px;
+}
