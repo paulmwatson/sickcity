@@ -298,7 +298,35 @@ ol.list li, ul.list li
 .city
 {
   display: block;
-  width: 200px;
+}
+
+.percent_sick
+{
+  font-size: smaller;
+}
+
+.trending_down
+{
+  background-color: #6c3;
+  -moz-border-radius: 5px;
+  font-size: 11px;
+  padding: 3px 5px 2px 5px;
+  text-transform: uppercase;
+  color: #fff;
+  width: 5em;
+  vertical-align: 2px;
+}
+
+.trending_up
+{
+  vertical-align: 2px;
+  background-color: #c00;
+  -moz-border-radius: 5px;
+  font-size: 11px;
+  padding: 3px 15px 2px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  width: 5em;
 }
 
 .wrapper
