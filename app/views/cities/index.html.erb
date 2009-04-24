@@ -4,7 +4,14 @@
 </div>
 <ul class="list">
   <% @cities.each do |city|%>
-  <li><a href="/<%= city.country %>/<%= city.name.gsub('.','%2E') %>"><span class="city"><%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+  <li><a href="/<%= city.country %>/<%= city.name.gsub('.','%2E') %>"><span class="city">
+    <%- begin
+          trending_up = city.trending_up(@working_date-1)
+        rescue
+          trending_up = false
+        end -%>
+    <span class="trending_<%= trending_up ? 'up' : 'down' %>"><%= trending_up ? 'Up' : 'Down' %></span>
+    &nbsp;<%= city.name %></span> <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
 </ul>
 <a id="map" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=<%= @location.latitude %>,<%= @location.longitude %>"><img src="http://maps.google.com/staticmap?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=3&size=500x213&maptype=mobile&key=<%= GOOGLE_API_KEY %>&sensor=false" alt="Map" /></a>

@@ -5,7 +5,8 @@ class PhrasesController < ApplicationController
     @phrases = Phrase.find :all, :order => 'title'
     @location = get_location(@city.name, @city.country)
     
-    @mentions = Mention.find :all, :conditions => {:city_id => @city.id, :mentioned_at => ("#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 00:00".."#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
+    @working_date = Date.today
+    @mentions = Mention.find :all, :conditions => {:city_id => @city.id, :mentioned_at => ("#{@working_date.year}-#{@working_date.month.to_s.rjust(2, '0')}-#{@working_date.day.to_s.rjust(2, '0')} 00:00".."#{@working_date.year}-#{@working_date.month.to_s.rjust(2, '0')}-#{@working_date.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     
     @trend = Hash.new()
     @phrases.each do |phrase|

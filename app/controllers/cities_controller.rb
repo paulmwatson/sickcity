@@ -8,7 +8,8 @@ class CitiesController < ApplicationController
     @topten_cities = Mention.find :all, :group => 'city_id', :select => 'count(id) as city_mentions, city_id', :order => 'city_mentions DESC', :limit => 20
     @location = get_location(params[:country])
     
-    @mentions = Mention.find :all, :conditions => {:mentioned_at => ("#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 00:00".."#{Date.today.year}-#{Date.today.month.to_s.rjust(2, '0')}-#{Date.today.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
+    @working_date = Date.today
+    @mentions = Mention.find :all, :conditions => {:mentioned_at => ("#{@working_date.year}-#{@working_date.month.to_s.rjust(2, '0')}-#{@working_date.day.to_s.rjust(2, '0')} 00:00".."#{@working_date.year}-#{@working_date.month.to_s.rjust(2, '0')}-#{@working_date.day.to_s.rjust(2, '0')} 23:59")}, :order => :mentioned_at
     
     @trend = Hash.new()
     @cities.each do |city|
