@@ -1,12 +1,12 @@
 <div class="intro info">
-  <h2>Stop words</h2>
+  <h2>Skip words</h2>
   <%- form_for(@badword) do |f| %>
-    <%= f.text_field :term, :value => "Skip word" %>
+    <%= f.text_field :term, :value => "Add a new skip word" %>
     <%= f.submit 'Submit' %>
   <%- end %>
-Currently Skipping:
+We currently ignore the following words:
 </div>
-<ul class="list">
+<ul>
   <% for badword in @badwords %>
     <li><%= badword.term %></li>
   <% end %>
