@@ -47,11 +47,12 @@ class BadwordsController < ApplicationController
 
     respond_to do |format|
       if @badword.save
-        flash[:notice] = 'Badword was successfully created.'
+        flash[:notice] = 'Skipped Phrase was successfully created.'
         format.html { redirect_to(badwords_url) }
         format.xml  { render :xml => @badword, :status => :created, :location => @badword }
       else
-        format.html { render :action => "index" }
+        flash[:notice] = 'Skipped Phrase creation failed'
+        format.html { redirect_to(badwords_url) }
         format.xml  { render :xml => @badword.errors, :status => :unprocessable_entity }
       end
     end
