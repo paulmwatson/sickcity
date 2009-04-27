@@ -34,7 +34,11 @@ namespace "sickcity" do
         end
       end
 
-      count += 1 if destroy
+      if destroy
+        count += 1 
+        puts "Matched: #{badword.term}"
+        puts "Deleting: #{m.message}" 
+      end
       # Not ready to scrub yet
       # m.destroy if destroy
     end
