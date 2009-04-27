@@ -27,8 +27,6 @@ namespace "sickcity" do
         Badword.all.each do |badword|
           if text =~ /#{badword.term}/
             destroy = true
-            puts "Matched: #{badword.term}"
-            puts "Deleting: #{m.message}" 
           end
           break if destroy == true
         end
@@ -36,7 +34,6 @@ namespace "sickcity" do
 
       if destroy
         count += 1 
-        puts "Matched: #{badword.term}"
         puts "Deleting: #{m.message}" 
       end
       # Not ready to scrub yet
