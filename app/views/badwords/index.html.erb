@@ -1,19 +1,13 @@
-<h1>Listing badwords</h1>
-
-<table>
-  <tr>
-  </tr>
-
-<% for badword in @badwords %>
-  <tr>
-    <td><%= badword.term %></td>
-    <td><%= link_to 'Show', badword %></td>
-    <td><%= link_to 'Edit', edit_badword_path(badword) %></td>
-    <td><%= link_to 'Destroy', badword, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New badword', new_badword_path %>
+<div class="intro info">
+  <h2>Stop words</h2>
+  <%- form_for(@badword) do |f| %>
+    <%= f.text_field :term, :value => "Skip word" %>
+    <%= f.submit 'Submit' %>
+  <%- end %>
+Currently Skipping:
+</div>
+<ul class="list">
+  <% for badword in @badwords %>
+    <li><%= badword.term %></li>
+  <% end %>
+</ul>
