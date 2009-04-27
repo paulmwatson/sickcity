@@ -35,10 +35,9 @@ namespace "sickcity" do
       if destroy
         count += 1 
         puts "Deleting: #{m.message}" 
+        m.destroy
       end
-      # Not ready to scrub yet
-      # m.destroy if destroy
     end
-  puts "Count: #{count}"
+  puts "Deleted Count: #{count}"
   end
 end
