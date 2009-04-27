@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :badwords
+
   map.connect '/cities/check/', :controller => 'cities', :action => 'check'
   map.connect '/cities/create/', :controller => 'cities', :action => 'create'
   map.connect '/cities/add/', :controller => 'cities', :action => 'new'
