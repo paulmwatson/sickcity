@@ -1,0 +1,2 @@
+module BadwordsHelper
+end
