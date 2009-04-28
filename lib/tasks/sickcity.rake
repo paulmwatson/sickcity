@@ -25,7 +25,7 @@ namespace "sickcity" do
 
       if !destroy
         Badword.all.each do |badword|
-          if text =~ /#{badword.term}/
+          if text =~ /#{Regexp.escape(badword.term)}/
             destroy = true
           end
           break if destroy == true
