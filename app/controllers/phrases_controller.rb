@@ -14,7 +14,10 @@ class PhrasesController < ApplicationController
     end
     
     @mentions.each do |mention|
-      @trend[mention.phrase_id][mention.mentioned_at.hour] = @trend[mention.phrase_id][mention.mentioned_at.hour] + 1
+      begin
+        @trend[mention.phrase_id][mention.mentioned_at.hour] = @trend[mention.phrase_id][mention.mentioned_at.hour] + 1
+      rescue
+      end
     end
   end
   

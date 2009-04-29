@@ -5,26 +5,16 @@
   <p>&nbsp;</p>
   <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
 </div>
-<h1>SickCity's Ten Sickest Cities*</h1>
-<p style="font-size: 11px; text-align: center">* Up/down trends are based on past two days data</p>
+<h1>SickCity's Ten Sickest Cities</h1>
 <ol class="list">
-  <% i = 0 %>
-  <% @topten_cities.each do |mention|%>
-  <%- city = mention.city -%>
+  <% @top_ten_cities.each do |city|%>
   <%- if !city.hidden %>
-    <% i = i + 1%>
     <li><a href="/<%= city.country %>/<%= city.name.gsub('.','%2E') %>">
       <span class="city">
-        <%- begin
-              trending_up = city.trending_up(@working_date-1)
-            rescue
-              trending_up = false
-            end -%>        
-        <span class="trending_<%= trending_up ? 'up' : 'down' %>"><%= trending_up ? 'Up' : 'Down' %></span>
-        &nbsp;<%= city.name %></span> 
-      <span id="city_graph_<%= city.id %>" class="tiny_graph"><% @trend[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
+        <span class="trending_<%= city.trending_up ? 'up' : 'down' %>"><%= city.trending_up ? 'Up' : 'Down' %></span>
+        &nbsp;<%= city.name %></span>
+      <span id="city_graph_<%= city.id %>_today" class="tiny_graph today"><% @trend_today[city.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
-  <% break if i > 9 %>
   <% end %>
 </ol>
 <h1>All Countries</h1>
@@ -40,5 +30,5 @@
   <a class="forward button" href="/about/"><img src="/images/bk2l.png" />About</a>
 </div>
 <script type="text/javascript">
-  $('.tiny_graph').sparkline();
+  $('.tiny_graph.today').sparkline('html', {defaultPixelsPerValue:5});
 </script>

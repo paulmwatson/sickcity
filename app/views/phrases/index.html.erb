@@ -6,12 +6,7 @@
 <ul class="list">
   <% @phrases.each do |phrase|%>
   <li><a href="/<%= params[:country] %>/<%= params[:city] %>/<%= phrase.title %>"><span class="city">
-    <%- begin
-          trending_up = @city.trending_up_by_phrase(@working_date-1, phrase)
-        rescue
-          trending_up = false
-        end -%>
-    <span class="trending_<%= trending_up ? 'up' : 'down' %>"><%= trending_up ? 'Up' : 'Down' %></span>
+    <span class="trending_<%= phrase.trending_up_by_city(@city.id) ? 'up' : 'down' %>"><%= phrase.trending_up_by_city(@city.id) ? 'Up' : 'Down' %></span>
     <%= phrase.title %></span> 
     <span id="phrase_graph_<%= phrase.id %>" class="tiny_graph"><% @trend[phrase.id].each do |hour| %><%= hour %>,<% end %></span></a></li>
   <% end %>
