@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connect '/removed_list/', :controller => 'mentions', :action => 'removed_list'
+  map.connect '/mention/remove/:mention_id', :controller => 'mentions', :action => 'remove'
+  map.connect '/mention/unremove/:mention_id', :controller => 'mentions', :action => 'unremove'
   map.connect '/cities/check/', :controller => 'cities', :action => 'check'
   map.connect '/cities/create/', :controller => 'cities', :action => 'create'
   map.connect '/cities/add/', :controller => 'cities', :action => 'new'

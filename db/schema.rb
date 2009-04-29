@@ -9,7 +9,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090317103447) do
+ActiveRecord::Schema.define(:version => 20090429170354) do
+
+  create_table "all_tweets", :force => true do |t|
+    t.datetime "mentioned_at"
+    t.string   "link"
+    t.string   "exact_location"
+    t.integer  "city_id"
+    t.string   "mentioner"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "message"
+    t.integer  "source_id"
+  end
+
+  add_index "all_tweets", ["source_id"], :name => "index_mentions_on_source_id"
+  add_index "all_tweets", ["source_id"], :name => "source_id_index", :unique => true
+
+  create_table "blacklist", :force => true do |t|
+    t.integer "phrase_id", :null => false
+    t.string  "term",      :null => false
+  end
 
   create_table "cities", :force => true do |t|
     t.string   "name"
@@ -17,6 +37,13 @@ ActiveRecord::Schema.define(:version => 20090317103447) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "hidden",     :default => false
+  end
+
+  create_table "counts", :id => false, :force => true do |t|
+    t.integer "city_id",                      :null => false
+    t.date    "date",                         :null => false
+    t.integer "last_found_id",                :null => false
+    t.integer "count",         :default => 0, :null => false
   end
 
   create_table "histories", :force => true do |t|
@@ -48,7 +75,8 @@ ActiveRecord::Schema.define(:version => 20090317103447) do
     t.integer  "source_id"
   end
 
-  add_index "mentions", ["source_id"], :name => "index_mentions_on_source_id", :unique => true
+  add_index "mentions", ["source_id"], :name => "index_mentions_on_source_id"
+  add_index "mentions", ["source_id"], :name => "source_id_index", :unique => true
 
   create_table "photos", :force => true do |t|
     t.integer  "city_id"
@@ -65,5 +93,26 @@ ActiveRecord::Schema.define(:version => 20090317103447) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "removed_mentions", :force => true do |t|
+    t.datetime "mentioned_at"
+    t.string   "link"
+    t.string   "exact_location"
+    t.integer  "phrase_id"
+    t.integer  "city_id"
+    t.string   "mentioner"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "message"
+    t.integer  "source_id"
+  end
+
+  add_index "removed_mentions", ["source_id"], :name => "index_removed_mentions_on_source_id", :unique => true
+
+  create_table "stats", :primary_key => "city_id", :force => true do |t|
+    t.float "quotient", :default => 0.0, :null => false
+  end
+
+  add_index "stats", ["city_id"], :name => "city_id", :unique => true
 
 end

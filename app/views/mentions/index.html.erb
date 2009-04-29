@@ -20,7 +20,7 @@
   <a class="forward button home" href="/"><img src="/images/bk2l.png" /><img class="buttonimage" src="/images/logosmall.png" /></a>
   <h1><%= @city.name %></h1>
 </div>
-
+<p class="intro">Do these not belong in SickCity? Please help us improve our data by removing it for us.</p>
 <ul id="tweets">
   <% thirty_day_trend = Array.new((@range + 1),0) %>
   <% hour_trend = Array.new(24,0) %>
@@ -33,8 +33,9 @@
     %>
     <% if published_date.to_date == @range_center %>
       <li class="<%= cycle('odd','even')%>">
-        <% username = mention.mentioner %>
-        <span class="time"><%= published_date.strftime('%H:%M') %></span> <span class="location"><%= mention.exact_location.split(',')[0][0..10] %>...</span> <span class="user"><a href="<%= mention.link %>"><%= username %></a></span>
+        <input type="button" value="Remove" onclick="document.location = '/mention/remove/<%= mention.id %>';" />
+        <span class="time"><a target="_blank" href="<%= mention.link %>"><%= published_date.strftime('%H:%M') %></a></span>
+        <%= truncate(h(mention.message), :length => 70) %>
         <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
       </li>
     <% end %>

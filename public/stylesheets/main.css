@@ -224,22 +224,14 @@ ol.list li, ul.list li
   margin: 0;
 }
 
-.location, .time
+.message
 {
-  display: block;
-  width: 120px;
-  float: left;
-  line-height: 20px;
-  text-transform: uppercase;
-  font-size: smaller;
-  margin-top: 2px;
+  font-size: 12px;
 }
 
-.time
+#tweets input
 {
-  width: auto;
-  margin-right: 10px;
-  color: #666;
+  float: right;
 }
 
 .center
@@ -282,6 +274,12 @@ ol.list li, ul.list li
 {
   max-width: 500px;
   margin: 1px auto;
+}
+
+#tweets li
+{
+  font-size: 12px;
+  padding: 10px 5px 8px 5px;
 }
 
 #tweets li a

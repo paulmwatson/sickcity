@@ -1,6 +1,6 @@
 <html>
   <head>
-    <% if controller.controller_name == 'mentions' %>
+    <% if (controller.controller_name == 'mentions' && @phrase) %>
     <title><%= @phrase.title %> in <%= @city.name %> on <%= @range_center.strftime('%B %d') %> - SickCity</title>
     <% elsif controller.controller_name == 'phrases' %>
     <title>Realtime disease detection for <%= @city.name %> - SickCity</title>
@@ -16,6 +16,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <%- if flash[:notice] %><p style="color: green"><%= flash[:notice] %></p><%- end %>
       <%= yield %>
       <style>
         body
