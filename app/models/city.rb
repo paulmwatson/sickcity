@@ -3,56 +3,25 @@ class City < ActiveRecord::Base
   has_many :histories
   has_many :counts
   
-  # Count of total mentions for the city for a day
-  def mention_count(date)
-    Count.find(:first, :conditions => {:city_id => self.id, :date => date}).count
-  end
-  
-  # Latest count of total mentions for the city for a day
-  def last_mention_count
-    Count.find(:first, :conditions => {:city_id => self.id}, :order => 'date DESC').count
-  end
+  # Last 6 hours today compared to same 6 hours yesterday
+  def trending_up
+    today_from = Time.now - ((60 * 60) * 6)
+    today_to = Time.now
 
-  # Latest count of SICK mentions for the city for the day
-  def last_sick_mention_count
-    @range_center = Date.today
-    twenty_four_hour_count = Mention.find(:all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, substring_index(mentioner, ' (', 1) as mentioner_stripped, mentioner, link, exact_location", :group => 'mentioner_stripped, mentioned_at_date', :conditions => {:city_id => self.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")})
-    twenty_four_hour_count.length
-  end
-
-  # Count of SICK mentions for the city for today
-  def sick_mention_count(date)
-    @range_center = date
-    twenty_four_hour_count = Mention.find(:all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, substring_index(mentioner, ' (', 1) as mentioner_stripped, mentioner, link, exact_location", :group => 'mentioner_stripped, mentioned_at_date', :conditions => {:city_id => self.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")})
-    twenty_four_hour_count.length
+    yesterday_from = (Time.now - (60 * 60 * 24)) - ((60 * 60) * 6)
+    yesterday_to = (Time.now - (60 * 60 * 24))
+    
+    today_mentions = Mention.find(:all, :conditions => {:city_id => self.id, :mentioned_at => (time_string_builder(today_from)..time_string_builder(today_to))})
+    yesterday_mentions = Mention.find(:all, :conditions => {:city_id => self.id, :mentioned_at => (time_string_builder(yesterday_from)..time_string_builder(yesterday_to))})
+    
+    today_mentions.length > yesterday_mentions.length
   end
   
-  def sick_mention_count_by_phrase(date, phrase)
-    @range_center = date
-    twenty_four_hour_count = Mention.find(:all, :select => "DATE(mentioned_at) as mentioned_at_date, mentioned_at, substring_index(mentioner, ' (', 1) as mentioner_stripped, mentioner, link, exact_location", :group => 'mentioner_stripped, mentioned_at_date', :conditions => {:phrase_id => phrase.id, :city_id => self.id, :mentioned_at => ("#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 00:00".."#{@range_center.year}-#{@range_center.month.to_s.rjust(2, '0')}-#{@range_center.day.to_s.rjust(2, '0')} 23:59")})
-    twenty_four_hour_count.length
+  def time_string_builder(time)
+    "#{time.year}-#{time.month.to_s.rjust(2, '0')}-#{time.day.to_s.rjust(2, '0')} #{time.hour.to_s.rjust(2, '0')}:#{time.min.to_s.rjust(2, '0')}"
   end
   
-
-  def last_sickness_quotient
-    self.sickness_quotient(Date.today)
-  end
-  
-  def sickness_quotient(date)
-    ((Float(self.sick_mention_count(date)) / Float(self.mention_count(date))) * 100)
-  end
-  
-  def sickness_quotient_by_phrase(date, phrase)
-    ((Float(self.sick_mention_count_by_phrase(date, phrase)) / Float(self.mention_count(date))) * 100)
-  end
-  
-  # Must not compute on today as data won't all be there
-  # So only use dates that are yesterday or older
-  def trending_up(date)
-    self.sickness_quotient(date).round(2) > self.sickness_quotient(date-1).round(2)
-  end
-  
-  def trending_up_by_phrase(date, phrase)
-    self.sickness_quotient_by_phrase(date, phrase).round(2) > self.sickness_quotient_by_phrase(date-1, phrase).round(2)
+  def stat
+    Stat.find_by_city_id(self.id)
   end
 end
