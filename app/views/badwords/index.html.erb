@@ -1,0 +1,13 @@
+<div class="intro info">
+  <h2>Skipped phrases</h2>
+  <%- form_for(@badword) do |f| %>
+    <%= f.text_field :term, :value => "Add a new phrase to skip" %>
+    <%= f.submit 'Submit' %>
+  <%- end %>
+We currently ignore the following phrases:
+</div>
+<ul>
+  <% for badword in @badwords %>
+    <li><%= badword.term %></li>
+  <% end %>
+</ul>
