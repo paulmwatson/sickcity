@@ -35,7 +35,7 @@
       <li class="<%= cycle('odd','even')%>">
         <input type="button" value="Remove" onclick="document.location = '/mention/remove/<%= mention.id %>';" />
         <span class="time"><a target="_blank" href="<%= mention.link %>"><%= published_date.strftime('%H:%M') %></a></span>
-        <%= truncate(h(mention.message), :length => 70) %>
+        <%= h(mention.message) %>
         <% hour_trend[published_date.hour] = hour_trend[published_date.hour] + 1 %>
       </li>
     <% end %>
