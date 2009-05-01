@@ -5,12 +5,10 @@
 <div class="center">&nbsp;</div>
 <div id="thirty_day_trend" class="trend"></div>
 <div class="navbar second">
-  <% if ((@range_center - 1) >= (Date.today - 60)) %>
-    <a class="back" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center - 1 %>"><%= (@range_center - 1).strftime('%d %b') %><img src="/images/bkr.png" /></a>
-  <% end %>
-
-    <a class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2l.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
-
+<% if ((@range_center - 1) >= (Date.today - 60)) %>
+  <a class="back" href="/<%= params[:country] %>/<%= params[:city] %>/phrase/<%= params[:phrase] %>/<%= @range_center - 1 %>"><%= (@range_center - 1).strftime('%d %b') %><img src="/images/bkr.png" /></a>
+<% end %>
+  <a class="forward" href="/<%= params[:country] %>/<%= params[:city] %>/phrase/<%= params[:phrase] %>/<%= @range_center + 1 %>"><img src="/images/bk2l.png" /><%= (@range_center + 1).strftime('%d %b') %></a>
   <h1 style="font-size: 15px"><%= @twenty_four_hour_count.length %> mentions of "<%= @phrase.title %>" on <%= @range_center.strftime('%B %d') %></h1>
 </div>
 <div id="twenty_four_hour_trend" class="trend"></div>

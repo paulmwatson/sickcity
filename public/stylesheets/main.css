@@ -388,3 +388,18 @@ p.notice
   padding: 5px;
   -moz-border-radius: 3px;
 }
+
+.note
+{
+  text-align: left;
+  background-color: #fff;
+  -moz-border-radius: 5px;
+  color: #c00;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.note p
+{
+  margin: 10px 0;
+}

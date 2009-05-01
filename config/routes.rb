@@ -12,9 +12,10 @@ ActionController::Routing::Routes.draw do |map|
   map.connet '/about', :controller => 'site', :action => 'about'
   map.connect '/:country', :controller => 'cities'
   map.connect '/:country/:city', :controller => 'phrases'
+  map.connect '/:country/:city/:date', :controller => 'phrases'
   
-  map.connect '/:country/:city/:phrase', :controller => 'mentions'
-  map.connect '/:country/:city/:phrase/:date', :controller => 'mentions'
+  map.connect '/:country/:city/phrase/:phrase', :controller => 'mentions'
+  map.connect '/:country/:city/phrase/:phrase/:date', :controller => 'mentions'
   
   map.resources :cities
 
