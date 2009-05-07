@@ -7,7 +7,7 @@ class PhrasesController < ApplicationController
     
     # 30 day range centered on the current date
     @range = 30
-    @range_center = params[:date] ? Date.parse(params[:date]) : Date.today
+    @range_center = !params[:date].blank? ? Date.parse(params[:date]) : Date.today
     @range_start = @range_center - (@range / 2)
     @range_end = @range_center + (@range / 2)
     
