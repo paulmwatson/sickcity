@@ -1,12 +1,21 @@
 <div class="intro info">
-  <div class="note">
+  <!--<div class="note">
     <p><strong>Our system has been overwhelmed!</strong></p>
     <p>SickCity measures conversation about disease in your city, under the presumption that conversations about sickness track closely to actual instances of sickness. And they do, we think -- except occasionally when they do not! And right now, with swine flu on everybody's minds and in their tweets, they clearly do not. The system is awash this week in information that does not accurately correspond to the state of health of the areas it purports to be monitoring.</p>
     <p>This is by no means a failure of our system - it's actually a chance for improvement. We're recalibrating things and should have the kinks worked out soon. Once that happens, SickCity should be stronger and better than ever.</p>
-  </div>
+  </div>-->
   <p><a href="http://diycity.org"><img src="/images/diycity.png" alt="DIYCity" /></a></p>
   <p>&nbsp;</p>
-  <p>Realtime disease detection for your city from messages on <em>Twitter</em> (and soon <em>Facebook</em>)</p>
+  <p>Realtime disease detection for your city from messages on <em>Twitter</em>. <a href="#" onclick="$('#how_it_works').slideToggle(); return false;">How does it work?</a></p>
+  <div id="how_it_works" class="hidden note">
+    <p>Do the number of conversations about sickness in your city reflect the current level of sickness there?  Does conversation about sickness rise when sickness is rising, following roughly the same curve?  Does it fall when sickness is falling?</p>
+    <p>We think it does.</p>
+    <p>And we think measuring local conversations about being sick could be a valuable way to monitor the health of a community, maybe allowing us to foresee sudden rises in sickness locally -- possibly even spot outbreaks before health organizations become aware of them.</p>
+    <p>With that in mind, we give you SickCity, "realtime disease detection for your city", a tool that works by monitoring Twitter conversations for certain key phrases that indicate someone is sick in your area.  When conversation about sickness in your area is up, that area is deemed "sicker" than when conversation is down.</p>
+    <p>Of course, this is all totally unproven at this point, so for now please view these pages as the experiment they are meant to be.</p>
+    <p>SickCity is an open source volunteer project created by DIYcity.  If you can help make this tool for communities better, we would love your assistance.</p>
+    <p><a href="#" onclick="$('#how_it_works').slideToggle(); return false;">Close</a></p>
+  </div>
   <p>&nbsp;</p>
   <p<span class="phrase">flu</span>, <span class="phrase">food poisoning</span>, <span class="phrase">headcolds</span>, <span class="phrase">chicken pox</span> &amp; <span class="phrase">sore throats</span></p>
 </div>

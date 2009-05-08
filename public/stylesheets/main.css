@@ -391,15 +391,27 @@ p.notice
 
 .note
 {
+  border: solid 5px #54BBDD;
   text-align: left;
   background-color: #fff;
   -moz-border-radius: 5px;
-  color: #c00;
-  padding: 10px;
-  margin-bottom: 20px;
+  color: #000;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .note p
 {
   margin: 10px 0;
+}
+
+.note a
+{
+  color: #333;
+}
+
+.hidden
+{
+  display: none;
 }
